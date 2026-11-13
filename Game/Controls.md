@@ -63,7 +63,18 @@ Record each action with the exact gesture and the screen/UI element involved. Di
 
 ### Control shenanigans
 
-*Pending player testing and reports.*
+#### Exploding Pineapple and Road Spikes can remain selected together
+
+<badge>Player-reported on Android 1.5.2</badge>
+
+The unofficial Android port can apparently allow the player to place an **Exploding Pineapple** and **Road Spikes** at the same time, rather than making the player switch cleanly from one to the other.
+
+**Observed behavior:** Both placement items can be active together on the touch interface.
+
+**Suspected explanation:** The original keyboard selection logic may clear the previous selection when another tower is selected. Exploding Pineapple and Road Spikes are not ordinary towers, so the Android touch-selection cleanup may not handle them in the same way. This is a plausible explanation, not a confirmed description of the port's internal code.
+
+**Verification notes:** This report is based on a player's observation. The exact reproduction steps, device details, and whether the behavior occurs consistently still need to be recorded.
+
 
 Use this section for port-specific quirks such as:
 - Touches registering on the wrong UI element
