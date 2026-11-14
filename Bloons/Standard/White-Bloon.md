@@ -4,27 +4,31 @@
 
 ## Overview
 
-A Bloon listed in the BTDX layer/RBE breakdown alongside Black Bloons. The available BTDX source excerpt does not give a standalone description of its speed, children, or exact interactions.
+The White Bloon is in the same tier as the Black Bloon and is reported to have the same RBE: 11.
 
-## Reported information
+## Classification
 
-- **Category:** Standard / nested Bloon (provisional)
-- **RBE:** 11 (listed with Black in one breakdown)
-- **Children:** TBD
-- **Platform/version checked:** None; community source only.
+- **Category:** Standard Bloon
+- **Game:** Bloons Tower Defense X
+- **Platform/version checked:** Not independently tested in this article.
 
-## Mechanics and interactions
+## Stats
 
-Confirm whether White appears as a standalone regular Bloon in the target build and record its properties.
+- **RBE:** 11 (reported).
+- **Pop result:** TBD; confirm its child Bloons in-game.
+- **Speed:** TBD; verify against the target build.
+
+## Behaviour and interactions
+
+The White Bloon shares the Black Bloon's reported RBE and tier. Its special damage interactions should be documented separately from its RBE; do not assume that matching RBE means matching immunities.
 
 ## Verification checklist
 
-- [ ] Confirm this Bloon exists in Android 1.5.2.
-- [ ] Record its in-game appearance and exact name.
-- [ ] Verify HP, RBE, speed, and leak effect.
-- [ ] Confirm children and interactions with Camo, Regrow, Lead, and other properties.
+- [ ] Confirm the 11 RBE value in Android 1.5.2.
+- [ ] Record its child Bloons.
+- [ ] Record speed and any special immunities.
 - [ ] Compare Windows 1.5.1 and Android 1.5.2.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; incomplete details remain TBD.
+[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community reference. The 11 RBE value is currently a reported figure awaiting in-game confirmation.
