@@ -1,5 +1,9 @@
 # Towers
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/68a820f20902330daaadcfae3c27efd492e7d283/sprites/Dart_Monkey/Dart_Monkey_L2_Sprite/9cfa9802-3277-4255-aafa-a52815fce475.png" alt="Dart Monkey - Sharp Darts (L1)" width="256">
+</p>
+
 Towers are the player's main way of defending against Bloons in Bloons Tower Defense X (BTDX). Most towers attack Bloons directly, while a small number focus on economy or support. Towers can be upgraded to improve their performance and unlock different roles.
 
 This page is an overview of the tower roster and upgrade system. Detailed statistics, prices, targeting rules, and upgrade effects belong on individual tower pages and should be recorded with the game version they were checked against.
