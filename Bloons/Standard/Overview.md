@@ -9,11 +9,11 @@ This directory covers the ordinary colour progression and other Bloons that appe
 - [Green Bloon](Green-Bloon.md) — reveals a Blue Bloon; RBE 3.
 - [Yellow Bloon](Yellow-Bloon.md) — reveals a Green Bloon; RBE 4.
 - [Pink Bloon](Pink-Bloon.md) — reveals a Yellow Bloon; RBE 5.
-- [Black Bloon](Black-Bloon.md) — splits into two Pink Bloons; source reports RBE 60, which needs verification.
+- [Black Bloon](Black-Bloon.md) — splits into two Pink Bloons; RBE 11 (reported).
 
 ## Other documented layers and forms
 
-- [White Bloon](White-Bloon.md)
+- [White Bloon](White-Bloon.md) — same tier as Black; RBE 11 (reported).
 - [Zebra Bloon](Zebra-Bloon.md)
 - [Rainbow Bloon](Rainbow-Bloon.md)
 - [Ceramic Bloon](Ceramic-Bloon.md)
