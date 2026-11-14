@@ -21,6 +21,18 @@ This directory covers unusual Bloons that are not simply members of the basic co
 - [Reincarnated Bloon](Reincarnated-Bloon.md)
 - [Ninja Bloon](Ninja-Bloon.md)
 - [Robo Bloon](Robo-Bloon.md)
+- [Phoenix Bloon](Phoenix-Bloon.md)
+- [Angel Bloon](Angel-Bloon.md)
+- [Spider Bloon](Spider-Bloon.md)
+- [Sword Bloon](Sword-Bloon.md)
+- [Cyclops Bloon](Cyclops-Bloon.md)
+- [Giant Baby Bloon](Giant-Baby-Bloon.md)
+- [Red Bomb Bloon](Red-Bomb-Bloon.md)
+- [Alien Bloon](Alien-Bloon.md)
+- [Star Ball](Star-Ball.md)
+- [Demon Ball](Demon-Ball.md)
+- [Hungry Hungry Bloon](Hungry-Hungry-Bloon.md)
+- [Monkey Terror](Monkey-Terror.md)
 
 Some entries may describe a special enemy, while others describe a family or property. The distinction will be refined as the game mechanics are verified.
 
