@@ -1,47 +1,203 @@
-# Bloon properties and mechanics
+# Bloon forms and properties
 
-BTDX uses both properties applied to existing Bloons and special Bloons that behave like entirely new enemy types. This page is a cross-reference; each individual Bloon page should document its own exceptions.
+BTDX has several kinds of Bloon variation. This page separates **properties/modifiers** that can be applied to an existing Bloon from **special forms** that have their own attacks or behaviour.
 
-## Camo
+The descriptions below are transcribed and reorganized from the [BTDX community Bloons page](https://bloons-tdx.fandom.com/wiki/Bloons). That page may be incomplete or version-dependent. Treat its details as source-reported until tested in the target build.
 
-Camo Bloons cannot normally be targeted or damaged by towers without Camo detection. The community reference lists detection from certain tower upgrades and a Monkey Village upgrade, and mentions upgrades that remove the Camo property.
+## Properties and modifiers
 
-Camo can combine with other properties in some cases. The exact combinations and available counters are tower- and version-dependent.
+Modifiers are special layers or effects that can be applied to many Bloons. Some can be combined; the source explicitly lists combinations for each modifier below. A modifier generally does not add to the number of lives lost, with **Splitting** being the stated exception.
 
-## Regrow
+### Camo
 
-Regrow Bloons restore a layer over time, reportedly every two seconds, up to their original layer. If a Bloon splits into multiple children, those children may each regenerate, potentially increasing the total popping workload. The source notes that frozen Bloons cannot regenerate.
+Camo Bloons cannot be targeted or damaged by towers without Camo detection.
 
-## Lead
+The community page lists three ways to handle Camo:
+- Use a tower or upgrade with Camo detection.
+- Use a 3L Monkey Village.
+- Remove the Camo modifier with 3M Monkey Submarines or 3R Monkey Engineers.
 
-Lead Bloons resist sharp attacks. The community page lists examples such as darts, tacks, blades, shurikens, nails, road spikes, and boomerangs. Some towers can gain Lead-popping capability through upgrades or support.
+**Stacking:** Lead and Splitting.
 
-Do not assume that every projectile category interacts identically across versions.
+### Regrow
 
-## Shielding
+Regrow Bloons restore one layer every two seconds, up to their original layer.
 
-Shielded and Super Shield variants absorb damage before the underlying Bloon can be damaged. Super Shields are described as absorbing twice as much damage as a regular shield.
+When a Regrow Bloon splits into multiple children, each child can regenerate toward the original layer. This can multiply the number of Bloons and greatly increase the total popping workload.
 
-## Static
+Regrow Bloons cannot regenerate while frozen.
 
-Static Bloons are shielded enemies that periodically fire a stunning projectile at towers. The source says their shield can absorb twice the damage of a regular shield and that they move more slowly than their base Bloon.
+**Stacking:** Tattered and Splitting.
 
-## Splitting
+### Lead
 
-Some Bloons split into multiple copies or spawn children when damaged or popped. Splitting can combine with certain properties; combinations are listed on the individual pages where known.
+Lead Bloons resist most sharp attacks. The source gives darts, tacks, blades, shurikens, barbed darts, nails, grapes, road spikes, lower-tier Charge projectiles, and boomerangs as examples.
 
-## Tattered
+A 4L Monkey Village can grant Lead-popping capability to towers that otherwise lack it.
 
-Tattered is used in several BTDX enemy descriptions, including Tattered Bricks and Tattered Camo Lead Bricks. The exact rules of this property need further investigation.
+**Stacking:** Camo and Splitting.
 
-## Frozen
+### Tattered
 
-The source notes that frozen Bloons cannot regenerate. Other interactions, including which attacks freeze which enemies and how freezing affects special Bloons, need build-specific verification.
+Tattered Bloons move at twice their normal speed. The property is lost after one layer is popped. Tattered Purple Bloons are described as the fastest Bloons in the game.
 
-## Mission-only mechanics
+**Stacking:** Regrow and/or Splitting.
 
-Some enemies exist only in named missions. Their movement, leak damage, and interactions may not follow ordinary Bloon rules. See [Special Bloons](Special/Overview.md).
+### Splitting
 
-## Verification status
+Splitting Bloons pop into three Bloons of their counterpart type and move faster than their ordinary counterpart.
 
-This is a working summary based on the [BTDX community Bloons page](${sources.bloons}). A property should not be assumed to work like its BTD5/BTD6 counterpart unless BTDX-specific evidence supports that conclusion.
+| Form | Speed relative to Red | Children | Reported RBE |
+|---|---:|---|---:|
+| Orange | 137.5% | 3 Red | 4 |
+| Cyan | 162.5% | 3 Blue | 7 |
+| Lime | 187.5% | 3 Green | 10 |
+| Amber | 312.5% | 3 Yellow | 13 |
+| Purple | 337.5% | 3 Pink | 16 |
+| Prismatic | 275% | 3 Rainbow | 142 |
+
+**Stacking:** Camo, Lead, Regrow, Tattered, Shielded, and Static. The source notes that not all combinations can occur simultaneously.
+
+### Shielded
+
+Shields absorb damage before the underlying Bloon can be damaged and protect the Bloon from status effects until the shield is removed.
+
+The community source reports that Shielded Bloons:
+- Resist low-damage explosions.
+- Cannot be frozen or glued while shielded.
+- Are not bypassed by M.I.B. immunities.
+- Take an additional 0.25 damage from all sources against the shield.
+
+Shielded Splitting Bloons have twice the shield value of the Bloon they split into.
+
+The source provides the following shield strengths:
+
+| Bloon | Base RBE | Shield strength |
+|---|---:|---:|
+| Red | 1 | 1 |
+| Blue | 2 | 2 |
+| Green | 3 | 3 |
+| Yellow | 4 | 4 |
+| Pink | 5 | 5 |
+| Black / White | 11 | 8 |
+| Zebra | 23 | 11 |
+| Rainbow | 47 | 15 |
+| Ceramic | 104 | 25 |
+| Brick | 238 | 55 |
+| Mini M.O.A.B. | 491 | 100 |
+| M.O.A.B. | 1,252 | 355 |
+| B.F.B. | 5,908 | 1,255 |
+| L.P.Z. | 2,090 | 500 |
+| Z.O.M.G. | 27,632 | 5,255 |
+| B.R.C. | 4,428 | 600 |
+| H.T.A. | 308 | 68 |
+| D.D.T. | 927 | 358 |
+
+Some entries are explicitly marked by the source as never occurring in normal gameplay. These values should not be used as verified gameplay data without testing.
+
+**Stacking:** Splitting or Static.
+
+### Super Shield
+
+Super Shields appear in Nightmare Mode and absorb twice as much damage as a regular shield.
+
+**Stacking:** None reported.
+
+### Static (also described as Energized)
+
+Static Bloons are Shielded Bloons that periodically fire a projectile at towers. A tower hit by the projectile is stunned/disabled. The source says Static shields absorb twice as much damage as regular shields and that Static Bloons move more slowly than their unmodified forms.
+
+The visual appearance is electrical and glowing. **Energized** is a descriptive name used in this wiki for this electrical form; **Static** is the name used by the community reference.
+
+**Stacking:** None reported.
+
+### Sun-Blessed
+
+Sun-Blessed Bloons appear in the Solar Storm mission. They fire a stunning projectile like Static Bloons, move more slowly than their original form, and do not have shields. The source says this effect can apply to all layers.
+
+**Stacking:** None reported.
+
+### Color Splash
+
+Color Splash Bloons appear in the Color Splash mission. They pop into ten Bloons of their counterpart type and move faster than ordinary Splitting Bloons.
+
+| Form | Reported RBE | Leak damage reported by source |
+|---|---:|---:|
+| Red | 1 | 10 lives |
+| Blue | 2 | 20 lives |
+| Green | 3 | 30 lives |
+| Yellow | 4 | 40 lives |
+| Pink | 5 | 50 lives |
+
+**Stacking:** None reported.
+
+The source also mentions Red Bomb Bloons in connection with a Trojan Blimp; that is a separate spawned enemy, not a Color Splash form.
+
+## Special forms
+
+These are not ordinary modifiers. They are distinct Bloon forms with their own attacks, spawning behaviour, or mission restrictions.
+
+### Ninja Bloons
+
+Ninja Bloons have the Camo property and periodically fire homing ninja stars at towers. The stars can hit moving towers and stun them. When popped, a Ninja Bloon becomes a Splitting Camo Bloon of the same colour.
+
+Higher-tier Ninja Bloons are faster and have greater projectile range and stun duration.
+
+| Form | Reported hits / HP | Reported RBE |
+|---|---:|---:|
+| Red | 9 | 12 |
+| Blue | 18 | 25 |
+| Green | 27 | 37 |
+| Yellow | 36 | 49 |
+| Pink | 45 | 61 |
+| Rainbow | 90 | 232 |
+
+**Stacking:** None reported.
+
+### Robo Bloons
+
+Robo Bloons have the Lead property and fire piercing lasers that stun towers. When popped, they become a Splitting Lead Bloon of the same colour.
+
+Higher-tier Robo Bloons are faster and have greater laser range and stun duration.
+
+| Form | Reported HP | Reported RBE |
+|---|---:|---:|
+| Red | 12 | 16 |
+| Blue | 24 | 31 |
+| Green | 36 | 46 |
+| Yellow | 48 | 61 |
+| Pink | 60 | 76 |
+| Rainbow | 120 | 262 |
+
+**Stacking:** None reported.
+
+### Rag and Reincarnated Bloons
+
+Rag Bloons appear in the Necropolis mission. They retain their original Bloon layers despite their altered appearance. When popped, they resurrect as Reincarnated Bloons.
+
+Reincarnated Bloons resemble Rag Bloons but cannot resurrect again. They retain the initial layer of the Rag Bloon.
+
+The source also describes an **Undying Rag Bloon**, which behaves like a Rag Bloon with Regrow properties.
+
+**Stacking:** Regen is reported for the Undying Rag Bloon.
+
+## Ordinary Bloon resistances are not universal modifiers
+
+Black and White are ordinary colour types, not the same thing as the BTDX modifier system:
+- The community source explicitly says BTDX Black Bloons are **not immune to explosives**.
+- It explicitly says BTDX White Bloons are **not immune to freezing**.
+
+This differs from mechanics in other Bloons games. If hands-on testing in a particular BTDX build contradicts the community page, record the platform, version, attack used, and result rather than silently merging the claims.
+
+## Related pages
+
+- [Bloons overview](Overview.md)
+- [Bloon hierarchy and nested layers](Bloon-Hierarchy.md)
+- [Standard and nested Bloons](Standard/Overview.md)
+- [Special Bloons](Special/Overview.md)
+- [MOAB-class Bloons](MOAB-Class/Overview.md)
+
+## Source
+
+- [BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-maintained reference for the forms, properties, stacking notes, and values summarized here.
+
