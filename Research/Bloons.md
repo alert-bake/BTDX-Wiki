@@ -31,3 +31,15 @@ The Bloons section currently contains overview pages, property/hierarchy referen
 ## Page status
 
 Every article created in this initial batch is a research draft. Pages with partial source coverage intentionally contain TBD markers rather than invented stats.
+
+## Initial documentation batch
+
+The first article batch created the following inventory:
+
+- 13 standard/nested Bloon articles.
+- 29 special, mission-specific, or Bounty-spawned enemy/hazard articles.
+- 14 MOAB-class articles.
+- 14 individual Bounty family articles.
+- 4 high-level category indexes (Standard, Special, MOAB-class, Bounty), alongside the main overview, hierarchy, and properties references.
+
+This is a count of pages created from the currently indexed community source, not a claim that the game contains exactly 70 distinct Bloon entities. Some entries are modifiers, spawned hazards, or provisional classifications rather than independent Bloon classes. Several entries intentionally retain TBD fields.
