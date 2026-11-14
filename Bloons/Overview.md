@@ -34,7 +34,9 @@ Speed values are often described relative to a Red Bloon. A value such as 200% m
 
 The BTDX community Bloons page documents Red, Blue, Green, Yellow, Pink, and Black as the basic regular sequence. Blue, Green, Yellow, and Pink reveal lower-colour Bloons when popped. Black is described as splitting into two Pink Bloons.
 
-Individual pages:
+See the [Standard and Nested Bloons index](Standard/Overview.md) for the full list of individual articles.
+
+Basic pages:
 - [Red Bloon](Standard/Red-Bloon.md)
 - [Blue Bloon](Standard/Blue-Bloon.md)
 - [Green Bloon](Standard/Green-Bloon.md)
