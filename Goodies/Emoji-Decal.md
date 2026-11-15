@@ -1,5 +1,7 @@
 # Emoji Decal
 
+<p align="center"><img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/main/sprites/Big_Laughing_Bloon/big_laughing_bloon_001.png" alt="Emoji Decal icon" width="112" /></p>
+
 **Category:** Bloon cosmetic  
 **Goodie slot:** 7  
 **In-game description:** “Bloons look Emoji”  
