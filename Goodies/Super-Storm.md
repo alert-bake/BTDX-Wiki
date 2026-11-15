@@ -1,5 +1,7 @@
 # Super Storm
 
+<p align="center"><img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/main/sprites/Supra_spr/6c5ec7b1-8b90-43aa-ae99-c5f10a521db8.png" alt="Super Storm icon" width="112" /></p>
+
 **Category:** Gameplay goodie  
 **Goodie slot:** 15  
 **In-game description:** “Super Storm?” / “Shows up at 100K+ Score”  
