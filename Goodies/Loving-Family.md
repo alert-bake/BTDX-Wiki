@@ -1,5 +1,7 @@
 # Loving Family
 
+<p align="center"><img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/main/sprites/spr_Love_Bloon/f577cd7b-76af-46d7-978e-8176c9b7d4a1.png" alt="Loving Family icon" width="112" /></p>
+
 **Category:** Gameplay goodie  
 **Goodie slot:** 11  
 **In-game description:** “Loving Family Gives Extra Vitality” / “Shows up at 50K+ Score”  
