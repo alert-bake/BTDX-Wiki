@@ -1,5 +1,7 @@
 # Horror Decal
 
+<p align="center"><img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/main/sprites/Horror_Bloon/c890ca6e-8ca9-44f5-8b74-be3e0b249dd1.png" alt="Horror Decal icon" width="112" /></p>
+
 **Category:** Bloon cosmetic  
 **Goodie slot:** 8  
 **In-game description:** “Bloons look Scary”  
