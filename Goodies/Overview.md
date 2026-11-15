@@ -1,41 +1,57 @@
 # Goodies
 
-Goodies are unlockable items purchased from the Goodie Store using Goodie Tokens. The store has two pages, and the community wiki reports that the pages serve different purposes:
+The Goodie Store has **15 visible goodies in the current source catalogue**: ten cosmetics and five gameplay modifiers. Each visible item costs **1 Goodie Token** to unlock.
 
-- **Page 1:** Cosmetic changes for Bloons and monkeys.
-- **Page 2:** Items that affect gameplay or mechanics.
+- [Monkey cosmetics](#monkey-cosmetics) change the appearance of monkeys.
+- [Bloon cosmetics](#bloon-cosmetics) change the appearance of Bloons.
+- [Gameplay goodies](#gameplay-goodies) add score-triggered spawns or a starting-run bonus.
 
-The exact item catalogue and every unlock condition have not yet been independently verified. This page records the currently documented information without treating an incomplete list as complete.
+## Currency and equipping
 
-## Currency and progression
+The Goodie Controller calculates Goodie Tokens as:
 
-1. Achievements award **Trophies** (reported as one Trophy per achievement).
-2. **10 Trophies** can be exchanged for **1 Goodie Token**.
-3. Goodie Tokens are spent in the Goodie Store.
+`floor(Trophies / 10) - number of purchased Goodies`
 
-Goodie Tokens are described as visually similar to Bloon Points, but yellow.
+The in-game controller displays **“10 Trophies = 1 Goodie Token.”** A Goodie is purchased once; its state then toggles between owned-but-inactive and equipped. For the cosmetic categories, the source calls an off-switch script before equipping another item in the same category, so only one monkey cosmetic and one Bloon decal can be active at once.
 
-## Known unlockables and effects
+Gameplay goodies are enabled by equipping them. Their run counters are initialized at the start of a game only when the corresponding Goodie is equipped.
 
-| Item | Store page | Known effect or description | Verification status |
-|---|---:|---|---|
-| B.A.D. | Unknown | Unlocks the B.A.D. bloon, a joke bloon inspired by BTD6. The BTDX community wiki says it appears every 666,000 score during non-Freeplay rounds. | Community-wiki claim; exact store position and current-build behaviour need checking. |
-| Starting-cash bonus | Page 2 | The community wiki describes the last item on page 2 as granting 200 extra starting cash in every game while equipped. | Community-wiki claim; item name and exact unlock cost are unknown. |
+## Monkey cosmetics
 
-The community wiki also describes page 1 as containing cosmetic Bloon and monkey changes, but does not provide a complete item-by-item catalogue in the sources currently available to this wiki.
+| Goodie | In-game description | Article |
+|---|---|---|
+| Monkey Cap | “Monkeys Wear a Cap” | [Monkey Cap](Monkey-Cap.md) |
+| Monkey Beanie | “Monkeys Wear a Beanie” | [Monkey Beanie](Monkey-Beanie.md) |
+| Monkey Party Hat | “Monkeys Wear a Party Hat” | [Monkey Party Hat](Monkey-Party-Hat.md) |
+| Monkey Cape | “Monkeys Wear a Cape” | [Monkey Cape](Monkey-Cape.md) |
+| Monkey Ram | “Monkeys Look like Rams” | [Monkey Ram](Monkey-Ram.md) |
 
-## What still needs checking
+## Bloon cosmetics
 
-- Record every item on both store pages, including its displayed name and cost.
-- Identify which items are cosmetic and which change gameplay.
-- Confirm whether the B.A.D. and the starting-cash bonus are available in the Android 1.5.2 build.
-- Record the exact unlock requirements and whether any items require specific achievements or other progression.
-- Check whether equipped goodies can be toggled independently.
+| Goodie | In-game description | Article |
+|---|---|---|
+| Bully Decal | “Bloons look Mean” | [Bully Decal](Bully-Decal.md) |
+| Emoji Decal | “Bloons look Emoji” | [Emoji Decal](Emoji-Decal.md) |
+| Horror Decal | “Bloons look Scary” | [Horror Decal](Horror-Decal.md) |
+| Clown Decal | “Bloons look Silly” | [Clown Decal](Clown-Decal.md) |
+| Hacker Decal | “Bloons look Computery” | [Hacker Decal](Hacker-Decal.md) |
 
-## Sources
+## Gameplay goodies
 
-- [BTDX Fandom: Currencies](https://bloons-tdx.fandom.com/wiki/Currencies) — Trophy and Goodie Token information; page-category distinction; starting-cash item trivia.
-- [BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — B.A.D. description and reported spawn behaviour.
-- [BTDX Fandom: Guide](https://bloons-tdx.fandom.com/wiki/Guide) — contains a Goodies heading, but the section is currently only a stub.
+| Goodie | In-game description | Verified trigger/effect | Article |
+|---|---|---|---|
+| Loving Family | “Loving Family Gives Extra Vitality”; “Shows up at 50K+ Score” | Spawns 6 Love Bloons at each 50,000-score threshold. | [Loving Family](Loving-Family.md) |
+| Lit MOAB | “Lit Moab gives money when hit”; “Shows up at 75K+ Score” | First spawn at 75,000 score; later spawns at 375,000-point multiples. | [Lit MOAB](Lit-MOAB.md) |
+| B.A.D. | “This Blimp is pretty Bad” | Spawns at each 666,000-score threshold. | [B.A.D.](BAD.md) |
+| U.L.O. | “Unidentified Laughing Object”; “Gives Extra Cash at start” | Spawns one U.L.O. at the beginning of a run. | [U.L.O.](ULO.md) |
+| Super Storm | “Super Storm?”; “Shows up at 100K+ Score” | Spawns 10 Supra Storm enemies at each 100,000-score threshold. | [Super Storm](Super-Storm.md) |
 
-These are community-maintained sources, not official confirmation. Details may be incomplete, outdated, or different between Windows and Android builds. See [Research/Goodies.md](../Research/Goodies.md) for the working notes and verification checklist.
+## Source and verification notes
+
+The catalogue and displayed descriptions above are read from the BTDX source's Goodie Draw events. Purchase/equip behaviour is read from the corresponding mouse events and the Goodie Controller. Gameplay spawn thresholds are read from `scripts/scr_Goodie_Use/scr_Goodie_Use.gml`.
+
+Some store descriptions state the intended reward without exposing the full payout implementation in the Goodie spawn script. In particular, the exact vitality/cash amounts for Loving Family, Lit MOAB, and U.L.O. are not stated here because they have not yet been verified from their complete object event logic.
+
+The source also stores and accounts for a `global.goodie16` value, but the current visible store objects and Goodie use script identify only slots 1–15. Slot 16 is therefore recorded as an unexplained save/controller field, **not** counted as a confirmed store item.
+
+See [the Goodies source research notes](../Research/Goodies.md) for file-by-file evidence and remaining checks.
