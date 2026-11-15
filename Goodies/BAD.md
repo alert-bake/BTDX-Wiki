@@ -1,5 +1,7 @@
 # B.A.D.
 
+<p align="center"><img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/main/sprites/spr_BAD/4f027f79-61dd-44ab-b271-fa03564807ed.png" alt="B.A.D. icon" width="112" /></p>
+
 **Category:** Gameplay goodie  
 **Goodie slot:** 13  
 **In-game description:** “This Blimp is pretty Bad”  
