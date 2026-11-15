@@ -1,5 +1,7 @@
 # Monkey Ram
 
+<p align="center"><img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/main/sprites/spr_Monkey_Ram_Goodie/bcb43e4d-335f-4f2f-adc3-52b5b499696c.png" alt="Monkey Ram icon" width="112" /></p>
+
 **Category:** Monkey cosmetic  
 **Goodie slot:** 5  
 **In-game description:** “Monkeys Look like Rams”  
