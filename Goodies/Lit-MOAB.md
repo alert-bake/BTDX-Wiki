@@ -1,5 +1,7 @@
 # Lit MOAB
 
+<p align="center"><img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/main/sprites/Lit_Moab/1f1eca5a-ee1a-4967-b66d-e53d35b52e55.png" alt="Lit MOAB icon" width="112" /></p>
+
 **Category:** Gameplay goodie  
 **Goodie slot:** 12  
 **In-game description:** “Lit Moab gives money when hit” / “Shows up at 75K+ Score”  
