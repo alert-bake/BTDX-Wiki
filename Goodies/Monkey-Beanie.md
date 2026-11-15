@@ -1,5 +1,7 @@
 # Monkey Beanie
 
+<p align="center"><img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/main/sprites/spr_Monkey_Beanie_Goodie/8127f917-3866-421e-8fc0-f463f9766693.png" alt="Monkey Beanie icon" width="112" /></p>
+
 **Category:** Monkey cosmetic  
 **Goodie slot:** 2  
 **In-game description:** “Monkeys Wear a Beanie”  
