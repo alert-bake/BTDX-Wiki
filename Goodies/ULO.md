@@ -1,5 +1,7 @@
 # U.L.O.
 
+<p align="center"><img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/main/sprites/spr_ULO/750faa47-e018-4bc8-9720-4f9811f631d5.png" alt="U.L.O. icon" width="112" /></p>
+
 **Category:** Gameplay goodie  
 **Goodie slot:** 14  
 **In-game description:** “Unidentified Laughing Object” / “Gives Extra Cash at start”  
