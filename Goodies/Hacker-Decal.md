@@ -1,5 +1,7 @@
 # Hacker Decal
 
+<p align="center"><img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/main/sprites/Weaz_Bloon_Spr/b50d4398-8574-4602-bae4-d882cd2b3fb3.png" alt="Hacker Decal icon" width="112" /></p>
+
 **Category:** Bloon cosmetic  
 **Goodie slot:** 10  
 **In-game description:** “Bloons look Computery”  
