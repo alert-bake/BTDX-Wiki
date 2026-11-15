@@ -1,5 +1,7 @@
 # Bully Decal
 
+<p align="center"><img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/main/sprites/Bully_Bloon/78752601-5f40-4d0e-83b9-654deb51d65a.png" alt="Bully Decal icon" width="112" /></p>
+
 **Category:** Bloon cosmetic  
 **Goodie slot:** 6  
 **In-game description:** “Bloons look Mean”  
