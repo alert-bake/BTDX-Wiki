@@ -1,5 +1,7 @@
 # Monkey Cape
 
+<p align="center"><img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/main/sprites/spr_Monkey_Super_Cape_Goodie/7b02cdaf-62d4-424a-ab09-d697103a7cd1.png" alt="Monkey Cape icon" width="112" /></p>
+
 **Category:** Monkey cosmetic  
 **Goodie slot:** 4  
 **In-game description:** “Monkeys Wear a Cape”  
