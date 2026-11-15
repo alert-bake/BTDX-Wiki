@@ -1,5 +1,7 @@
 # Monkey Party Hat
 
+<p align="center"><img src="https://raw.githubusercontent.com/alert-bake/BTDX-source/main/sprites/spr_Monkey_Party_Hat_Goodie/937664cc-a62d-4ec2-946f-0ba4e4389296.png" alt="Monkey Party Hat icon" width="112" /></p>
+
 **Category:** Monkey cosmetic  
 **Goodie slot:** 3  
 **In-game description:** “Monkeys Wear a Party Hat”  
