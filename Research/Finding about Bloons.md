@@ -202,3 +202,51 @@ Collision code assigns values such as `damage = 7`, subtracts damage from armour
 - `objects/obj_BAD/Alarm_4.gml`
 
 This is a source-backed first-pass inventory of the shared and representative Bloon variables, not a claim that every special Bloon object and every event has been exhaustively audited. Special Bloons may introduce additional fields or override these behaviors.
+
+
+## Bloons that split into three
+
+The source contains more than one splitting implementation. These cases must be documented separately rather than treated as one universal Bloon rule.
+
+### Fractional-layer splitting in Chipper
+
+**Source:** `objects/Chipper_Bloon_Branch/Step_0.gml`
+
+The Chipper logic calculates:
+
+```gml
+val = frac(bloonlayer)
+```
+
+When `val = 0.5`, it subtracts `0.5 + pophit` from the current Bloon's `bloonlayer`, then creates two additional `Chipper_Bloon_Branch` instances carrying the reduced layer. The original is also retained at that reduced layer. The Chipper's return logic then recreates the corresponding Bloon branch.
+
+With `pophit = 0`, the source-backed mapping is:
+
+| Original Bloon | Starting `bloonlayer` | Resulting layer | Total Bloons |
+|---|---:|---:|---:|
+| Orange | 1.5 | 1 (Red) | 3 |
+| Cyan | 2.5 | 2 (Blue) | 3 |
+| Lime | 3.5 | 3 (Green) | 3 |
+| Amber | 4.5 | 4 (Yellow) | 3 |
+| Purple | 5.5 | 5 (Pink) | 3 |
+| Prismatic | 8.5 | 8 (Rainbow) | 3 |
+
+This is specifically the Chipper Bloon handling path. It should not be described as proof that every ordinary pop or every attack uses this exact split implementation. The code also uses a hit list to avoid processing the same attacker repeatedly.
+
+### Three-child split in Challenge Drones
+
+**Source:** `objects/Challenge_Drones/Alarm_0.gml`
+
+The Challenge Drones damage routine has explicit special cases:
+- When `bloonlayer = 7` (Zebra), it uses `repeat(3)` to create three Bloon-branch instances.
+- When `bloonlayer = 8` (Rainbow), it uses `repeat(7)` to create seven Bloon-branch instances.
+
+These are explicit child-instance counts in this particular Challenge Drones attack routine. They are separate from the Chipper's fractional-layer rule. The same file contains corresponding handling for normal, regrow, lead, and camo Bloon branches.
+
+### Verified Amber value
+
+**Amber Bloon: `bloonlayer = 4.5`.**
+
+This is directly supported by the sprite-selection checks in `objects/Normal_Bloon_Branch/Step_0.gml`, which select `Amber_Bloon_Spr` when `bloonlayer = 4.5`. The same mapping appears in several other branch Step events.
+
+The previous claim that Amber uses layer 7 was incorrect. Layer 7 selects Zebra in `Normal_Bloon_Branch/Step_0.gml`.
