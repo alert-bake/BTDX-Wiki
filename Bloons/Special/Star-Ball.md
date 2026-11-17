@@ -26,4 +26,3 @@ Determine whether it is a Bloon, projectile, or destructible hazard in the game'
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; details remain TBD.
