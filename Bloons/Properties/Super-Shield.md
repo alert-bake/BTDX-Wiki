@@ -2,13 +2,13 @@
 
 ## Overview
 
-Super Shield is a stronger shield variant reported to appear in Nightmare Mode. The BTDX community reference describes it as absorbing twice as much damage as a regular Shielded Bloon's shield.
+Super Shield is a stronger shield variant reported to appear in Nightmare Mode. an unverified report describes it as absorbing twice as much damage as a regular Shielded Bloon's shield.
 
 ## Reported behaviour
 
 - Appears in Nightmare Mode.
 - Absorbs twice the damage of a regular shield.
-- No stacking combinations are listed by the community reference.
+- No stacking combinations are listed by the unverified report.
 
 The available source inspection confirms the ordinary Shielded branch's shield calculations and a separate Static branch with doubled shield coefficients. It does **not** yet establish a distinct Super Shield object or prove that Nightmare Mode's Super Shield is implemented by the same code path as Static.
 
