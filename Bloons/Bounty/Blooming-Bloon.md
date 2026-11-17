@@ -2,13 +2,13 @@
 
 ## Overview
 
-The Blooming Bloon Bounty takes place on **Autumn Acres** and has four reported stages. The boss resembles a flower, relocates around the map, and emits groups of Bloons. The community reference says its movement accelerates over time.
+The Blooming Bloon Bounty takes place on **Autumn Acres** and has four reported stages. The boss resembles a flower, relocates around the map, and emits groups of Bloons. an unverified report says its movement accelerates over time.
 
 ## Encounter and stage progression
 
 1. **Blooming Bloon:** appears from the ground, fires Bloon clusters, relocates, and repeats. Its health pool is substantial.
 2. **Gardening Bloon:** weaker versions appear on selected rounds before the main Blooming Bloon. They have less HP and release fewer Bloons per appearance.
-3. **Blossom Bloon:** a Venus-flytrap form that can consume the newest tower. The community source says defeating this form is sufficient to clear the stage.
+3. **Blossom Bloon:** a Venus-flytrap form that can consume the newest tower. an unverified report says defeating this form is sufficient to clear the stage.
 4. **Earth Spirit:** a larger Blooming form with colourful petals. It reportedly releases very large clusters ranging from Tattered Yellows to Splitting Rainbows.
 
 The exact stage health and cluster compositions are not fully established by the source excerpt.
@@ -22,11 +22,11 @@ The alarm code creates groups of `Bloom_Branch` instances. Depending on a random
 - 18 Tattered Green-layer branches.
 - 4 Pink-layer branches.
 
-A separate alarm relocates the boss to a new random position and increases its `fast` value by 0.075. The source confirms relocation and increasing speed, while the exact cluster patterns are more specific than the community summary.
+A separate alarm relocates the boss to a new random position and increases its `fast` value by 0.075. The source confirms relocation and increasing speed, while the exact cluster patterns are more specific than the unverified summary.
 
-## Community-suggested counters
+## Unverified suggested counters
 
-TreeM, TackR, DartlingS, WizardS, AceL, BoomerL, BombM, and MortarM are community suggestions, not guaranteed solutions.
+TreeM, TackR, DartlingS, WizardS, AceL, BoomerL, BombM, and MortarM are unverified suggestions, not guaranteed solutions.
 
 ## Trivia
 
