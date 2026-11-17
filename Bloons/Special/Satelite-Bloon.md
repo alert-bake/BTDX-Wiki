@@ -26,4 +26,3 @@ The source reports twelve additional Satelites released when the Planetarium Blo
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; verify in-game.
