@@ -2,7 +2,7 @@
 
 ## Overview
 
-Regrow is a Bloon property that allows the Bloon to restore lost layers over time. The BTDX community reference reports that Regrow Bloons restore one layer every two seconds, up to their original layer.
+Regrow is a Bloon property that allows the Bloon to restore lost layers over time. an unverified report reports that Regrow Bloons restore one layer every two seconds, up to their original layer.
 
 ## Implementation notes
 
@@ -21,7 +21,7 @@ The child-regrowth rule can cause the number of Bloons to increase substantially
 
 ## Stacking
 
-The community reference lists Regrow as compatible with:
+an unverified report lists Regrow as compatible with:
 - Tattered
 - Splitting
 
