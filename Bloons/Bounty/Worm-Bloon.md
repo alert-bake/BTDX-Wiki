@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Worm Bloon Bounty takes place on **Rubber Rug** and has four reported stages. The family uses a dedicated worm path and is described by the community reference as rapidly zigzagging across the screen.
+The Worm Bloon Bounty takes place on **Rubber Rug** and has four reported stages. The family uses a dedicated worm path and is described by an unverified report as rapidly zigzagging across the screen.
 
 ## Encounter and stage progression
 
@@ -11,7 +11,7 @@ The Worm Bloon Bounty takes place on **Rubber Rug** and has four reported stages
 3. **Iron Rubber Worm:** replaces the ordinary Worm Bloon. It gains Lead but reportedly has less HP while moving faster.
 4. **Titanium Terror:** follows an Iron Rubber Worm and gains the H.T.A. property.
 
-Exact stage HP and contact-stun values are not provided by the community excerpt.
+Exact stage HP and contact-stun values are not provided by the unverified excerpt.
 
 ## Source cross-check
 
@@ -23,9 +23,9 @@ Its spawn alarm creates two different allies:
 
 The alarm increases `spawnspeed` by 0.01 and schedules the next spawn using `900 / spawnspeed`. The source confirms the dedicated path and ally spawning; the precise zigzag geometry is in the path asset and needs separate inspection.
 
-## Community-suggested counters
+## unverified suggested counters
 
-HeliS, TreeM, and BoomerL are community suggestions, not guaranteed solutions.
+HeliS, TreeM, and BoomerL are unverified suggestions, not guaranteed solutions.
 
 ## Trivia
 
