@@ -17,7 +17,7 @@ The Z.O.M.G. is a high-durability blimp with a source-defined shell coefficient 
 | Shell formula | `ceil(4000 * global.bpower)` |
 | Source speed formula | `0.95 * global.bspeed` |
 
-The community source notes a mode restriction in one context. Do not assume the Z.O.M.G. appears in every round set or game mode.
+an unverified report notes a mode restriction in one context. Do not assume the Z.O.M.G. appears in every round set or game mode.
 
 ## Source-confirmed behaviour
 
