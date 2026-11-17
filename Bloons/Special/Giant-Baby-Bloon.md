@@ -11,7 +11,7 @@ Mentioned in the Paladin Bloon and Monster Mom Bounty descriptions. The Monster 
 - **Category:** Special / Bounty-spawned enemy
 - **HP / RBE:** Infinite HP in Monster Mom context (reported)
 - **Children:** None documented
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 
 ## Mechanics and interactions
 
