@@ -1,6 +1,6 @@
 # Bounty Bloons
 
-Bounty Bloons are a major BTDX feature introduced in version 1.2, according to the community update history. They are encounter bosses with multiple escalating stages. They are not ordinary round Bloons: their health, movement, attacks, spawned enemies, and life-drain rules can use bespoke object logic.
+Bounty Bloons are a major BTDX feature introduced in version 1.2, according to an unverified update-history report. They are encounter bosses with multiple escalating stages. They are not ordinary round Bloons: their health, movement, attacks, spawned enemies, and life-drain rules can use bespoke object logic.
 
 ## How Bounty progression works
 
@@ -18,7 +18,7 @@ The listed difficulty ranks are:
 
 ## Reported reward table
 
-The community source reports the following rewards per completed Bounty level:
+The unverified report reports the following rewards per completed Bounty level:
 
 | Rank | Monkey Money | Bloon Points | XP |
 |---|---:|---:|---:|
@@ -33,7 +33,7 @@ The community source reports the following rewards per completed Bounty level:
 
 ## Bounty catalogue
 
-The current community Bloons page documents fourteen Bounty families:
+The current Bounty index documents fourteen Bounty families:
 
 | Bounty | Associated map | Reported stages |
 |---|---|---:|
@@ -76,16 +76,16 @@ The source repository contains dedicated objects and event logic for the followi
 
 ## Discrepancies worth preserving
 
-Several community values do not match the inspected base objects:
+Several reported values do not match the inspected base objects:
 - Mighty MOAB is reported at 40,000 HP for Stage 1, while its base Create event initializes 27,000 × `global.bpower`.
 - The Mother is reported at approximately 12,000 HP, while its base Create event initializes 18,000 × `global.bpower`.
 - Knight is reported at approximately 100,000 HP, while the inspected base Create event initializes 13,500 × `global.bpower`.
-- The Flying Bloon community description says later stages gain HP, while the base Create event sets 4,000 × `global.bpower` for `global.flyingenable > 1`.
+- The Flying Bloon reported description says later stages gain HP, while the base Create event sets 4,000 × `global.bpower` for `global.flyingenable > 1`.
 - The Annoying family description reports 200-HP D.D.T.-property Bloons, while the inspected `DDT_Terrible` object initializes 300 HP.
 
 These are not necessarily errors in either source: stage-specific setup, mode multipliers, or different variants may explain them. Until traced, keep both observations and label their provenance.
 
-The Mother source also has an `Alarm_2` event whose first statement is `exit;`. Tower-rearrangement code appears below that exit and is unreachable in the inspected event. The community claim may describe another build or code path.
+The Mother source also has an `Alarm_2` event whose first statement is `exit;`. Tower-rearrangement code appears below that exit and is unreachable in the inspected event. The reported claim may describe another build or code path.
 
 ## Individual page standard
 
@@ -95,15 +95,15 @@ Each Bounty article aims to document:
 - HP, speed, attacks, and leak penalties where reported.
 - Recurring spawns, child enemies, and hazards.
 - Tower interactions and status effects.
-- Community-suggested counters, clearly labelled as suggestions.
-- Source-confirmed mechanics, community-only reports, version differences, and unresolved questions.
+- unverified suggested counters, clearly labelled as suggestions.
+- Source-confirmed mechanics, unverified reports, version differences, and unresolved questions.
 
 ## Research priorities
 
 1. Verify whether all fourteen families are present in the target Android build.
 2. Record exact stage health and leak penalties in-game.
 3. Confirm whether the listed reward table is per stage, per rank, or another progression unit.
-4. Resolve the source/community HP discrepancies listed above.
+4. Resolve the source/reported HP discrepancies listed above.
 5. Inspect all later-stage variants, not only each family's base object.
 6. Record any changes between Windows 1.5.1 and Android 1.5.2.
 
