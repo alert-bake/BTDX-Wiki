@@ -8,7 +8,7 @@ Regrow is a Bloon property that allows the Bloon to restore lost layers over tim
 
 **Source-confirmed:** ordinary Bloons initialize `regrow = 0`, and BTDX has a dedicated `Regrow_Bloon_Branch`. That branch uses the same ordinary type-to-sprite and movement mapping while selecting the Regrow appearance. It also uses an alarm when frozen, which is consistent with freeze affecting the Regrow branch's normal timing.
 
-The existence of the branch and flag is source-confirmed. The two-second regeneration interval and the exact layer-restoration logic remain community-reported until the relevant alarm/collision paths are fully traced and tested.
+The existence of the branch and flag is source-confirmed. The two-second regeneration interval and the exact layer-restoration logic remain unverified report until the relevant alarm/collision paths are fully traced and tested.
 
 ## Reported behaviour
 
@@ -34,5 +34,4 @@ The source's Regrow branch still uses the same type map as the normal branch. A 
 ## Evidence
 
 - **Source-confirmed:** [Normal_Bloon_Branch/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Create_0.gml), [Regrow_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Regrow_Bloon_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for timing and regeneration behaviour.
 - **Needs in-game verification:** exact regeneration timing, freeze interaction, and child-regrowth edge cases.
