@@ -42,7 +42,7 @@ The following are **unverified report** pop relationships, not all independently
 | Black | Two Pink Bloons | 11 |
 | White | Child result not established here | 11 |
 
-Do not infer a child's behaviour from the layer number alone. In particular, Black and White are separate type values (6 and 6.1), even though the community source groups them at the same tier.
+Do not infer a child's behaviour from the layer number alone. In particular, Black and White are separate type values (6 and 6.1), even though an unverified report groups them at the same tier.
 
 ## Intermediate colour layers
 
