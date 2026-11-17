@@ -24,8 +24,8 @@ The speed calculation is subsequently affected by status effects in the same Ste
 
 ## Reported pop information
 
-- **RBE:** 2 (community-reported).
-- **Pop result:** One Red Bloon (community-reported).
+- **RBE:** 2 (unverified report).
+- **Pop result:** One Red Bloon (unverified report).
 - **HP / hits:** Not established by RBE alone.
 - **Leak damage:** Not independently established here.
 
@@ -35,10 +35,9 @@ The ordinary branch uses the same shared status-effect movement handling for Blu
 
 ## Trivia
 
-Blue has the cleanest possible nested relationship in the basic sequence: one step down, to Red. The fractional Cyan type sits between Blue and Green in the source's type map, but that does not change the community-reported basic pop relationship.
+Blue has the cleanest possible nested relationship in the basic sequence: one step down, to Red. The fractional Cyan type sits between Blue and Green in the source's type map, but that does not change the unverified report basic pop relationship.
 
 ## Evidence and sources
 
 - **Source-confirmed:** [Normal_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE and child result.
 - **Not independently verified here:** exact hit count, leak damage, and platform-specific differences.
