@@ -9,11 +9,11 @@ The L.P.Z. is a shielded lightning blimp. Its source branch tracks both shell an
 | Field | Value |
 |---|---|
 | Class | MOAB-class |
-| Community-reported shell/RBE | 1,340 |
-| Community-reported shield | 500 |
-| Community-reported children | 10 Static Ceramics |
-| Community-reported shielded speed | About 93.88% of Red |
-| Community-reported unshielded speed | About 187.5% of Red |
+| unverified report shell/RBE | 1,340 |
+| unverified report shield | 500 |
+| unverified report children | 10 Static Ceramics |
+| unverified report shielded speed | About 93.88% of Red |
+| unverified report unshielded speed | About 187.5% of Red |
 | Source branch | `LPZ_Branch` |
 | Shell formula | `ceil(300 * global.bpower)` |
 | Shield formula | `ceil(500 * global.bpower)` |
@@ -37,5 +37,4 @@ The LPZ has two independent durability pools and two distinct speed states. Losi
 ## Evidence
 
 - **Source-confirmed:** [LPZ_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/LPZ_Branch/Step_0.gml) and [Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/LPZ_Branch/Alarm_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for reported RBE, shield, and speed descriptions.
 - **Needs further tracing:** Stun_Shot impact effect, exact in-game timing, and all mode variants.
