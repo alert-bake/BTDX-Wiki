@@ -27,4 +27,3 @@ Exact health, speed, and leak damage are not provided.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; details remain TBD.
