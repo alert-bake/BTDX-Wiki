@@ -11,7 +11,7 @@ Spawned by The Mother. The Stage 1 Mother description says alien Bloons remove 1
 - **Category:** Special / Bounty-spawned enemy
 - **HP / RBE:** TBD
 - **Children:** TBD
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 
 ## Mechanics and interactions
 
