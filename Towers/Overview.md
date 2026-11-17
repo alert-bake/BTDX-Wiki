@@ -36,7 +36,7 @@ This page is an overview of the tower roster and upgrade system. Detailed statis
 23. Super Monkey
 24. Tack Shooter
 
-The community category also links to **Special Agents**, which is a separate category entry rather than one of the 24 tower names in the roster above.
+A separate category listing also includes **Special Agents**, which is a separate category entry rather than one of the 24 tower names in the roster above.
 
 ## Tower roles
 
@@ -94,4 +94,4 @@ The exact unlock requirement should be checked on the relevant tower's page rath
 
 ---
 
-*This page is a roster and system overview, not a balance guide. Community-wiki information may be incomplete or outdated; verify version-specific details in-game before treating them as definitive.*
+*This page is a roster and system overview, not a balance guide. Unverified roster details may be incomplete or outdated; verify version-specific information in-game before treating it as definitive.*
