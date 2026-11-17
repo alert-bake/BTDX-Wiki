@@ -12,7 +12,7 @@ The Big Bully family is a five-stage Bounty encounter on **Monkey Meadows**. The
 4. **Big Bully Rage:** one of each colour plus a second Pink. Both Pinks fire rapid stun projectiles. One has a devil aura, 8,000 HP, an area stun triggered by each hit, and an initial 10-life leak penalty.
 5. **Rage God:** the aura Bloon grows to a reported 20,000 HP and fires stunning fingers that pierce towers. Its speed boost reportedly accelerates other Bloons, up to 3×. It initially removes 20 lives and gains another 10-life penalty on each later leak.
 
-All stage values and mechanics above are community-reported.
+All stage values and mechanics above are unverified report.
 
 ## Source cross-check
 
@@ -31,5 +31,4 @@ The base object has a type identifier `bigbloon = 10001`, not an ordinary Bloon 
 ## Evidence and open questions
 
 - **Source-confirmed:** [Big_Bully_Bloon/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Big_Bully_Bloon/Create_0.gml) and [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Big_Bully_Bloon/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for all five stages, colour penalties, and counter suggestions.
 - **Needs verification:** every colour variant's HP, Rage God attack behaviour, acceleration formula, and repeat-leak penalties.
