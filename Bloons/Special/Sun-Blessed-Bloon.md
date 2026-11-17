@@ -26,4 +26,3 @@ Confirm which base Bloons receive this property.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; verify in-game.
