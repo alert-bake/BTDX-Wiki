@@ -87,7 +87,7 @@ See [Special Bloons](Special/Overview.md). An object identifier in the source in
 
 MOAB-class enemies use separate branches and durability handling. The source confirms distinct shell and child-spawn logic; some forms also use shields. Their child composition must be documented per blimp rather than inferred from the ordinary colour ladder.
 
-See [MOAB-class Bloons](MOAB/Overview.md).
+See [MOAB-class Bloons](MOAB-Class/Overview.md).
 
 ## Bounty Bloons
 
