@@ -9,7 +9,6 @@ This reference is BTDX-specific. Similar names, artwork, or mechanics in other B
 The wiki separates three kinds of information:
 
 - **Source-confirmed:** directly supported by the checked BTDX GML source. This establishes what the inspected code does, not necessarily the developer's intended design.
-- **Community-reported:** recorded by the BTDX community wiki but not independently confirmed in the target build.
 - **Unverified:** a question or interpretation for which the available evidence is incomplete.
 
 Unless an article says otherwise, source-code observations refer to the checked Windows source tree. The main reference builds are Windows 1.5.1 and unofficial Android 1.5.2. Do not silently combine observations from different builds.
@@ -97,6 +96,5 @@ See [Bounty Bloons](Bounty/Overview.md).
 
 ## Sources and version policy
 
-Primary implementation reference: [BTDX-source](https://github.com/alert-bake/BTDX-source). Community-reported reference: [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons).
 
-The source can establish what a particular script does. It cannot, by itself, prove that a branch is used in every mode or that a community-reported RBE is correct. In-game observations should include platform, version, mode, and enough context to reproduce the result.
+The source can establish what a particular script does. It cannot, by itself, prove that a branch is used in every mode or that a unverified report RBE is correct. In-game observations should include platform, version, mode, and enough context to reproduce the result.
