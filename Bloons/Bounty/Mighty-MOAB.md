@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Mighty MOAB Bounty takes place on **Monkey Fort** and has four reported stages. The community reference describes it as the slowest and toughest Bounty Bloon and says it periodically launches Mini M.O.A.B.s.
+The Mighty MOAB Bounty takes place on **Monkey Fort** and has four reported stages. an unverified report describes it as the slowest and toughest Bounty Bloon and says it periodically launches Mini M.O.A.B.s.
 
 ## Encounter and stage progression
 
@@ -19,9 +19,9 @@ The base `Mighty_Moab` Create event sets `hitpoints = 27000 * global.bpower`, `d
 
 This creates a discrepancy with the unverified report 40,000 HP for the first stage. The source value is 27,000 when `global.bpower = 1`; do not overwrite one with the other until the stage-specific setup is traced.
 
-## Community-suggested counters
+## Unverified suggested counters
 
-TreeM, HeliM, DartlingL, and DartlingS are community suggestions, not guaranteed solutions.
+TreeM, HeliM, DartlingL, and DartlingS are unverified suggestions, not guaranteed solutions.
 
 ## Trivia
 
