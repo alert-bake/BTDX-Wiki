@@ -2,7 +2,7 @@
 
 ## Overview
 
-Sun-Blessed Bloons are reported to appear in the Solar Storm mission. The community reference describes them as Bloons that fire a stunning projectile, move more slowly than their original form, and do not have shields.
+Sun-Blessed Bloons are reported to appear in the Solar Storm mission. an unverified report describes them as Bloons that fire a stunning projectile, move more slowly than their original form, and do not have shields.
 
 The source object is named `Solar_Bloon_Branch`. The wiki treats **Sun-Blessed** and **Solar** as names for this same documented form unless further evidence establishes a distinction.
 
@@ -34,7 +34,7 @@ The Solar branch's own speed formulas should be compared against the relevant no
 
 ## Stacking
 
-The community reference lists no stacking combinations.
+an unverified report lists no stacking combinations.
 
 ## Trivia
 
