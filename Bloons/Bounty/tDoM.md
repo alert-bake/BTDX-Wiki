@@ -2,7 +2,7 @@
 
 ## Overview
 
-The tDoM Bounty takes place on **Graveyard**. It is described by the community reference as a M.O.A.B.-like enemy that uses the longer route and can destroy towers with a devil blade. The community page lists exclusions for Trees, Villages, and right-side Alchemist upgrades.
+The tDoM Bounty takes place on **Graveyard**. An unverified description characterizes it as a M.O.A.B.-like enemy that uses the longer route and can destroy towers with a devil blade. An unverified report lists exclusions for Trees, Villages, and right-side Alchemist upgrades.
 
 ## Encounter and stage progression
 
@@ -22,11 +22,11 @@ The base `tDoM` Create event selects a path based on the current map/track and s
 
 The base movement value is `0.0775 * global.bspeed`. When the tDoM is destroyed, the source checks `global.destroyerenable`: the first variant grants the Bounty reward, while higher variants create a `tDoM_Phase_Two` instance.
 
-This confirms a multi-phase source implementation, but the community's tower-destruction attacks and exact stage labels need separate event inspection.
+This confirms a multi-phase source implementation, but the reported tower-destruction attacks and exact stage labels need separate event inspection.
 
-## Community-suggested counters
+## Unverified suggested counters
 
-EngineerS, Dart0 (blocking), TreeM, VillageM, and BombL (MA) are community suggestions, not guaranteed solutions.
+EngineerS, Dart0 (blocking), TreeM, VillageM, and BombL (MA) are unverified suggestions, not guaranteed solutions.
 
 ## Trivia
 
