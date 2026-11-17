@@ -1,40 +1,44 @@
-# l
-
-<badge>Research draft</badge>
+# Blue Bloon
 
 ## Overview
 
-e
+The Blue Bloon is the second basic colour in the community-documented ordinary sequence. Its normal-branch type value is 2, and the community source reports that popping it reveals a Red Bloon.
 
 ## Classification
 
-- **Category:** u
-- **Game:** Bloons Tower Defense X
-- **Platform/version checked:** None yet; this entry is based on community documentation.
+- **Family:** Standard / ordinary Bloon
+- **Source branch:** `Normal_Bloon_Branch`
+- **Source type value:** `bloonlayer = 2`
+- **Sprite:** `Blue_Bloon_Spr`
 
-## Stats
+## Source-confirmed movement
 
-- **HP / hits:**  
-- **Children / pop result:** B
-- **RBE:** TBD unless explicitly stated above.
-- **Speed:** TBD unless explicitly stated above.
+When the normal branch has `bloonlayer = 2`, it selects `Blue_Bloon_Spr` and calculates:
 
-## Behaviour and interactions
+```
+fast = global.bspeed * 2.0 * (tattered + 1)
+path_speed = fast
+```
 
-l
+The speed calculation is subsequently affected by status effects in the same Step event. It is not a fixed absolute speed.
 
-## Version differences
+## Reported pop information
 
-Not yet checked between Windows 1.5.1 and the unofficial Android 1.5.2 build.
+- **RBE:** 2 (community-reported).
+- **Pop result:** One Red Bloon (community-reported).
+- **HP / hits:** Not established by RBE alone.
+- **Leak damage:** Not independently established here.
 
-## Verification checklist
+## Interactions
 
-- [ ] Confirm this Bloon exists in the target build.
-- [ ] Record its in-game name and appearance.
-- [ ] Verify HP, RBE, speed, and leak effect.
-- [ ] Test child-spawn and property interactions.
-- [ ] Record mission or mode restrictions.
+The ordinary branch uses the same shared status-effect movement handling for Blue as for Red. The exact effects of Camo, Regrow, Lead, shielding, and damage types are documented separately in [Bloon properties](../Properties.md).
 
-## Source
+## Trivia
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information. Values and mechanics need in-game verification.
+Blue has the cleanest possible nested relationship in the basic sequence: one step down, to Red. The fractional Cyan type sits between Blue and Green in the source's type map, but that does not change the community-reported basic pop relationship.
+
+## Evidence and sources
+
+- **Source-confirmed:** [Normal_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Step_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE and child result.
+- **Not independently verified here:** exact hit count, leak damage, and platform-specific differences.
