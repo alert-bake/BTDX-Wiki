@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Red Bloon is the base ordinary Bloon type in BTDX's normal Bloon branch. It is the lowest value in the ordinary branch's `bloonlayer` mapping and is the reference point used by community RBE tables.
+The Red Bloon is the base ordinary Bloon type in BTDX's normal Bloon branch. It is the lowest value in the ordinary branch's `bloonlayer` mapping and is the reference point used by unverified RBE tables.
 
 ## Classification
 
