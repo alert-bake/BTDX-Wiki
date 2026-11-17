@@ -36,9 +36,6 @@ A third-party video overview indexed by search describes page 2 as containing pe
 
 ## Source quality notes
 
-- **BTDX Fandom Currencies:** useful for the currency loop and the broad page distinction, but does not enumerate the store.
-- **BTDX Fandom Bloons:** useful for the B.A.D. claim, but should be checked against gameplay.
-- **BTDX Fandom Guide:** its Goodies section is a stub and currently adds no item details.
 - **Third-party video overview:** a lead for further investigation, not confirmation.
 
 ## Research log
