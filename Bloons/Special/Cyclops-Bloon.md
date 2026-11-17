@@ -11,7 +11,7 @@ Spawned by The Queen form of The Mother. These Bloons appear near the Queen and 
 - **Category:** Special / Bounty-spawned enemy
 - **HP / RBE:** TBD
 - **Children:** TBD
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 
 ## Mechanics and interactions
 
