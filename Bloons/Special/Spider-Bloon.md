@@ -27,4 +27,3 @@ Confirm HP, number per stage, web duration, and invulnerability timing.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; details remain TBD.
