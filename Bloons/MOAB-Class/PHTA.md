@@ -4,7 +4,7 @@
 
 The P.H.T.A. is a Nightmare-only MOAB-class entry described by the community reference as a stronger Prismatic counterpart to the H.T.A. Its reported damage behaviour scales with attack pierce, similar to the reported Spectrum Bloon mechanic.
 
-## Community-reported statistics
+## unverified report statistics
 
 | Field | Reported value |
 |---|---|
@@ -28,6 +28,5 @@ Its reported child list is deliberately mixed: nine Spectrum Bloons plus one H.T
 
 ## Evidence and open questions
 
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons).
 - **Not yet source-confirmed:** 10,000-hit value, pierce scaling, speed, children, and Nightmare restriction.
 - **Next research targets:** identify its actual source object/spawn path, inspect damage handling, and verify the child sequence in-game.
