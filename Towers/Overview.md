@@ -10,7 +10,6 @@ This page is an overview of the tower roster and upgrade system. Detailed statis
 
 ## Tower roster
 
-RamafParty's official BTDX page advertises **24 towers**. The community wiki's tower category lists the following 24 tower entries:
 
 1. Banana Tree
 2. Bloonchipper
@@ -48,11 +47,9 @@ Towers do not all serve the same purpose:
 - **Economy towers** help generate money for the player.
 - **Hybrid towers** can gain additional offensive or support functions through upgrades.
 
-The community wiki notes two important exceptions to the usual direct-attacker role: Banana Tree and Monkey Village do not normally attack Bloons, although certain upgrades allow them to attack. Do not assume that a tower's role is fixed across every upgrade.
 
 ## Upgrade system
 
-BTDX towers have **four upgrade paths** and **five upgrade tiers**. The community wiki describes the paths as:
 
 - **Left (L)**
 - **Middle (M)**
@@ -63,7 +60,6 @@ The base tower is tier 0. Upgrade shorthand combines the tier number and path le
 
 ### Initial upgrades
 
-When a tower is first available, the community wiki describes five initial upgrade choices:
 
 - Tier 1
 - Tier 2
@@ -77,7 +73,6 @@ Higher upgrades are unlocked through progression using Bloon Points. The exact u
 
 The Stacked path is the fourth path. Its upgrades are commonly written as **3S, 4S, and 5S**; some sources use **3A, 4A, and 5A** for the same path.
 
-The community wiki describes the unlock process as tower-specific:
 
 1. Unlock all upgrades on a required main path. The required path differs between towers.
 2. Complete a Bounty using only that tower. The wiki gives Dart Monkey's Middle path as one example of a required path.
@@ -90,15 +85,12 @@ The exact unlock requirement should be checked on the relevant tower's page rath
 ## Documentation notes
 
 - Tower statistics and upgrade effects should be tied to a specific BTDX version.
-- Distinguish in-game observations from details transcribed from the community wiki.
 - Do not infer a tower's attack type, range, targeting, or damage from its name or appearance alone.
 - Record special upgrade interactions on the individual tower page where they can be documented precisely.
 
 ## Sources
 
 1. [Ramaf Party — Bloons TDX](https://www.ramafparty.com/btdx.html) — developer-published description; advertises 24 towers and four upgrade paths per tower, and lists Windows version 1.5.1.
-2. [Bloons TDX Wiki — Towers category](https://bloons-tdx.fandom.com/wiki/Category:Towers) — tower roster, general tower roles, and upgrade terminology.
-3. [Bloons TDX Wiki — Main page](https://bloons-tdx.fandom.com/wiki/Bloons_Tower_Defense_X_Wiki) — overview of BTDX and its upgrade system.
 
 ---
 
