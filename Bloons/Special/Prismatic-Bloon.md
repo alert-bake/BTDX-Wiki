@@ -9,7 +9,7 @@ A special child released by Spectrum Bloons and listed among the children of som
 ## Classification
 
 - **Category:** Special Bloon / special form
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 - **HP / hits:** TBD
 - **Children / result:** TBD
 
