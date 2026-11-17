@@ -4,13 +4,13 @@
 
 ## Overview
 
-Barrier Bloons periodically release Block Bloons that float outward and interfere with projectiles. The community page reports that a Barrier Bloon releases three Block Bloons every roughly 5.66–7.66 seconds and releases six when destroyed. A second tier has more health, moves slightly faster, and produces stronger Block Bloons.
+Barrier Bloons periodically release Block Bloons that float outward and interfere with projectiles. An unverified report reports that a Barrier Bloon releases three Block Bloons every roughly 5.66–7.66 seconds and releases six when destroyed. A second tier has more health, moves slightly faster, and produces stronger Block Bloons.
 
 ## Classification
 
 - **Category:** Special enemy
 - **Game:** Bloons Tower Defense X
-- **Platform/version checked:** None yet; this entry is based on community documentation.
+- **Platform/version checked:** None yet; this entry contains unverified reported details.
 
 ## Stats
 
