@@ -26,4 +26,3 @@ Resurrection timing and the Undying variant's exact rules need testing.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; verify in-game.
