@@ -53,5 +53,4 @@ Static's shield is not merely the ordinary shield with a cosmetic lightning over
 ## Evidence
 
 - **Source-confirmed:** [Static_Bloon_Branch/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Static_Bloon_Branch/Create_0.gml), [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Static_Bloon_Branch/Step_0.gml), and [Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Static_Bloon_Branch/Alarm_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for the described tower stun and speed comparison.
 - **Needs further tracing:** `Stun_Shot` effect duration and all mode-specific spawn rules.
