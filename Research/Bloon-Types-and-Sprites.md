@@ -10,7 +10,6 @@ This document is the research hub for BTDX Bloon types, their visible sprite var
 
 - **Source-confirmed:** directly visible in the checked BTDX source code.
 - **Sprite-observed:** identified by inspecting the ordered frames in the source sprite metadata and the PNGs.
-- **Wiki-reported:** described by the BTDX community wiki; not independently verified in the game.
 - **Unconfirmed:** plausible interpretation that still needs a matching code path or in-game test.
 
 Source repository: [alert-bake/BTDX-source](https://github.com/alert-bake/BTDX-source)  
@@ -260,7 +259,6 @@ Source: [Normal_Bloon_Branch/Create_0.gml](https://github.com/alert-bake/BTDX-so
 - [Sprite frame inspection document](https://github.com/alert-bake/BTDX-source/blob/main/Sillyembedtest.md)
 
 ### Community reference
-- [BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons)
 
 ---
 *Draft prepared from the source and sprite findings available on 2026-11-14. Update this page when new code paths or in-game evidence are verified.*
