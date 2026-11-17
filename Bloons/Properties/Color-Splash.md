@@ -2,7 +2,7 @@
 
 ## Overview
 
-Color Splash Bloons are a mission-specific Bloon form reported to appear in the **Color Splash** mission. The community reference describes them as popping into ten Bloons of their counterpart type and moving faster than ordinary Splitting Bloons.
+Color Splash Bloons are a mission-specific Bloon form reported to appear in the **Color Splash** mission. an unverified report describes them as popping into ten Bloons of their counterpart type and moving faster than ordinary Splitting Bloons.
 
 These are not a general property available to every Bloon in every mode.
 
@@ -16,7 +16,7 @@ These are not a general property available to every Bloon in every mode.
 | Yellow | 4 | 40 lives |
 | Pink | 5 | 50 lives |
 
-The community reference says each Color Splash Bloon pops into ten Bloons of its counterpart type. The table's leak-damage values are unusual and must remain explicitly attributed to that source until reproduced in-game.
+an unverified report says each Color Splash Bloon pops into ten Bloons of its counterpart type. The table's leak-damage values are unusual and must remain explicitly attributed to that source until reproduced in-game.
 
 ## Distinguishing it from Splitting
 
