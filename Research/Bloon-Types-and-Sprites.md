@@ -1,6 +1,6 @@
 # Bloon type and sprite research (draft)
 
-> **Status:** Research draft. This page combines source-code findings, sprite inspection, and existing community-wiki research. It is not a final gameplay reference. Claims are labelled by evidence type; unverified interpretations stay unconfirmed.
+> **Status:** Research draft. This page combines source-code findings, sprite inspection, and previously collected unverified reports. It is not a final gameplay reference. Claims are labelled by evidence type; unverified interpretations stay unconfirmed.
 
 ## Scope
 
@@ -101,7 +101,7 @@ Source: [Solar_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-sourc
 
 ### Nested children
 
-**Wiki-reported:** the ordinary sequence is Red → Blue → Green → Yellow → Pink. Black is described as splitting into two Pink Bloons. See [Bloon hierarchy](../Bloons/Bloon-Hierarchy.md) for the currently documented child relationships and MOAB-class examples.
+**Unverified report:** the ordinary sequence is Red → Blue → Green → Yellow → Pink. Black is described as splitting into two Pink Bloons. See [Bloon hierarchy](../Bloons/Bloon-Hierarchy.md) for the currently documented child relationships and MOAB-class examples.
 
 ---
 
@@ -181,7 +181,7 @@ The following are already covered in the wiki's [Bloon properties reference](../
 - **Robo Bloons:** Lead forms that fire piercing lasers and become Splitting Lead Bloons when popped.
 - **Rag Bloons:** Necropolis mission forms that can resurrect as Reincarnated Bloons.
 - **Reincarnated Bloons:** resurrected forms that do not resurrect again.
-- **Undying Rag Bloon:** Regrow-like Rag variant reported by the community source.
+- **Undying Rag Bloon:** Regrow-like Rag variant reported by the unverified report.
 
 ### Larger and mission-specific enemies
 The wiki also documents Ceramic and Brick Bloons, MOAB-class enemies, special mission enemies, and Bounty Bloons. Their individual pages contain the current stats and should remain the canonical detail pages:
@@ -233,7 +233,7 @@ Source: [Normal_Bloon_Branch/Create_0.gml](https://github.com/alert-bake/BTDX-so
 4. **Static and Energized** refer to the electrical appearance/behaviour; the source branch name is Static.
 5. **Solar and Sun-Blessed** are the names found in source and wiki documentation respectively; currently treated as one form.
 6. **A sprite frame does not prove a gameplay property by itself.** Confirm actual behaviour from object code or controlled in-game tests.
-7. **Community-wiki stats are not source-code facts.** Keep their evidence label visible and record the game version when testing.
+7. **Unverified reported stats are not source-code facts.** Keep their evidence label visible and record the game version when testing.
 
 ---
 
@@ -245,7 +245,7 @@ Source: [Normal_Bloon_Branch/Create_0.gml](https://github.com/alert-bake/BTDX-so
 - [ ] Inspect the Glued Bloon implementation and determine whether it is a modifier, branch, or visual-only state.
 - [ ] Inspect `Sun_Stun_Shot` to document the exact stun effect and duration.
 - [ ] Compare the Solar branch's speed values with the ordinary branches to determine which values are shared and which are Solar-specific.
-- [ ] Verify the wiki-reported modifier stacking combinations in-game.
+- [ ] Verify the Unverified report modifier stacking combinations in-game.
 - [ ] Record platform and version for every hands-on observation.
 
 ## Source index
@@ -258,7 +258,6 @@ Source: [Normal_Bloon_Branch/Create_0.gml](https://github.com/alert-bake/BTDX-so
 - [Solar Storm spawn mapping](https://github.com/alert-bake/BTDX-source/blob/main/objects/Solar_Storm_Go/Alarm_10.gml)
 - [Sprite frame inspection document](https://github.com/alert-bake/BTDX-source/blob/main/Sillyembedtest.md)
 
-### Community reference
 
 ---
 *Draft prepared from the source and sprite findings available on 2026-11-14. Update this page when new code paths or in-game evidence are verified.*
