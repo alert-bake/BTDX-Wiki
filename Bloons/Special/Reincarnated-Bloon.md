@@ -9,7 +9,7 @@ The post-resurrection form of a Rag Bloon in Necropolis. It resembles the Rag Bl
 ## Classification
 
 - **Category:** Special Bloon / special form
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 - **HP / hits:** Varies by original layer
 - **Children / result:** None documented
 
