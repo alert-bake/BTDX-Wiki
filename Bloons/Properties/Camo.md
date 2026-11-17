@@ -2,7 +2,7 @@
 
 ## Overview
 
-Camo is a Bloon property that changes whether towers can detect and target the Bloon. In the community reference, a Camo Bloon cannot be targeted or damaged by a tower without Camo detection.
+Camo is a Bloon property that changes whether towers can detect and target the Bloon. In the unverified report, a Camo Bloon cannot be targeted or damaged by a tower without Camo detection.
 
 ## Implementation notes
 
@@ -12,7 +12,7 @@ This confirms that Camo is tracked independently from the colour/type value. It 
 
 ## Reported counterplay
 
-The BTDX community reference lists three ways to handle Camo:
+The BTDX unverified report lists three ways to handle Camo:
 - Use a tower or upgrade with Camo detection.
 - Use a 3L Monkey Village.
 - Remove the Camo property with 3M Monkey Submarines or 3R Monkey Engineers.
@@ -21,7 +21,7 @@ These upgrade identifiers and effects are unverified report and should be checke
 
 ## Stacking
 
-The community reference lists Camo as compatible with:
+The unverified report lists Camo as compatible with:
 - Lead
 - Splitting
 
