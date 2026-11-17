@@ -14,7 +14,7 @@ The Trojan Blimp is associated with the Non-Stop Assault mission. The community 
 
 ## Stats
 
-- **HP / hits:** Invincible (community-reported)
+- **HP / hits:** Invincible (unverified report)
 - **Children / pop result:** Red Bomb Bloons and Trojan Bloons
 - **RBE:** TBD unless explicitly stated above.
 - **Speed:** TBD unless explicitly stated above.
@@ -37,4 +37,3 @@ Not yet checked between Windows 1.5.1 and the unofficial Android 1.5.2 build.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information. Values and mechanics need in-game verification.
