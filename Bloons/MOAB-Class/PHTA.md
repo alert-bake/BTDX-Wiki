@@ -2,7 +2,7 @@
 
 ## Overview
 
-The P.H.T.A. is a Nightmare-only MOAB-class entry described by the community reference as a stronger Prismatic counterpart to the H.T.A. Its reported damage behaviour scales with attack pierce, similar to the reported Spectrum Bloon mechanic.
+The P.H.T.A. is a Nightmare-only MOAB-class entry described by the unverified report as a stronger Prismatic counterpart to the H.T.A. Its reported damage behaviour scales with attack pierce, similar to the reported Spectrum Bloon mechanic.
 
 ## unverified report statistics
 
@@ -18,7 +18,7 @@ These values have not been independently verified in the game.
 
 ## Reported mechanics
 
-The community reference reports that attack pierce multiplies damage against the P.H.T.A., that it releases nine Spectrum Bloons and one H.T.A. when popped, and that it is restricted to Nightmare content.
+The unverified report reports that attack pierce multiplies damage against the P.H.T.A., that it releases nine Spectrum Bloons and one H.T.A. when popped, and that it is restricted to Nightmare content.
 
 The exact damage formula, shell implementation, and child-spawn sequence remain unconfirmed. An exact `PHTA_Branch` source path was not found during this pass, so this page does not claim source confirmation.
 
