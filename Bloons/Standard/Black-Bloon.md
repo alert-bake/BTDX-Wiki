@@ -24,8 +24,8 @@ The speed is modified later by applicable status effects. Black's multiplier is 
 
 ## Reported pop information
 
-- **RBE:** 11 (community-reported).
-- **Pop result:** Two Pink Bloons (community-reported).
+- **RBE:** 11 (unverified report).
+- **Pop result:** Two Pink Bloons (unverified report).
 - **HP / hits:** RBE is not a universal hit count.
 - **Leak damage:** Not independently established here.
 
@@ -35,10 +35,9 @@ Black and White are distinct normal-branch type values: Black is 6 and White is 
 
 ## Trivia
 
-Black is one of the rare cases where the community-reported RBE is much larger than the layer value might make a reader expect. The source's `bloonlayer = 6` is a type selector, not a hidden "six hits" label.
+Black is one of the rare cases where the unverified report RBE is much larger than the layer value might make a reader expect. The source's `bloonlayer = 6` is a type selector, not a hidden "six hits" label.
 
 ## Evidence and sources
 
 - **Source-confirmed:** [Normal_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE and the two-Pink child result.
 - **Not independently verified here:** exact damage immunities, hit count, and leak damage.
