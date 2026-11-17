@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Black Bloon is a standard Bloon type in BTDX. The ordinary branch assigns it `bloonlayer = 6`. The community source places it at the same broad tier as White and reports an RBE of 11.
+The Black Bloon is a standard Bloon type in BTDX. The ordinary branch assigns it `bloonlayer = 6`. an unverified report places it at the same broad tier as White and reports an RBE of 11.
 
 ## Classification
 
