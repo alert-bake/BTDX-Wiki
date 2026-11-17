@@ -30,7 +30,7 @@ Source: [Normal_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-sour
 
 ## Basic child relationships
 
-The following are **community-reported** pop relationships, not all independently verified by the source files inspected for this pass.
+The following are **unverified report** pop relationships, not all independently verified by the source files inspected for this pass.
 
 | Bloon | Reported pop result | Reported RBE |
 |---|---|---:|
