@@ -21,7 +21,7 @@ The Chipper branch examines the fractional part of `bloonlayer`. For half-step t
 
 This is source-confirmed Chipper behaviour. A non-zero `pophit` changes the amount subtracted. It is not proof that every Splitting property uses the same trigger or exact speed.
 
-## Community-reported speed and RBE
+## unverified report speed and RBE
 
 The community page reports the following values:
 
@@ -34,7 +34,7 @@ The community page reports the following values:
 | Purple | 337.5% | 3 Pink | 16 |
 | Prismatic | 275% | 3 Rainbow | 142 |
 
-These figures are community-reported, not derived from the normal-branch speed multipliers. Do not substitute one table for the other: the normal branch's `global.bspeed` multipliers describe its own movement calculation.
+These figures are unverified report, not derived from the normal-branch speed multipliers. Do not substitute one table for the other: the normal branch's `global.bspeed` multipliers describe its own movement calculation.
 
 ## Stacking
 
@@ -55,5 +55,4 @@ The Chipper's base fractional split is literally "keep the original, then make t
 ## Evidence
 
 - **Source-confirmed:** [Chipper_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Chipper_Bloon_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for property behaviour, speed, RBE, and stacking.
 - **Needs in-game verification:** exact trigger, speed, and property combinations for each Splitting form.
