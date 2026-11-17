@@ -24,8 +24,8 @@ The intermediate Amber layer uses `bloonlayer = 4.5` and has a separate multipli
 
 ## Reported pop information
 
-- **RBE:** 4 (community-reported).
-- **Pop result:** One Green Bloon (community-reported).
+- **RBE:** 4 (unverified report).
+- **Pop result:** One Green Bloon (unverified report).
 - **HP / hits:** Not established by RBE alone.
 - **Leak damage:** Not independently established here.
 
@@ -40,4 +40,3 @@ Yellow has an intermediate Amber type at layer 4.5. The Chipper's fractional-lay
 ## Evidence and sources
 
 - **Source-confirmed:** [Normal_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Step_0.gml) and [Chipper_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Chipper_Bloon_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE and basic child result.
