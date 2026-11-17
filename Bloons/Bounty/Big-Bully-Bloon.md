@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Big Bully family is a five-stage Bounty encounter on **Monkey Meadows**. The community reference describes five colour-coded Bully Bloons, with leak penalties based on colour and an increasing penalty after repeated leaks. It also reports that taking hits accelerates the family.
+The Big Bully family is a five-stage Bounty encounter on **Monkey Meadows**. an unverified report describes five colour-coded Bully Bloons, with leak penalties based on colour and an increasing penalty after repeated leaks. It also reports that taking hits accelerates the family.
 
 ## Encounter and stage progression
 
@@ -20,9 +20,9 @@ The base `Big_Bully_Bloon` Create event initializes `hitpoints` and `maxpoints` 
 
 This supports the 3,000 base HP figure when `global.bpower = 1`, but the colour variants and later Rage forms require their own source paths. Do not assume the base object's values apply to every stage.
 
-## Community-suggested counters
+## Unverified suggested counters
 
-TreeM, EngineerS, AceM, MortarL, TreeM/TreeR, and ChipperL are listed by the community as suggestions. These are not guaranteed solutions or the only viable towers.
+TreeM, EngineerS, AceM, MortarL, TreeM/TreeR, and ChipperL are listed as unverified suggestions. These are not guaranteed solutions or the only viable towers.
 
 ## Trivia
 
