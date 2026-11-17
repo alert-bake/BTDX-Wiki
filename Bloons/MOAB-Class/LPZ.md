@@ -1,31 +1,41 @@
 # L.P.Z. (Lightning Powered Zeppelin)
 
-<badge>Research draft · MOAB-class</badge>
-
 ## Overview
 
-Has a reported 500-HP shield and moves at about 93.88% Red speed. Fires a stun projectile at the nearest tower every 5–7 seconds. When its shield breaks, it stuns nearby towers and doubles speed; drops ten Static Ceramics.
+The L.P.Z. is a shielded lightning blimp. Its source branch tracks both shell and shield, fires a stun projectile at nearby towers, changes speed when its shield is gone, and releases ten Static Ceramic-tier Bloons when its shell is depleted.
 
-## Reported statistics
+## Classification and reported statistics
 
-- **Class:** MOAB-class
-- **Hits / HP:** See overview.
-- **RBE:** 1,340 + 500 shield
-- **Children:** 10 Static Ceramics
-- **Platform/version checked:** None; community source only.
+| Field | Value |
+|---|---|
+| Class | MOAB-class |
+| Community-reported shell/RBE | 1,340 |
+| Community-reported shield | 500 |
+| Community-reported children | 10 Static Ceramics |
+| Community-reported shielded speed | About 93.88% of Red |
+| Community-reported unshielded speed | About 187.5% of Red |
+| Source branch | `LPZ_Branch` |
+| Shell formula | `ceil(300 * global.bpower)` |
+| Shield formula | `ceil(500 * global.bpower)` |
 
-## Mechanics and interactions
+## Source-confirmed durability and movement
 
-Check whether RBE includes shield HP; record post-shield speed.
+The Step event initializes shell and shield once. When shield is positive, the source selects the shielded sprite and calculates `1.5 * global.bspeed`. When shield is depleted, it selects the unshielded LPZ sprite and calculates `3 * global.bspeed`.
 
-## Verification checklist
+Shell depletion is a separate condition. When shell reaches zero, the branch creates ten Static Bloon instances. Their layer is derived from the parent's layer minus 300; the child shield is set to `35 * global.bpower`. For the LPZ's layer-318 form, this yields layer 18, the Ceramic tier.
 
-- [ ] Confirm hit count and RBE in Android 1.5.2.
-- [ ] Record speed relative to Red Bloon.
-- [ ] Verify child types, counts, and spawn cadence.
-- [ ] Test shield and status-effect interactions.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
+## Source-confirmed tower attack
 
-## Source
+The LPZ alarm repeats after `180 + random(30)` steps. It searches for a Monkey within a 240-unit circle and, if it finds one, creates a `Stun_Shot` aimed at that target. Projectile potency is set to `other.maxshield * 5`.
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported stats; verify in-game.
+The source confirms the attack setup and potency calculation. The projectile's full impact effect must be read from `Stun_Shot`.
+
+## Trivia
+
+The LPZ has two independent durability pools and two distinct speed states. Losing the shield does not itself trigger the shell-depletion child routine; the source checks those conditions separately.
+
+## Evidence
+
+- **Source-confirmed:** [LPZ_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/LPZ_Branch/Step_0.gml) and [Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/LPZ_Branch/Alarm_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for reported RBE, shield, and speed descriptions.
+- **Needs further tracing:** Stun_Shot impact effect, exact in-game timing, and all mode variants.
