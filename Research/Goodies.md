@@ -6,22 +6,20 @@ Working notes for documenting the BTDX Goodie Store. This file is a research scr
 
 ### Currency loop
 
-
 - Trophies are earned from achievements, at one Trophy per achievement.
 - 10 Trophies are exchanged for one Goodie Token.
 - Goodie Tokens are spent in the Goodie Store.
 - Page 1 is described as cosmetic changes for Bloons and monkeys.
 - Page 2 is described as affecting gameplay and mechanics.
-- The last item on page 2 is said to grant 200 extra starting cash in every game when equipped.
+- The last item on page 2 is reported to grant 200 extra starting cash in every game when equipped.
 
 ### Named unlockable: B.A.D.
 
+The spawn details for this item still need direct verification in the target build.
 
-Treat the spawn details as community-wiki claims until tested in the target build.
+### Other research lead
 
-### Other source lead
-
-A third-party video overview indexed by search describes page 2 as containing permanent upgrades on the left and two Bloon-related options on the right, naming the B.A.D. and a "cursed super storm." This is a secondary lead only; it is not enough to add the latter as a confirmed item. Locate direct in-game evidence or a reliable written source first.
+A third-party video overview describes page 2 as containing permanent upgrades on the left and two Bloon-related options on the right, naming the B.A.D. and a "cursed super storm." This is a secondary lead only; it is not enough to add the latter as a confirmed item. Locate direct in-game evidence first.
 
 ## Verification checklist
 
@@ -42,7 +40,6 @@ A third-party video overview indexed by search describes page 2 as containing pe
 
 Add dated observations here when new evidence is collected. Include the game version and platform for every hands-on observation.
 
-
 ---
 
 # Source audit: current catalogue
@@ -51,7 +48,7 @@ Add dated observations here when new evidence is collected. Include the game ver
 
 ## Catalogue
 
-A source search for the exact locked-item label **“Spend 1 Goodie Token to Unlock”** returned 15 visible Goodie Draw objects, corresponding to slots 1–15:
+A source search for the exact locked-item label **"Spend 1 Goodie Token to Unlock"** returned 15 visible Goodie Draw objects, corresponding to slots 1–15:
 
 | Slot | Object | Category | Exact displayed description |
 |---:|---|---|---|
@@ -71,11 +68,11 @@ A source search for the exact locked-item label **“Spend 1 Goodie Token to Unl
 | 14 | `ULO_Goodie` | Gameplay | Unidentified Laughing Object; Gives Extra Cash at start |
 | 15 | `Super_Goodie` | Gameplay | Super Storm?; Shows up at 100K+ Score |
 
-Every one of these Draw events displays **“Spend 1 Goodie Token to Unlock”** when its state is zero.
+Every one of these Draw events displays **"Spend 1 Goodie Token to Unlock"** when its state is zero.
 
 ## Currency and state
 
-- `objects/Goodie_Controller/Draw_0.gml` displays **“10 Trophies = 1 Goodie Token.”**
+- `objects/Goodie_Controller/Draw_0.gml` displays **"10 Trophies = 1 Goodie Token."**
 - `objects/Goodie_Controller/Step_0.gml` sets tokens to `floor(global.trophies / 10)`, then subtracts one for each Goodie state greater than zero, including `goodie16`.
 - The visible Goodie Mouse events check `global.goodieTokens > 0`. A first click changes a Goodie's state from 0 to 1 (owned); the next click equips it by changing 1 to 100; clicking again changes 100 back to 1.
 - Monkey cosmetic Mouse events call `scr_Monkey_Goodie_Off()` before equipping. Bloon decal Mouse events call `scr_Bloon_Goodie_Off()`. The cosmetic groups are therefore mutually exclusive within their own category.
