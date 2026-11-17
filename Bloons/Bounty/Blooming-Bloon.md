@@ -35,5 +35,4 @@ The Blooming Bloon's source does not choose one fixed flower-bullet pattern. Its
 ## Evidence and open questions
 
 - **Source-confirmed:** [Blooming_Bloon/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Blooming_Bloon/Create_0.gml), [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Blooming_Bloon/Step_0.gml), [Alarm_1.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Blooming_Bloon/Alarm_1.gml), and [Alarm_2.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Blooming_Bloon/Alarm_2.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stage descriptions and counter suggestions.
 - **Needs verification:** tower-consumption trigger, full stage progression, and exact child-layer interpretation for each pattern.
