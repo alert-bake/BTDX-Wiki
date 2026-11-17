@@ -4,12 +4,12 @@
 
 ## Overview
 
-Appears only in Solar Storm according to the community page. It fires stunning projectiles like Static Bloons, but is slower than its original form and does not have a shield. The property reportedly applies to all layers.
+Appears only in Solar Storm according to an unverified report. It fires stunning projectiles like Static Bloons, but is slower than its original form and does not have a shield. The property reportedly applies to all layers.
 
 ## Classification
 
 - **Category:** Special Bloon / special form
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 - **HP / hits:** Varies by base Bloon
 - **Children / result:** Varies
 
