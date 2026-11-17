@@ -27,4 +27,3 @@ Determine whether 'Alien Bloon' refers to one enemy type or a group of distinct 
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; details remain TBD.
