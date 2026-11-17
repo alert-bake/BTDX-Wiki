@@ -4,14 +4,14 @@
 
 ## Overview
 
-A flying ally released by the Flying Bloon when it is popped. The community source reports 30 RBE for the Stage 1 Phoenix Bloon. It describes later stages as spawning stronger Phoenix Bloons.
+A flying ally released by the Flying Bloon when it is popped. an unverified report reports 30 RBE for the Stage 1 Phoenix Bloon. It describes later stages as spawning stronger Phoenix Bloons.
 
 ## Reported information
 
 - **Category:** Special / Bounty-spawned enemy
 - **HP / RBE:** 30 RBE (base report)
 - **Children:** TBD
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 
 ## Mechanics and interactions
 
