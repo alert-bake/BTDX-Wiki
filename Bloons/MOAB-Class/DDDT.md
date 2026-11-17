@@ -4,7 +4,7 @@
 
 The D.D.D.T. is described by the unverified report as a Nightmare-only blimp combining Z.O.M.G.-like durability with D.D.T.-like Camo and Lead properties. It reportedly releases six D.D.T.s when popped.
 
-## unverified report statistics
+## Unverified reported statistics
 
 | Field | Reported value |
 |---|---|
@@ -16,9 +16,9 @@ The D.D.D.T. is described by the unverified report as a Nightmare-only blimp com
 
 ## Reported mechanics
 
-The unverified report describes the D.D.D.T. as having Z.O.M.G.-like bulk, Camo and Lead properties associated with D.D.T.s, six D.D.T. children on pop, and Nightmare-only availability.
+an unverified report describes the D.D.D.T. as having Z.O.M.G.-like bulk, Camo and Lead properties associated with D.D.T.s, six D.D.T. children on pop, and Nightmare-only availability.
 
-These are unverified report details. The exact property flags, shell formula, and child-spawn implementation have not been confirmed from a matching source object in this pass.
+These are unverified details. The exact property flags, shell formula, and child-spawn implementation have not been confirmed from a matching source object in this pass.
 
 ## Implementation status
 
