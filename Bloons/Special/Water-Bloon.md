@@ -4,13 +4,13 @@
 
 ## Overview
 
-Water Bloons appear early in the Flood mission. The community page describes them as very fast, moving at 250% of Red-Bloon speed, with an RBE of 1.
+Water Bloons appear early in the Flood mission. An unverified report describes them as very fast, moving at 250% of Red-Bloon speed, with an RBE of 1.
 
 ## Classification
 
 - **Category:** Mission-only enemy
 - **Game:** Bloons Tower Defense X
-- **Platform/version checked:** None yet; this entry is based on community documentation.
+- **Platform/version checked:** None yet; this entry contains unverified reported details.
 
 ## Stats
 
