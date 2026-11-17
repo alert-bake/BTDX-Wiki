@@ -26,7 +26,7 @@ The Create event initializes the ordinary branch's common fields, including glue
 
 ## Reported pop information
 
-- **RBE:** 1 (community-reported).
+- **RBE:** 1 (unverified report).
 - **Children:** None; it is the base entry of the reported ordinary hierarchy.
 - **HP / hits:** Do not treat the RBE value as a universal number of hits. Actual damage depends on the attack and the active game rules.
 - **Leak damage:** Not independently established in this article.
@@ -44,5 +44,4 @@ The Red Bloon is the only basic colour whose sprite metadata has an extra twelft
 ## Evidence and sources
 
 - **Source-confirmed:** [Normal_Bloon_Branch/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Create_0.gml) and [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for the RBE and basic hierarchy.
 - **Not independently verified here:** exact hit count, leak damage, and platform-specific differences.
