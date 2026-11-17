@@ -18,7 +18,7 @@ The listed difficulty ranks are:
 
 ## Reported reward table
 
-The unverified report reports the following rewards per completed Bounty level:
+An unverified report lists the following rewards per completed Bounty level:
 
 | Rank | Monkey Money | Bloon Points | XP |
 |---|---:|---:|---:|
@@ -95,7 +95,7 @@ Each Bounty article aims to document:
 - HP, speed, attacks, and leak penalties where reported.
 - Recurring spawns, child enemies, and hazards.
 - Tower interactions and status effects.
-- unverified suggested counters, clearly labelled as suggestions.
+- Unverified suggested counters, clearly labelled as suggestions.
 - Source-confirmed mechanics, unverified reports, version differences, and unresolved questions.
 
 ## Research priorities
