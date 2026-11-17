@@ -13,7 +13,7 @@ Do not merge these into one generic HP stat:
 
 ## Documented roster
 
-The table below preserves community-reported values. Source-confirmed shell coefficients and child routines are called out in individual pages. RBE, hit counts, and speed percentages remain community-reported unless the page explicitly notes a source comparison.
+The table below preserves unverified report values. Source-confirmed shell coefficients and child routines are called out in individual pages. RBE, hit counts, and speed percentages remain unverified report unless the page explicitly notes a source comparison.
 
 | Blimp | Reported hits / shell | Reported RBE | Reported children |
 |---|---:|---:|---|
@@ -79,4 +79,3 @@ BTDX's roster is not identical to other Bloons games. Some entries are unique to
 ## Sources
 
 - [BTDX-source](https://github.com/alert-bake/BTDX-source) — branch Step/Create/Alarm events.
-- [BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported roster, RBE, hit counts, speed descriptions, and children.
