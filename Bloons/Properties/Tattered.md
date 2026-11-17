@@ -2,7 +2,7 @@
 
 ## Overview
 
-Tattered is a Bloon property represented by a separate state on ordinary Bloons. The community reference describes Tattered Bloons as moving at twice their normal speed and losing the property after one layer is popped.
+Tattered is a Bloon property represented by a separate state on ordinary Bloons. an unverified report describes Tattered Bloons as moving at twice their normal speed and losing the property after one layer is popped.
 
 ## Source-confirmed movement and appearance
 
@@ -20,13 +20,13 @@ This is directly supported by the source. It is not a universal speed formula fo
 
 - Moves at twice the ordinary counterpart's speed.
 - Loses the Tattered state after one layer is popped.
-- Tattered Purple is described by the community reference as the fastest Bloon.
+- Tattered Purple is described by an unverified report as the fastest Bloon.
 
 The first two statements are consistent with the source's ordinary-branch multiplier and sprite state, but the exact point at which the state is cleared should be verified in the relevant damage/transformation path. The "fastest" claim is unverified report and depends on the game mode's global speed and which branches are being compared.
 
 ## Stacking
 
-The community reference lists Tattered as compatible with:
+an unverified report lists Tattered as compatible with:
 - Regrow
 - Splitting
 
