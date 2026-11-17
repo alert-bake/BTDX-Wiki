@@ -19,9 +19,7 @@ Towers are the player's main defense. Most can attack Bloons, while support-focu
 
 ## Towers and upgrades
 
-The developer advertises **24 towers**, each with **four upgrade paths**. The community wiki describes a system with five tiers per tower: the first two tiers and the first upgrade on each of the three main paths are available initially, while further upgrades are unlocked using **Bloon Points**.
 
-The community wiki uses left, middle, and right path labels (L, M, and R), alongside the first two general upgrades. Exact upgrade availability and tower behavior should be documented on the individual tower pages and tied to a game version.
 
 ## Bloons
 
@@ -31,7 +29,6 @@ Some Bloons have properties that affect which towers can damage or target them. 
 
 ## Modes and content
 
-The community wiki documents four main modes:
 
 - **Normal:** A standard 90-round game.
 - **Impoppable:** A shorter, harder 75-round game.
@@ -67,12 +64,6 @@ The Android port's controls and port-specific quirks are documented separately i
 ## Sources
 
 1. [Ramaf Party — Bloons TDX](https://www.ramafparty.com/btdx.html) — developer-published description, engine, Windows version, and advertised feature counts.
-2. [Bloons TDX Wiki — Main page](https://bloons-tdx.fandom.com/wiki/Bloons_Tower_Defense_X_Wiki) — fan-game description, tower upgrade structure, and Bloon Points.
-3. [Bloons TDX Wiki — Guide](https://bloons-tdx.fandom.com/wiki/Guide) — core objective and main game modes.
-4. [Bloons TDX Wiki — Game Modes](https://bloons-tdx.fandom.com/wiki/Game_Modes) — mode descriptions and round counts.
-5. [Bloons TDX Wiki — Towers](https://bloons-tdx.fandom.com/wiki/Category:Towers) — tower roles and upgrade overview.
-6. [Bloons TDX Wiki — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — examples of special Bloon types and properties.
-7. [Bloons TDX Wiki — Missions](https://bloons-tdx.fandom.com/wiki/Missions) — mission descriptions and its stated 1.5.1 mission count.
 8. [APKPure — BTD X 1.5.2](https://apkpure.net/btd-x/btdrrx.RamafpartyxAlbiot1) — third-party Android listing; not an official developer source.
 
 ---
