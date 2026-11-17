@@ -11,7 +11,7 @@ The UFO Bounty takes place on **Bloon Oasis** and has four reported stages. UFOs
 3. **UFO Cluster:** eight UFOs spawn in a flower formation. Four have blue auras and four are yellow; each is reported to have 1,500 HP.
 4. **UFO Mothership:** begins with the Cluster formation, then spawns a large pink 20,000-HP mothership. It drains lives and creates 1,000-HP pink UFOs every 13.33 seconds; smaller UFOs reportedly drain both money and lives.
 
-Stage statistics and the mothership description are community-reported.
+Stage statistics and the mothership description are unverified report.
 
 ## Source cross-check: drain and movement
 
@@ -36,5 +36,4 @@ The drain is step-based and scales with the `drain` variable. It is not a single
 ## Evidence and open questions
 
 - **Source-confirmed:** [UFO_Bloon/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/UFO_Bloon/Create_0.gml), [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/UFO_Bloon/Step_0.gml), [Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/UFO_Bloon/Alarm_0.gml), and [Alarm_1.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/UFO_Bloon/Alarm_1.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stage composition and counter suggestions.
 - **Needs verification:** blue-aura projectile absorption, Mothership HP, child spawn interval, and exact life-drain interpretation.
