@@ -38,7 +38,7 @@ Some entries may describe a special enemy, while others describe a family or pro
 
 ## Mission associations
 
-The community reference associates several special Bloons with specific missions, including Non-Stop Assault, Flood, Solar Storm, and Necropolis. These associations are included as research leads and should be checked in-game.
+an unverified report associates several special Bloons with specific missions, including Non-Stop Assault, Flood, Solar Storm, and Necropolis. These associations are included as research leads and should be checked in-game.
 
 ## Sources
 
