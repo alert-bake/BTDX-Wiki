@@ -24,7 +24,7 @@ This is the pre-status-effect movement value. White's multiplier is 2.8×, compa
 
 ## Reported pop information
 
-- **RBE:** 11 (community-reported).
+- **RBE:** 11 (unverified report).
 - **Pop result:** Not established by the sources checked for this article.
 - **HP / hits:** Do not infer from the reported RBE.
 - **Leak damage:** Not independently established here.
@@ -40,5 +40,4 @@ Black and White are almost neighbours in the source's type map: 6 and 6.1. That 
 ## Evidence and sources
 
 - **Source-confirmed:** [Normal_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for the reported RBE and tier.
 - **Not independently verified here:** child composition, damage immunities, hit count, and leak damage.
