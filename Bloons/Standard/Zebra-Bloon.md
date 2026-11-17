@@ -1,30 +1,45 @@
 # Zebra Bloon
 
-<badge>Research draft</badge>
-
 ## Overview
 
-A Bloon listed in the BTDX layer/RBE breakdown with an RBE of 23. The available source excerpt does not provide a complete standalone entry.
+The Zebra Bloon is an ordinary-branch type with its own sprite and movement multiplier. The source assigns it `bloonlayer = 7`. The community RBE breakdown reports an RBE of 23, but that value has not been independently confirmed here.
+
+## Classification
+
+- **Family:** Standard / ordinary Bloon
+- **Source branch:** `Normal_Bloon_Branch`
+- **Source type value:** `bloonlayer = 7`
+- **Sprite:** `Zebra_Bloon_Spr`
+
+## Source-confirmed movement
+
+At layer 7, the normal branch selects the Zebra sprite and calculates:
+
+```
+fast = global.bspeed * 2.8 * (tattered + 1)
+path_speed = fast
+```
+
+The later status-effect code can change the final movement value.
 
 ## Reported information
 
-- **Category:** Standard / nested Bloon (provisional)
-- **RBE:** 23 (reported)
-- **Children:** TBD
-- **Platform/version checked:** None; community source only.
+- **RBE:** 23 (community-reported; unverified).
+- **Children:** Not established by the source files checked for this article.
+- **HP / hits:** Not established by RBE alone.
+- **Leak damage:** Not independently established.
 
-## Mechanics and interactions
+## Interactions
 
-Record its child layers and any immunity or resistance behaviour; do not import assumptions from other games.
+Zebra is a distinct type value, not a combination of the Black and White flags in the ordinary branch. The exact immunities and property combinations need a separate damage/targeting trace.
 
-## Verification checklist
+The Challenge Drones routine has a special case for `bloonlayer = 7` that creates three Bloon-branch instances. That is behaviour of the Challenge Drones routine, not evidence that every Zebra pop creates three children.
 
-- [ ] Confirm this Bloon exists in Android 1.5.2.
-- [ ] Record its in-game appearance and exact name.
-- [ ] Verify HP, RBE, speed, and leak effect.
-- [ ] Confirm children and interactions with Camo, Regrow, Lead, and other properties.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
+## Trivia
 
-## Source
+Zebra's source multiplier is 2.8×, exactly the same as White's in the ordinary branch. The two Bloons still have different layer values, sprites, and potentially different damage interactions. Speed equality does not make them twins.
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; incomplete details remain TBD.
+## Evidence and sources
+
+- **Source-confirmed:** [Normal_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Step_0.gml) and [Challenge_Drones/Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Challenge_Drones/Alarm_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE.
