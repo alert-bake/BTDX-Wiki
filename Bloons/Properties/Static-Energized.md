@@ -2,7 +2,7 @@
 
 ## Overview
 
-Static Bloons are electrical Bloons with a shield and a periodic attack against towers. The community reference also calls this form Energized; **Static** is the name used by the source object, `Static_Bloon_Branch`.
+Static Bloons are electrical Bloons with a shield and a periodic attack against towers. an unverified report also calls this form Energized; **Static** is the name used by the source object, `Static_Bloon_Branch`.
 
 This is more than a visual modifier: the branch has its own shield calculation, movement code, and attack alarm.
 
@@ -34,7 +34,7 @@ The Static alarm searches for a Monkey within a range based on `100 + maxshield`
 
 ## Reported behaviour
 
-The community reference describes Static Bloons as:
+an unverified report describes Static Bloons as:
 - Shielded electrical forms.
 - Periodically firing a projectile at towers.
 - Stuning/disabling a tower hit by the projectile.
@@ -44,7 +44,7 @@ The source confirms the electrical state, doubled shield coefficients, target se
 
 ## Stacking
 
-The community reference lists no stacking combinations for Static. It does list Static as a possible combination with Splitting.
+an unverified report lists no stacking combinations for Static. It does list Static as a possible combination with Splitting.
 
 ## Trivia
 
