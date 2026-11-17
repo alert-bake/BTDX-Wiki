@@ -4,12 +4,12 @@
 
 ## Overview
 
-A child released by a Planetarium Bloon. The community source reports 70 HP, gradual acceleration, and a leak penalty of 150 lives.
+A child released by a Planetarium Bloon. an unverified report reports 70 HP, gradual acceleration, and a leak penalty of 150 lives.
 
 ## Classification
 
 - **Category:** Special Bloon / special form
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 - **HP / hits:** 70 HP
 - **Children / result:** None documented
 
