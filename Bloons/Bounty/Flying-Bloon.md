@@ -11,7 +11,7 @@ The Flying Bloon Bounty takes place on **Sky Battles** and has four reported sta
 3. **Ascended Bloon:** follows a Higher Bloon. It reportedly has more HP, stronger Phoenix Bloons, and more powerful gusts.
 4. **Almighty Bloon:** has more HP and creates a rain of gusts that push Bloons forward and block projectiles. It spawns after a Higher Bloon.
 
-Stage descriptions and RBE values are community-reported.
+Stage descriptions and RBE values are unverified report.
 
 ## Source cross-check
 
@@ -30,5 +30,4 @@ The Flying Bloon's source creates two different ally types per spawn cycle: an U
 ## Evidence and open questions
 
 - **Source-confirmed:** [Flying_Bloon/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Flying_Bloon/Create_0.gml), [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Flying_Bloon/Step_0.gml), [Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Flying_Bloon/Alarm_0.gml), and [Alarm_1.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Flying_Bloon/Alarm_1.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stage names and gust descriptions.
 - **Needs verification:** why later `flyingenable` values reduce the base object's HP, and exact Phoenix/Angel spawn rules.
