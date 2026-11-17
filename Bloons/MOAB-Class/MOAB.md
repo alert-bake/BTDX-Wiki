@@ -9,10 +9,10 @@ The M.O.A.B. is a major blimp enemy with its own shell durability and Brick chil
 | Field | Value |
 |---|---|
 | Class | MOAB-class |
-| Community-reported hits | 300 |
-| Community-reported RBE | 1,252 |
-| Community-reported children | 4 Bricks |
-| Community-reported speed | 75% of Red |
+| unverified report hits | 300 |
+| unverified report RBE | 1,252 |
+| unverified report children | 4 Bricks |
+| unverified report speed | 75% of Red |
 | Source branch | `Moab_Branch` |
 | Shell formula | `ceil(300 * global.bpower)` |
 | Source speed formula | `1.5 * global.bspeed` |
@@ -36,5 +36,4 @@ The MOAB's child logic has a population-dependent branch: when enough Brick Bloo
 ## Evidence
 
 - **Source-confirmed:** [Moab_Branch/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Moab_Branch/Create_0.gml), [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Moab_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for hits, RBE, and reported speed.
 - **Needs in-game verification:** hit count, RBE, and the speed discrepancy.
