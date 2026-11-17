@@ -27,4 +27,3 @@ The source mentions an ash-and-rise cycle; record the full lifecycle, speed, and
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; details remain TBD.
