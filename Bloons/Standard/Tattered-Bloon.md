@@ -27,4 +27,3 @@ Document the exact effect and whether Tattered is a layer, modifier, or visual/s
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; incomplete details remain TBD.
