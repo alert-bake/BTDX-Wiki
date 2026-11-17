@@ -14,7 +14,7 @@ This confirms that Lead is tracked separately from the Bloon's colour/type. The 
 
 The community reference reports that a 4L Monkey Village can grant Lead-popping capability to towers that otherwise lack it.
 
-The upgrade identifier and exact tower interactions are community-reported and should be checked in the target game build.
+The upgrade identifier and exact tower interactions are unverified report and should be checked in the target game build.
 
 ## Stacking
 
@@ -31,5 +31,4 @@ Lead has its own branch, but it does not get a new colour progression. The Lead 
 ## Evidence
 
 - **Source-confirmed:** [Normal_Bloon_Branch/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Create_0.gml), [Lead_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Lead_Bloon_Branch/Step_0.gml), [Camo_Lead_Bloon_Branch](https://github.com/alert-bake/BTDX-source/tree/main/objects/Camo_Lead_Bloon_Branch).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for sharp resistance and counterplay.
 - **Needs in-game verification:** exact damage-type exceptions and upgrade behaviour.
