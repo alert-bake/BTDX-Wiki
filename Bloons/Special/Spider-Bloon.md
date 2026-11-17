@@ -11,7 +11,7 @@ Appears in Track Crawler Bounty stages. The source describes a passive nest phas
 - **Category:** Special / Bounty-spawned enemy
 - **HP / RBE:** TBD
 - **Children:** TBD
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 
 ## Mechanics and interactions
 
