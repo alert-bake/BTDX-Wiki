@@ -43,5 +43,4 @@ The Solar branch selects sprite frame index 9 when the Bloon is not Tattered. Sp
 ## Evidence
 
 - **Source-confirmed:** [Solar_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Solar_Bloon_Branch/Step_0.gml) and [Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Solar_Bloon_Branch/Alarm_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for Solar Storm availability and shield/speed descriptions.
 - **Needs further tracing:** `Sun_Stun_Shot` impact effect, exact duration, and mission spawn rules.
