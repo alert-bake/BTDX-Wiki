@@ -27,4 +27,3 @@ Confirm whether the Knight Bounty's Giant Baby is the same enemy and whether it 
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; details remain TBD.
