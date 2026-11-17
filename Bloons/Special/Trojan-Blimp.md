@@ -4,13 +4,13 @@
 
 ## Overview
 
-The Trojan Blimp is associated with the Non-Stop Assault mission. The community page reports that it moves more slowly than a Trojan Bloon, summons Red Bomb Bloons periodically, and also summons Trojan Bloons. It is described as invincible and as taking a large amount of lives if leaked.
+The Trojan Blimp is associated with the Non-Stop Assault mission. An unverified report reports that it moves more slowly than a Trojan Bloon, summons Red Bomb Bloons periodically, and also summons Trojan Bloons. It is described as invincible and as taking a large amount of lives if leaked.
 
 ## Classification
 
 - **Category:** Mission-only blimp
 - **Game:** Bloons Tower Defense X
-- **Platform/version checked:** None yet; this entry is based on community documentation.
+- **Platform/version checked:** None yet; this entry is based on unverified report documentation.
 
 ## Stats
 
