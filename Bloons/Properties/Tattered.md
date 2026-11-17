@@ -22,7 +22,7 @@ This is directly supported by the source. It is not a universal speed formula fo
 - Loses the Tattered state after one layer is popped.
 - Tattered Purple is described by the community reference as the fastest Bloon.
 
-The first two statements are consistent with the source's ordinary-branch multiplier and sprite state, but the exact point at which the state is cleared should be verified in the relevant damage/transformation path. The "fastest" claim is community-reported and depends on the game mode's global speed and which branches are being compared.
+The first two statements are consistent with the source's ordinary-branch multiplier and sprite state, but the exact point at which the state is cleared should be verified in the relevant damage/transformation path. The "fastest" claim is unverified report and depends on the game mode's global speed and which branches are being compared.
 
 ## Stacking
 
@@ -39,5 +39,4 @@ The code does not apply a 2× multiplier by adding a magic speed bonus. It multi
 ## Evidence
 
 - **Source-confirmed:** [Normal_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Step_0.gml), [Research: Bloon variables](../../Research/Finding%20about%20Bloons.md).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for the property description and stacking.
 - **Needs in-game verification:** when the flag is removed, and whether every special branch applies the same speed effect.
