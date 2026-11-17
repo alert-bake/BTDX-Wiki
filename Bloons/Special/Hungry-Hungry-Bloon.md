@@ -11,7 +11,7 @@ A Trickster God summon. The source reports three Hungry Hungry Bloons with 999 H
 - **Category:** Bounty-spawned hazard / enemy (classification provisional)
 - **HP:** 999 HP (reported)
 - **Children:** None documented
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 
 ## Mechanics and interactions
 
