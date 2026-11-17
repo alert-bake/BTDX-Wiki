@@ -9,10 +9,10 @@ The Rocket Blimp is a fast Nightmare-mode blimp. The source branch gives it a hi
 | Field | Value |
 |---|---|
 | Class | MOAB-class |
-| Community-reported hits | 300 |
-| Community-reported RBE | 1,252 |
-| Community-reported children | 4 Tattered Bricks |
-| Community-reported speed | 406.25% of Red |
+| unverified report hits | 300 |
+| unverified report RBE | 1,252 |
+| unverified report children | 4 Tattered Bricks |
+| unverified report speed | 406.25% of Red |
 | Source branch | `Rocket_Blimp_Branch` |
 | Shell formula | `ceil(300 * global.bpower)` |
 | Source speed formula | `6.5 * global.bspeed` |
@@ -25,7 +25,7 @@ The branch also applies its own freeze, glue, stun, distraction, and corrosion h
 
 ## Reported values versus source
 
-The source multiplier is 6.5× global speed. Compared with the ordinary Red multiplier of 1.6×, that is 406.25%, matching the community-reported speed figure under this comparison.
+The source multiplier is 6.5× global speed. Compared with the ordinary Red multiplier of 1.6×, that is 406.25%, matching the unverified report speed figure under this comparison.
 
 ## Trivia
 
@@ -34,5 +34,4 @@ The Rocket Blimp's "rocket" identity is not just the speed stat: its Step event 
 ## Evidence
 
 - **Source-confirmed:** [Rocket_Blimp_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Rocket_Blimp_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for Nightmare restriction, RBE, and reported speed.
 - **Needs in-game verification:** exact hit count, RBE, and mode availability.
