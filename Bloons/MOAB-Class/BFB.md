@@ -9,10 +9,10 @@ The B.F.B. is a large blimp with a source-defined shell coefficient of 900. When
 | Field | Value |
 |---|---|
 | Class | MOAB-class |
-| Community-reported hits | 900 |
-| Community-reported RBE | 4,656 |
-| Community-reported children | 3 M.O.A.B.s |
-| Community-reported speed | About 71.88% of Red |
+| unverified report hits | 900 |
+| unverified report RBE | 4,656 |
+| unverified report children | 3 M.O.A.B.s |
+| unverified report speed | About 71.88% of Red |
 | Source branch | `BFB_Branch` |
 | Shell formula | `ceil(900 * global.bpower)` |
 | Source speed formula | `1.15 * global.bspeed` |
@@ -25,7 +25,7 @@ When shell falls below 1, the B.F.B. creates three `Moab_Branch` instances. Each
 
 ## Reported values versus source
 
-The source speed multiplier is 1.15× global speed. Compared with the normal Red multiplier of 1.6×, that is 71.875%, matching the community-reported 71.88% figure under this comparison. The 900 shell coefficient also matches the community-reported 900 hits when `global.bpower = 1`.
+The source speed multiplier is 1.15× global speed. Compared with the normal Red multiplier of 1.6×, that is 71.875%, matching the unverified report 71.88% figure under this comparison. The 900 shell coefficient also matches the unverified report 900 hits when `global.bpower = 1`.
 
 ## Trivia
 
@@ -34,5 +34,4 @@ A B.F.B. does not produce a random pile of lower Bloons in the inspected Step ev
 ## Evidence
 
 - **Source-confirmed:** [BFB_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/BFB_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE and reported hit/speed values.
 - **Needs in-game verification:** exact RBE and mode-specific modifiers.
