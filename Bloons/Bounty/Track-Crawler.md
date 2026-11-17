@@ -21,9 +21,9 @@ The Step event moves directly toward the `End` object using `move_towards_point`
 
 Its alarm searches for a Monkey within a 300-unit circle. If a target is found, it creates a `Web_Shot` aimed at the target with potency 100, then schedules the next alarm after 90 steps. The exact impact and persistence rules belong to the Web_Shot and web objects.
 
-## Community-suggested counters
+## Unverified suggested counters
 
-TreeM, DartlingM, DartlingR, DartlingS, Dart0 (blocking webs), and PlasmaL are community suggestions, not guaranteed solutions.
+TreeM, DartlingM, DartlingR, DartlingS, Dart0 (blocking webs), and PlasmaL are unverified suggestions, not guaranteed solutions.
 
 ## Trivia
 
