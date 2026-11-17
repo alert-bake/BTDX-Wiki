@@ -4,6 +4,26 @@ BTDX has several kinds of Bloon variation. This page separates **properties/modi
 
 The descriptions below are transcribed and reorganized from the [BTDX community Bloons page](https://bloons-tdx.fandom.com/wiki/Bloons). That page may be incomplete or version-dependent. Treat its details as source-reported until tested in the target build.
 
+## Individual property articles
+
+The pages below provide dedicated entries for each property or special modifier. This file remains the consolidated quick-reference table; the individual pages carry the longer explanations, source notes, and verification gaps.
+
+### Core properties
+- [Camo](Properties/Camo.md)
+- [Regrow](Properties/Regrow.md)
+- [Lead](Properties/Lead.md)
+- [Tattered](Properties/Tattered.md)
+- [Splitting](Properties/Splitting.md)
+
+### Shield and special modifiers
+- [Shielded](Properties/Shielded.md)
+- [Super Shield](Properties/Super-Shield.md)
+- [Static / Energized](Properties/Static-Energized.md)
+- [Sun-Blessed / Solar](Properties/Sun-Blessed-Solar.md)
+- [Color Splash](Properties/Color-Splash.md)
+
+---
+
 ## Properties and modifiers
 
 Modifiers are special layers or effects that can be applied to many Bloons. Some can be combined; the source explicitly lists combinations for each modifier below. A modifier generally does not add to the number of lives lost, with **Splitting** being the stated exception.

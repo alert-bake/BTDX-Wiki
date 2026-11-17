@@ -1,50 +1,38 @@
 # Annoying Bloon
 
-<badge>Research draft · Bounty Bloon</badge>
-
 ## Overview
 
-Focuses on draining lives rapidly. Later stages add fast regeneration, D.D.T.-like Bloons, and an H.T.A.-property variant.
+The Annoying Bloon Bounty takes place on **Shade Woods** and has five reported stages. Its central mechanic is rapid life drain, with later stages adding regeneration, D.D.T.-like enemies, and an H.T.A.-property variant.
 
-- **Associated map:** Shade Woods
-- **Stage count:** 5
-- **Bounty mode introduced:** Version 1.2, according to the community update history.
-- **Platform/version checked:** None; community documentation only.
+## Encounter and stage progression
 
-## Stage progression
+1. **Annoying Bloon:** one Bloon follows the track and drains lives quickly.
+2. **Irritating Bloon:** regenerates HP very quickly.
+3. **Frustrating Bloon:** three reported 200-HP Bloons with D.D.T. properties appear first; each removes 15 lives if it leaks. An Irritating Bloon follows.
+4. **4 Letter Word Bloon:** repeats the earlier pattern but ends with a giant 3,000-HP Annoying Bloon that drains lives much faster.
+5. **Giga Emoji:** gives Bloons crying-face emojis and makes them faster. The community source reports a drain of 0.55 lives per second when more than ten are on-screen. An Annoying H.T.A. Bloon also appears. The page lists 1,100 Monkey Money, 11 Bloon Points, and 550,000 XP for completing this challenge.
 
-### Stage 1 — Annoying Bloon: one Bloon follows the track and drains lives quickly.
+These stage details and rewards are community-reported.
 
-### Stage 2 — Irritating Bloon: regenerates HP very quickly.
+## Source cross-check
 
-### Stage 3 — Frustrating Bloon: three 200-HP Bloons with D.D.T. properties appear first; each removes 15 lives if it leaks. An Irritating Bloon follows.
+The source contains several candidate objects associated with this family:
+- `Emoji_God` initializes 15,000 HP multiplied by `global.bpower` and a base speed of `2.5 * global.bspeed`.
+- `Terrible_1` initializes 600 HP multiplied by `global.bpower`.
+- `DDT_Terrible` initializes 300 HP and a base speed of `1.8 * global.bspeed`.
 
-### Stage 4 — 4 Letter Word Bloon: repeats the prior pattern but ends with a giant 3,000-HP Annoying Bloon that drains lives much faster.
-
-### Stage 5 — Giga Emoji: gives Bloons crying-face emojis and makes them faster. If more than ten are on-screen, the source reports a drain of 0.55 lives per second. An Annoying H.T.A. Bloon also appears. The page lists 1,100 Monkey Money, 11 Bloon Points, and 550,000 XP for completing this challenge.
+The source identifiers are not enough to prove which exact object corresponds to every community stage. There is also a discrepancy between the community's 200-HP D.D.T.-property enemies and the 300 HP assigned by the inspected `DDT_Terrible` Create event.
 
 ## Community-suggested counters
 
-Suggested towers: TreeM, TreeL, TreeR, VillageM, HeliM, HeliL, ChargeL, TackR (for Stage 1).
+TreeM, TreeL, TreeR, VillageM, HeliM, HeliL, ChargeL, and TackR (for Stage 1) are community suggestions, not guaranteed solutions.
 
-These are community strategy suggestions, not guaranteed solutions or the only viable towers.
+## Trivia
 
-## Rewards
+The source's `Emoji_God` object has 15,000 HP before the global power multiplier, while `DDT_Terrible` is initialized at 300 HP. The community stage description's 200-HP figure does not match that object as inspected.
 
-See [Bounty Overview](Overview.md) for the community-reported reward ranks. No separate reward breakdown is documented here unless stated above.
+## Evidence and open questions
 
-## Unresolved mechanics
-
-The stylized in-game spelling should be transcribed from the UI. Confirm the Giga Emoji drain rule and whether the listed reward applies only to the final stage.
-
-## Research checklist
-
-- [ ] Confirm this Bounty exists in Android 1.5.2.
-- [ ] Record exact HP, speed, attacks, and leak penalties for every stage.
-- [ ] Capture the complete spawn sequence and timing.
-- [ ] Verify counter suggestions and record alternatives.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
-
-## Source
-
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — Bounty section. Community-maintained and potentially incomplete or outdated.
+- **Source-confirmed candidate objects:** [Emoji_God/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Emoji_God/Create_0.gml), [Terrible_1/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Terrible_1/Create_0.gml), and [DDT_Terrible/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/DDT_Terrible/Create_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stage names, leak drain, and rewards.
+- **Needs verification:** exact mapping between stage names and source objects, the 200-vs-300 HP discrepancy, and the 0.55-lives-per-second condition.

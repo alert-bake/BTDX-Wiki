@@ -1,48 +1,36 @@
 # Track Crawler
 
-<badge>Research draft · Bounty Bloon</badge>
-
 ## Overview
 
-A spider-like Bounty enemy that moves toward the exit while bypassing the ordinary track. It uses webs to stun towers and create persistent hazards.
+The Track Crawler Bounty takes place on **Bloon Circles X** and has four reported stages. The Track Crawler is a spider-like enemy that moves toward the exit rather than following the ordinary Bloon path. It fires webs that stun towers and can leave persistent hazards.
 
-- **Associated map:** Bloon Circles X
-- **Stage count:** 4
-- **Bounty mode introduced:** Version 1.2, according to the community update history.
-- **Platform/version checked:** None; community documentation only.
+## Encounter and stage progression
 
-## Stage progression
+1. **Track Crawler:** spits webs at towers, stunning them, and leaves additional webs behind.
+2. **Track Nest:** begins with three Spider Bloons. Each has a passive nest phase that creates web areas, followed by a moving phase in which it heads toward the exit and spits webs. A Track Crawler then appears, followed by two more entering from the upper and lower left edges.
+3. **Track Spire:** increases the number of Spider Bloons to five. After them, two corner Track Crawlers appear, followed by a Track Spire with more HP and longer-lasting webs.
+4. **Track Swarm:** adds four Spider Bloons. These are initially invulnerable and lose that protection one at a time later. The three earlier Track Crawlers are upgraded to Track Spires.
 
-### Stage 1 — Track Crawler: spits webs at towers, stunning them, and leaves additional webs behind.
+The stage composition is community-reported.
 
-### Stage 2 — Track Nest: begins with three Spider Bloons. Each has a passive nest phase that creates web areas which can permanently stun nearby tower placements, followed by a moving phase in which it slowly heads toward the exit and spits webs. After these, a Track Crawler appears, followed by two more entering from the upper and lower left edges.
+## Source cross-check
 
-### Stage 3 — Track Spire: increases the number of Spider Bloons to five. After them, the two corner Track Crawlers appear, followed by a Track Spire with more HP and longer-lasting webs.
+The base `Track_Crawler` Create event initializes 14,400 HP multiplied by `global.bpower`, sets `fast = 0.0475 * global.bspeed`, and schedules its first alarm.
 
-### Stage 4 — Track Swarm: adds four Spider Bloons. These are initially invulnerable and lose that protection one at a time later. The three earlier Track Crawlers are upgraded to Track Spires.
+The Step event moves directly toward the `End` object using `move_towards_point`, then derives `path_position` from the distance to that endpoint. This confirms that the base crawler does not use the ordinary Bloon path movement formula.
+
+Its alarm searches for a Monkey within a 300-unit circle. If a target is found, it creates a `Web_Shot` aimed at the target with potency 100, then schedules the next alarm after 90 steps. The exact impact and persistence rules belong to the Web_Shot and web objects.
 
 ## Community-suggested counters
 
-Suggested towers: TreeM, DartlingM, DartlingR, DartlingS, Dart0 (for blocking webs), PlasmaL.
+TreeM, DartlingM, DartlingR, DartlingS, Dart0 (blocking webs), and PlasmaL are community suggestions, not guaranteed solutions.
 
-These are community strategy suggestions, not guaranteed solutions or the only viable towers.
+## Trivia
 
-## Rewards
+The Track Crawler calculates progress from its distance to the End object: `(2000 - distance_to_object(End)) / 2000`. It is using a direct-to-exit movement model, not the ordinary path-position progression.
 
-See [Bounty Overview](Overview.md) for the community-reported reward ranks. No separate reward breakdown is documented here unless stated above.
+## Evidence and open questions
 
-## Unresolved mechanics
-
-Exact web duration, stun duration, pathing, invulnerability timing, and the differences between Spider Bloon, Track Crawler, and Track Spire need testing.
-
-## Research checklist
-
-- [ ] Confirm this Bounty exists in Android 1.5.2.
-- [ ] Record exact HP, speed, attacks, and leak penalties for every stage.
-- [ ] Capture the complete spawn sequence and timing.
-- [ ] Verify counter suggestions and record alternatives.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
-
-## Source
-
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — Bounty section. Community-maintained and potentially incomplete or outdated.
+- **Source-confirmed:** [Track_Crawler/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Track_Crawler/Create_0.gml), [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Track_Crawler/Step_0.gml), and [Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Track_Crawler/Alarm_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for the four stages, Spider Bloons, and counters.
+- **Needs verification:** web persistence, stun duration, Spider Bloon spawn timing, and Track Spire differences.

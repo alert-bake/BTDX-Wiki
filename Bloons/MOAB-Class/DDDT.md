@@ -1,31 +1,35 @@
 # D.D.D.T. (Deadly Dark Dirigible Titan)
 
-<badge>Research draft · MOAB-class</badge>
-
 ## Overview
 
-Nightmare-only. 4,000 hits to pop; about 83.13% Red speed. Combines Z.O.M.G.-like bulk with D.D.T.-like Camo/Lead properties; drops six D.D.T.s.
+The D.D.D.T. is described by the community reference as a Nightmare-only blimp combining Z.O.M.G.-like durability with D.D.T.-like Camo and Lead properties. It reportedly releases six D.D.T.s when popped.
 
-## Reported statistics
+## Community-reported statistics
 
-- **Class:** MOAB-class
-- **Hits / HP:** See overview.
-- **RBE:** 14,386
-- **Children:** 6 D.D.T.s
-- **Platform/version checked:** None; community source only.
+| Field | Reported value |
+|---|---|
+| Hits / HP | 4,000 |
+| RBE | 14,386 |
+| Speed | About 83.13% of Red |
+| Children | 6 D.D.T.s |
+| Availability | Nightmare-only |
 
-## Mechanics and interactions
+## Reported mechanics
 
-Confirm exact properties and child behaviour.
+The community reference describes the D.D.D.T. as having Z.O.M.G.-like bulk, Camo and Lead properties associated with D.D.T.s, six D.D.T. children on pop, and Nightmare-only availability.
 
-## Verification checklist
+These are community-reported details. The exact property flags, shell formula, and child-spawn implementation have not been confirmed from a matching source object in this pass.
 
-- [ ] Confirm hit count and RBE in Android 1.5.2.
-- [ ] Record speed relative to Red Bloon.
-- [ ] Verify child types, counts, and spawn cadence.
-- [ ] Test shield and status-effect interactions.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
+## Implementation status
 
-## Source
+An exact `DDDT_Branch` source path was not found in the inspected source tree. This does not establish that the enemy is absent from the game; the object may be named differently or created through another system.
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported stats; verify in-game.
+## Trivia
+
+The name reads like someone stacked another D onto a D.D.T. and called it a day. The reported mechanics are more interesting: it is said to combine a high-tier blimp's bulk with D.D.T. traits.
+
+## Evidence and open questions
+
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons).
+- **Not yet source-confirmed:** all statistics, properties, children, and mode restriction.
+- **Next research targets:** locate the real object/spawn identifier, inspect damage and child creation, and test the Camo/Lead interaction.

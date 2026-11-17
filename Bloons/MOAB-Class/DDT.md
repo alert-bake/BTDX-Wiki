@@ -1,31 +1,40 @@
 # D.D.T. (Dark Dirigible Titan)
 
-<badge>Research draft · MOAB-class</badge>
-
 ## Overview
 
-303 hits to pop; 250% Red-Bloon speed. Combines MOAB-class behaviour with Camo and Lead properties; drops six Tattered Camo Lead Bricks.
+The D.D.T. is a fast blimp with Camo and Lead properties. Its source branch uses a shell coefficient of 303 and releases six Tattered Camo Lead Brick children.
 
-## Reported statistics
+## Classification and reported statistics
 
-- **Class:** MOAB-class
-- **Hits / HP:** See overview.
-- **RBE:** 1,731
-- **Children:** 6 Tattered Camo Lead Bricks
-- **Platform/version checked:** None; community source only.
+| Field | Value |
+|---|---|
+| Class | MOAB-class |
+| Community-reported hits | 303 |
+| Community-reported RBE | 1,731 |
+| Community-reported children | 6 Tattered Camo Lead Bricks |
+| Community-reported speed | 250% of Red |
+| Source branch | `DDT_Branch` |
+| Shell formula | `ceil(303 * global.bpower)` |
+| Source speed formula | `4.0 * global.bspeed` |
 
-## Mechanics and interactions
+## Source-confirmed behaviour
 
-Verify detection, damage compatibility, and speed in BTDX.
+When shell falls below 1, the DDT branch creates six Brick-branch children. Each is assigned:
+- `camo = 1`
+- `lead = 1`
+- `tattered = 1`
+- Armour of `30 * global.bpower`
 
-## Verification checklist
+The children inherit the parent's path and hit bookkeeping. The DDT movement formula is `4.0 * global.bspeed`; compared with the ordinary Red multiplier of 1.6×, that is 250%.
 
-- [ ] Confirm hit count and RBE in Android 1.5.2.
-- [ ] Record speed relative to Red Bloon.
-- [ ] Verify child types, counts, and spawn cadence.
-- [ ] Test shield and status-effect interactions.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
+The branch also has its own handling for freeze, glue, stun, distraction, and corrosion. Do not copy ordinary Bloon status thresholds into this page.
 
-## Source
+## Trivia
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported stats; verify in-game.
+The DDT's six children are not generic Bricks with a label slapped on. The source explicitly sets all three properties on each child: Camo, Lead, and Tattered.
+
+## Evidence
+
+- **Source-confirmed:** [DDT_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/DDT_Branch/Step_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE and the descriptive speed.
+- **Needs in-game verification:** exact RBE and platform/mode availability.

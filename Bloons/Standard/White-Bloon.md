@@ -1,34 +1,44 @@
 # White Bloon
 
-<badge>Research draft</badge>
-
 ## Overview
 
-The White Bloon is in the same tier as the Black Bloon and is reported to have the same RBE: 11.
+The White Bloon is a distinct ordinary Bloon type in BTDX. It is not an alternate sprite for Black: the normal branch assigns it the separate value `bloonlayer = 6.1` and selects `White_Bloon_Spr`.
 
 ## Classification
 
-- **Category:** Standard Bloon
-- **Game:** Bloons Tower Defense X
-- **Platform/version checked:** Not independently tested in this article.
+- **Family:** Standard / ordinary Bloon
+- **Source branch:** `Normal_Bloon_Branch`
+- **Source type value:** `bloonlayer = 6.1`
+- **Sprite:** `White_Bloon_Spr`
 
-## Stats
+## Source-confirmed movement
 
-- **RBE:** 11 (reported).
-- **Pop result:** TBD; confirm its child Bloons in-game.
-- **Speed:** TBD; verify against the target build.
+The normal branch calculates:
 
-## Behaviour and interactions
+```
+fast = global.bspeed * 2.8 * (tattered + 1)
+path_speed = fast
+```
 
-The White Bloon shares the Black Bloon's reported RBE and tier. Its special damage interactions should be documented separately from its RBE; do not assume that matching RBE means matching immunities.
+This is the pre-status-effect movement value. White's multiplier is 2.8×, compared with Black's 2.4×.
 
-## Verification checklist
+## Reported pop information
 
-- [ ] Confirm the 11 RBE value in Android 1.5.2.
-- [ ] Record its child Bloons.
-- [ ] Record speed and any special immunities.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
+- **RBE:** 11 (community-reported).
+- **Pop result:** Not established by the sources checked for this article.
+- **HP / hits:** Do not infer from the reported RBE.
+- **Leak damage:** Not independently established here.
 
-## Source
+## Interactions
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community reference. The 11 RBE value is currently a reported figure awaiting in-game confirmation.
+The exact damage immunities and child behaviour should be confirmed in BTDX itself. A White Bloon sharing a reported RBE and broad tier with Black does not mean that it shares Black's reported two-Pink split.
+
+## Trivia
+
+Black and White are almost neighbours in the source's type map: 6 and 6.1. That tiny decimal is enough for the normal branch to select a different sprite and a different speed multiplier. Tiny number, entirely different Bloon identity.
+
+## Evidence and sources
+
+- **Source-confirmed:** [Normal_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Step_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for the reported RBE and tier.
+- **Not independently verified here:** child composition, damage immunities, hit count, and leak damage.

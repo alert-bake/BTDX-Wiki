@@ -1,31 +1,38 @@
 # B.F.B. (Brutal Floating Behemoth)
 
-<badge>Research draft · MOAB-class</badge>
-
 ## Overview
 
-900 hits to pop; approximately 71.88% Red-Bloon speed; drops three M.O.A.B.s.
+The B.F.B. is a large blimp with a source-defined shell coefficient of 900. When its shell is depleted, it releases three M.O.A.B.s.
 
-## Classification and reported stats
+## Classification and reported statistics
 
-- **Class:** MOAB-class
-- **Hits / HP:** See overview above.
-- **RBE:** 4,656
-- **Children:** 3 M.O.A.B.s
-- **Platform/version checked:** None; community source only.
+| Field | Value |
+|---|---|
+| Class | MOAB-class |
+| Community-reported hits | 900 |
+| Community-reported RBE | 4,656 |
+| Community-reported children | 3 M.O.A.B.s |
+| Community-reported speed | About 71.88% of Red |
+| Source branch | `BFB_Branch` |
+| Shell formula | `ceil(900 * global.bpower)` |
+| Source speed formula | `1.15 * global.bspeed` |
 
-## Mechanics and interactions
+## Source-confirmed behaviour
 
-Confirm speed and child counts in each mode.
+The branch initializes shell once, clamps it to its maximum, and sets movement to `1.15 * global.bspeed`. Its code applies its own freeze and glue thresholds, plus stun and distraction handling.
 
-## Verification checklist
+When shell falls below 1, the B.F.B. creates three `Moab_Branch` instances. Each child receives shell and maximum shell of `300 * global.bpower`, and inherits the parent's path and hit bookkeeping.
 
-- [ ] Confirm exact hit count and RBE in Android 1.5.2.
-- [ ] Record speed relative to Red Bloon.
-- [ ] Verify child count and child types.
-- [ ] Test status-effect resistance and bonus MOAB damage.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
+## Reported values versus source
 
-## Source
+The source speed multiplier is 1.15× global speed. Compared with the normal Red multiplier of 1.6×, that is 71.875%, matching the community-reported 71.88% figure under this comparison. The 900 shell coefficient also matches the community-reported 900 hits when `global.bpower = 1`.
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported stats; verify in-game.
+## Trivia
+
+A B.F.B. does not produce a random pile of lower Bloons in the inspected Step event. It creates exactly three MOAB branch instances, each with its own 300-coefficient shell.
+
+## Evidence
+
+- **Source-confirmed:** [BFB_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/BFB_Branch/Step_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE and reported hit/speed values.
+- **Needs in-game verification:** exact RBE and mode-specific modifiers.

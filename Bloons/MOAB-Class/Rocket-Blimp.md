@@ -1,31 +1,38 @@
-# Rocket Blimp (R.B.) (Rocket Blimp)
-
-<badge>Research draft · MOAB-class</badge>
+# Rocket Blimp (R.B.)
 
 ## Overview
 
-Nightmare-only. 300 hits to pop; moves at 406.25% Red speed, described as the fastest Bloon without additional modifiers. Drops four Tattered Bricks.
+The Rocket Blimp is a fast Nightmare-mode blimp. The source branch gives it a high movement multiplier and releases four Tattered Brick children when its shell is depleted.
 
-## Reported statistics
+## Classification and reported statistics
 
-- **Class:** MOAB-class
-- **Hits / HP:** See overview.
-- **RBE:** 1,252
-- **Children:** 4 Tattered Bricks
-- **Platform/version checked:** None; community source only.
+| Field | Value |
+|---|---|
+| Class | MOAB-class |
+| Community-reported hits | 300 |
+| Community-reported RBE | 1,252 |
+| Community-reported children | 4 Tattered Bricks |
+| Community-reported speed | 406.25% of Red |
+| Source branch | `Rocket_Blimp_Branch` |
+| Shell formula | `ceil(300 * global.bpower)` |
+| Source speed formula | `6.5 * global.bspeed` |
 
-## Mechanics and interactions
+## Source-confirmed behaviour
 
-Fastest claim excludes special modifiers; verify in-game.
+The Step event creates a `Rocket_Show_off` visual effect and calculates movement at `6.5 * global.bspeed`. When shell falls below 1, it creates four Brick-branch children and sets `tattered = 1` on each. Above wave 50, the child object can be `Brick_Lag_Branch`.
 
-## Verification checklist
+The branch also applies its own freeze, glue, stun, distraction, and corrosion handling. The ordinary Bloon movement formula does not apply here.
 
-- [ ] Confirm hit count and RBE in Android 1.5.2.
-- [ ] Record speed relative to Red Bloon.
-- [ ] Verify child types, counts, and spawn cadence.
-- [ ] Test shield and status-effect interactions.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
+## Reported values versus source
 
-## Source
+The source multiplier is 6.5× global speed. Compared with the ordinary Red multiplier of 1.6×, that is 406.25%, matching the community-reported speed figure under this comparison.
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported stats; verify in-game.
+## Trivia
+
+The Rocket Blimp's "rocket" identity is not just the speed stat: its Step event repeatedly creates a `Rocket_Show_off` effect that follows its current sprite frame and angle. Even its presentation gets its own object.
+
+## Evidence
+
+- **Source-confirmed:** [Rocket_Blimp_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Rocket_Blimp_Branch/Step_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for Nightmare restriction, RBE, and reported speed.
+- **Needs in-game verification:** exact hit count, RBE, and mode availability.

@@ -1,82 +1,102 @@
 # Bloons
 
-Bloons are the enemies in Bloons Tower Defense X (BTDX). They travel along a track or follow a mission-specific movement pattern. If a Bloon reaches its leak point, it removes lives; the amount depends on the Bloon's leak behaviour and is not always identical to its displayed hit points.
+Bloons are the enemies encountered throughout **Bloons Tower Defense X (BTDX)**. Most travel along a track, while some mission-specific enemies use custom movement or encounter rules. A Bloon that reaches its leak point can cost lives, but leak damage is not universally equal to the Bloon's displayed durability or its RBE.
 
-This section documents BTDX specifically. Similar names and mechanics in other Bloons games are not proof that BTDX behaves the same way.
+This reference is BTDX-specific. Similar names, artwork, or mechanics in other Bloons games are not evidence that BTDX behaves the same way.
+
+## How to read this section
+
+The wiki separates three kinds of information:
+
+- **Source-confirmed:** directly supported by the checked BTDX GML source. This establishes what the inspected code does, not necessarily the developer's intended design.
+- **Community-reported:** recorded by the BTDX community wiki but not independently confirmed in the target build.
+- **Unverified:** a question or interpretation for which the available evidence is incomplete.
+
+Unless an article says otherwise, source-code observations refer to the checked Windows source tree. The main reference builds are Windows 1.5.1 and unofficial Android 1.5.2. Do not silently combine observations from different builds.
 
 ## Bloon categories
 
-- **Regular Bloons:** the basic colour progression and its nested children.
-- **Modified Bloons:** Bloons with properties such as Camo, Regrow, Lead, shielding, splitting, or other effects.
-- **Mission-specific Bloons:** enemies that appear only in particular missions and may have unusual movement or interactions.
-- **MOAB-class Bloons:** large blimps with their own health, speed, and child-spawn behaviour.
-- **Bounty Bloons:** multi-stage boss encounters tied to Bounty mode. These receive their own detailed directory.
+| Category | What belongs here |
+|---|---|
+| Standard and nested Bloons | Ordinary colours, intermediate colour layers, and durable lower-tier forms such as Ceramic and Brick |
+| Properties and modifiers | Camo, Regrow, Lead, Tattered, Shielded, Super Shielded, Static/Energized, and other traits layered onto a Bloon |
+| Special Bloons | Enemies with their own objects, behaviours, mission restrictions, or unusual interactions |
+| MOAB-class Bloons | Blimps with separate shell durability and child-spawn logic |
+| Bounty Bloons | Multi-stage Bounty encounters and their boss-like enemies |
 
 ## Core terminology
 
-### Layers and children
+### Layers, types, and children
 
-A Bloon can contain one or more layers. Popping its outer layer may reveal one or more smaller Bloons rather than removing all of its remaining threat. The exact child relationship is specific to each Bloon.
+A Bloon can represent multiple layers of smaller Bloons. Popping an outer layer may reveal a child Bloon or several children. The child relationship is specific to the Bloon and the code path that popped it.
+
+BTDX's `bloonlayer` variable is **not a simple count of remaining layers**. The ordinary Bloon branch uses values such as 1, 1.5, 2, 2.5, through 8.5 to select distinct appearances and movement multipliers. Other branches use much larger composite values for Ceramic, Brick, and MOAB-class forms. See [Bloon hierarchy](Bloon-Hierarchy.md) and [Bloon properties](Properties.md).
 
 ### RBE
 
-RBE means Red Bloon Equivalent. It is a measure of the total number of basic Red-Bloon-equivalent hits represented by a Bloon or group. It is useful for comparing total popping workload, but it should not be confused with the number of lives lost when a Bloon leaks: BTDX has special enemies whose leak effects do not follow a simple one-RBE-one-life rule.
+RBE means **Red Bloon Equivalent**. It is a comparison measure for the total popping workload represented by a Bloon or group. It is not interchangeable with HP, the number of hits required by a particular tower, or the number of lives lost on leak.
 
-### HP and hit counts
+Where this wiki repeats an RBE value from the community source, it labels that value as reported until it has been independently checked.
 
-Community documentation sometimes uses HP, hits to pop, and RBE in the same entry. These values are not automatically interchangeable. This wiki preserves the terminology used by the source and flags uncertain or contradictory values.
+### Durability: armour, shield, and shell
 
-### Track speed
+BTDX does not use one universal durability variable for every enemy.
 
-Speed values are often described relative to a Red Bloon. A value such as 200% means twice the reference speed, not twice the health.
+- **Armour** is used by Ceramic and Brick branches.
+- **Shield** is used by Shielded Bloons and some shielded blimp forms.
+- **Shell** is used by MOAB-class and other shell-based enemies.
 
-## Regular Bloons
+These systems can coexist on a larger enemy. Do not rewrite all three as generic HP.
 
-The BTDX community Bloons page documents Red, Blue, Green, Yellow, Pink, and Black as the basic regular sequence. Blue, Green, Yellow, and Pink reveal lower-colour Bloons when popped. Black is described as splitting into two Pink Bloons.
+### Speed
 
-See the [Standard and Nested Bloons index](Standard/Overview.md) for the full list of individual articles.
+The ordinary Bloon branch calculates a movement value called `fast` and assigns it to `path_speed`. The calculation uses `global.bspeed`, a type-specific multiplier, and the Tattered state; glue, freeze, stun, and distraction can then alter the result. The multipliers in individual articles are source-code multipliers, not fixed real-world speeds or universal values across every game mode.
 
-Basic pages:
-- [Red Bloon](Standard/Red-Bloon.md)
-- [Blue Bloon](Standard/Blue-Bloon.md)
-- [Green Bloon](Standard/Green-Bloon.md)
-- [Yellow Bloon](Standard/Yellow-Bloon.md)
-- [Pink Bloon](Standard/Pink-Bloon.md)
-- [Black Bloon](Standard/Black-Bloon.md)
+## Standard and nested Bloons
 
-## Modified and special Bloons
+The familiar basic sequence documented by the community source is:
 
-BTDX adds many enemy behaviours beyond the basic colour sequence. Some are properties applied to existing Bloons; others are distinct enemies with their own health, movement, attacks, or spawning rules.
+**Red → Blue → Green → Yellow → Pink**
 
-See [Properties](Properties.md) for cross-cutting mechanics and [Special Bloons](Special/Overview.md) for mission-specific enemies.
+The reported child relationship is that each of Blue, Green, Yellow, and Pink reveals the preceding colour when popped. Black is reported to split into two Pink Bloons. White is listed at the same tier as Black, but matching tier or RBE does not establish matching damage interactions or child behaviour.
+
+BTDX's normal branch also recognises intermediate colour layers:
+
+**Orange, Cyan, Lime, Amber, and Purple**, plus **Prismatic** above Rainbow.
+
+These are real sprite/type states in the source's normal Bloon movement code. Their appearance and speed multipliers are documented separately. Their Chipper-specific three-way splitting behaviour must not be mistaken for the ordinary pop result.
+
+Start here:
+- [Standard and nested Bloons](Standard/Overview.md)
+- [Bloon hierarchy](Bloon-Hierarchy.md)
+- [Bloon type and sprite research](../Research/Bloon-Types-and-Sprites.md)
+
+## Properties and modifiers
+
+A Bloon can carry traits that change its appearance, targeting, damage handling, or movement. Examples include Camo, Regrow, Lead, Tattered, Shielded, and Static/Energized. Some combinations have their own branch objects, such as Camo Lead.
+
+See [Bloon properties](Properties.md) for the consolidated reference and individual property articles as they are added.
+
+## Special and mission-specific Bloons
+
+Some Bloons are not just ordinary colour layers with a trait. They have separate source objects and bespoke logic. Examples in the source inventory include Ninja, Robo, Solar, Spectrum, Stuffed, Planetarium, Comet, Barrier, and many mission-specific enemies.
+
+See [Special Bloons](Special/Overview.md). An object identifier in the source inventory does not automatically prove that the object appears in normal rounds or is available in every platform build.
 
 ## MOAB-class Bloons
 
-The community wiki uses MOAB-class for large blimps that require substantially more damage than ordinary Bloons. BTDX has several unusual types beyond the familiar MOAB, B.F.B., and Z.O.M.G., including LPZs, B.R.C.s, and other Nightmare-related enemies.
+MOAB-class enemies use separate branches and durability handling. The source confirms distinct shell and child-spawn logic; some forms also use shields. Their child composition must be documented per blimp rather than inferred from the ordinary colour ladder.
 
 See [MOAB-class Bloons](MOAB-Class/Overview.md).
 
 ## Bounty Bloons
 
-Bounty Bloons are a major BTDX feature introduced in version 1.2. They are powerful multi-stage encounters. The community wiki reports that most have four stages, while Big Bully, Clown, and Annoying have five. Beating a stage unlocks the next stage, which increases the difficulty and reward.
-
-The Bounty directory deliberately has much longer entries than the standard Bloon pages. Each article aims to record the full stage sequence, map, attacks, spawned enemies, leak effects, reward information, and counter suggestions. Strategy recommendations are community claims and should be tested before being treated as universal.
+Bounty encounters have their own directory because they are multi-stage encounters rather than ordinary Bloon layers. Stage counts, rewards, and platform availability need to remain tied to the relevant Bounty family and game version.
 
 See [Bounty Bloons](Bounty/Overview.md).
 
-## Version and verification policy
+## Sources and version policy
 
-The source wiki is community-maintained and may be incomplete, outdated, or internally inconsistent. Most values in this section are transcribed as reported rather than independently tested.
+Primary implementation reference: [BTDX-source](https://github.com/alert-bake/BTDX-source). Community-reported reference: [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons).
 
-The main versions relevant to this project are:
-- **Windows:** developer-listed version 1.5.1.
-- **Android:** unofficial 1.5.2 adaptation.
-
-Do not silently merge observations from these builds. Every hands-on observation should include platform, version, and (where useful) device details.
-
-## Sources
-
-- [BTDX Fandom: Bloons](${sources.bloons}) — primary community reference for the entries in this section.
-- [BTDX Fandom: Updates](${sources.updates}) — version history and additions/fixes relevant to Bloons.
-
-Pages marked **TBD** are intentionally incomplete. They are placeholders for researched expansion, not claims that all listed details are already known.
+The source can establish what a particular script does. It cannot, by itself, prove that a branch is used in every mode or that a community-reported RBE is correct. In-game observations should include platform, version, mode, and enough context to reproduce the result.

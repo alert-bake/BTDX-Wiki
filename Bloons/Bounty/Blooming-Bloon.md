@@ -1,48 +1,39 @@
 # Blooming Bloon
 
-<badge>Research draft · Bounty Bloon</badge>
-
 ## Overview
 
-The Blooming Bloon resembles a flower, teleports between locations, and sprays clusters of Bloons. Its speed reportedly ramps up over time.
+The Blooming Bloon Bounty takes place on **Autumn Acres** and has four reported stages. The boss resembles a flower, relocates around the map, and emits groups of Bloons. The community reference says its movement accelerates over time.
 
-- **Associated map:** Autumn Acres
-- **Stage count:** 4
-- **Bounty mode introduced:** Version 1.2, according to the community update history.
-- **Platform/version checked:** None; this entry is based on community documentation.
+## Encounter and stage progression
 
-## Stage progression
+1. **Blooming Bloon:** appears from the ground, fires Bloon clusters, relocates, and repeats. Its health pool is substantial.
+2. **Gardening Bloon:** weaker versions appear on selected rounds before the main Blooming Bloon. They have less HP and release fewer Bloons per appearance.
+3. **Blossom Bloon:** a Venus-flytrap form that can consume the newest tower. The community source says defeating this form is sufficient to clear the stage.
+4. **Earth Spirit:** a larger Blooming form with colourful petals. It reportedly releases very large clusters ranging from Tattered Yellows to Splitting Rainbows.
 
-### Stage 1 — Blooming Bloon: appears from the ground, fires clusters that can leak lives, then relocates and repeats. It has a substantial health pool.
+The exact stage health and cluster compositions are not fully established by the source excerpt.
 
-### Stage 2 — Gardening Bloon: weaker versions appear on selected rounds before the main Blooming Bloon. They have less HP and release fewer Bloons per appearance.
+## Source cross-check
 
-### Stage 3 — Blossom Bloon: a Venus-flytrap form that can eat the newest tower. It appears between the Gardening and Blooming phases; the source says defeating this Blossom Bloon is sufficient to clear the stage.
+The base `Blooming_Bloon` Create event sets its HP according to `global.flowerenable`: 3,900, 5,200, 6,500, or 6,500 multiplied by `global.bpower`. It starts with `fast = 3`, then uses alarms to control its actions.
 
-### Stage 4 — Earth Spirit: twice the size of the earlier Blooming Bloon, with colourful petals. It releases enormous clusters ranging from Tattered Yellows to Splitting Rainbows.
+The alarm code creates groups of `Bloom_Branch` instances. Depending on a randomly selected pattern, it creates:
+- 15 Bloon branches with a fractional layer based on the boss's remaining HP.
+- 18 Tattered Green-layer branches.
+- 4 Pink-layer branches.
+
+A separate alarm relocates the boss to a new random position and increases its `fast` value by 0.075. The source confirms relocation and increasing speed, while the exact cluster patterns are more specific than the community summary.
 
 ## Community-suggested counters
 
-Suggested towers: TreeM, TackR, DartlingS, WizardS, AceL, BoomerL, BombM, MortarM.
+TreeM, TackR, DartlingS, WizardS, AceL, BoomerL, BombM, and MortarM are community suggestions, not guaranteed solutions.
 
-These are community strategy suggestions, not guaranteed solutions or a claim that these are the only viable towers.
+## Trivia
 
-## Rewards
+The Blooming Bloon's source does not choose one fixed flower-bullet pattern. Its alarm randomly selects among three cluster recipes, and the recipes use different child counts and layer values.
 
-See [Bounty Overview](Overview.md) for the community-reported reward ranks. No separate reward breakdown is documented here unless noted above.
+## Evidence and open questions
 
-## Unresolved mechanics
-
-Record the exact cluster composition, teleport cadence, speed ramp, and tower-consumption rules.
-
-## Research checklist
-
-- [ ] Confirm this Bounty exists in Android 1.5.2.
-- [ ] Record exact HP, speed, attacks, and leak penalties for every stage.
-- [ ] Capture the complete spawn sequence and timing.
-- [ ] Verify community counter suggestions and record alternatives.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
-
-## Source
-
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — Bounty section. Community-maintained and potentially incomplete or outdated.
+- **Source-confirmed:** [Blooming_Bloon/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Blooming_Bloon/Create_0.gml), [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Blooming_Bloon/Step_0.gml), [Alarm_1.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Blooming_Bloon/Alarm_1.gml), and [Alarm_2.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Blooming_Bloon/Alarm_2.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stage descriptions and counter suggestions.
+- **Needs verification:** tower-consumption trigger, full stage progression, and exact child-layer interpretation for each pattern.
