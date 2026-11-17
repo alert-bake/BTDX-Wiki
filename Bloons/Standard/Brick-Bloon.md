@@ -36,7 +36,7 @@ This is a separate formula from the ordinary and Ceramic branches. The Brick Ste
 
 ## Reported information
 
-- **RBE:** 238 (community-reported; unverified).
+- **RBE:** 238 (unverified report; unverified).
 - **Children:** Not established by the source files checked for this article.
 - **Leak damage:** Not independently established.
 - **Armour:** Source formula above; actual value scales with `global.bpower`.
@@ -54,4 +54,3 @@ Brick is not a normal colour tier. It has its own branch, its own armour coeffic
 ## Evidence and sources
 
 - **Source-confirmed:** [Brick_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Brick_Bloon_Branch/Step_0.gml) and [Shielded_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Shielded_Bloon_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for the RBE.
