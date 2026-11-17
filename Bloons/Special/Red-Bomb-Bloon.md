@@ -11,7 +11,7 @@ Spawned periodically by the Trojan Blimp in Non-Stop Assault. The source reports
 - **Category:** Special / Bounty-spawned enemy
 - **HP / RBE:** TBD
 - **Children:** TBD
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 
 ## Mechanics and interactions
 
