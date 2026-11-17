@@ -15,13 +15,13 @@ Stage descriptions and RBE values are unverified report.
 
 ## Source cross-check
 
-The base `Flying_Bloon` Create event initializes 5,500 HP multiplied by `global.bpower`, a base speed of `2 * global.bspeed`, and a custom path. When `global.flyingenable > 1`, the same Create event instead sets its HP to 4,000 multiplied by `global.bpower`; this differs from the community description of later stages having more HP and needs investigation.
+The base `Flying_Bloon` Create event initializes 5,500 HP multiplied by `global.bpower`, a base speed of `2 * global.bspeed`, and a custom path. When `global.flyingenable > 1`, the same Create event instead sets its HP to 4,000 multiplied by `global.bpower`; this differs from the reported description of later stages having more HP and needs investigation.
 
 Its spawn alarm creates an Undying Bloon with 60 armour and a Winged Bloon with 60 shield. The spawn rate increases over time. A second alarm creates six Wind Gust projectiles in a spread and also increases the spawn rate.
 
-## Community-suggested counters
+## Unverified suggested counters
 
-PlasmaM, IceM, VillageM, BuccS, BuccM, WizardR, and SpacM are community suggestions, not guaranteed solutions.
+PlasmaM, IceM, VillageM, BuccS, BuccM, WizardR, and SpacM are unverified suggestions, not guaranteed solutions.
 
 ## Trivia
 
