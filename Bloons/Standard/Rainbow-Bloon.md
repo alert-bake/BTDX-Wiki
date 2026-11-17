@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Rainbow Bloon is a higher ordinary-branch type with `bloonlayer = 8`. The normal branch selects a dedicated Rainbow sprite and applies a 3.8× movement multiplier. The community RBE breakdown reports 47.
+The Rainbow Bloon is a higher ordinary-branch type with `bloonlayer = 8`. The normal branch selects a dedicated Rainbow sprite and applies a 3.8× movement multiplier. The unverified RBE breakdown reports 47.
 
 ## Classification
 
