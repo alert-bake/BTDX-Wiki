@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Party Blimp is a large Nightmare-mode blimp. The community reference describes it as the strongest non-Bounty Bloon. The source branch confirms a 15,000-coefficient shell and a large child release consisting of one Z.O.M.G. and eighteen Rocket Blimps.
+The Party Blimp is a large Nightmare-mode blimp. an unverified report describes it as the strongest non-Bounty Bloon. The source branch confirms a 15,000-coefficient shell and a large child release consisting of one Z.O.M.G. and eighteen Rocket Blimps.
 
 ## Classification and reported statistics
 
