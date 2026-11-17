@@ -1,31 +1,42 @@
 # H.T.A. (Hard Titanium Aircraft)
 
-<badge>Research draft · MOAB-class</badge>
-
 ## Overview
 
-60 hits to pop; Blue-Bloon speed. Attacks with fewer than 10 pierce reportedly cannot damage it; attacks that connect suffer a nine-pierce penalty. Drops four Shielded Prismatics.
+The H.T.A. is a titanium blimp with a source-defined shell coefficient of 60. The community reference reports a high pierce requirement and four Shielded Prismatic children.
 
-## Classification and reported stats
+## Classification and reported statistics
 
-- **Class:** MOAB-class
-- **Hits / HP:** See overview above.
-- **RBE:** 628
-- **Children:** 4 Shielded Prismatic Bloons
-- **Platform/version checked:** None; community source only.
+| Field | Value |
+|---|---|
+| Class | MOAB-class |
+| Community-reported hits | 60 |
+| Community-reported RBE | 628 |
+| Community-reported children | 4 Shielded Prismatics |
+| Community-reported speed | Blue-Bloon speed |
+| Source branch | `HTA_Branch` |
+| Shell formula | `ceil(60 * global.bpower)` |
+| Source speed formula | `1.8 * global.bspeed` |
 
-## Mechanics and interactions
+## Source-confirmed behaviour
 
-Test the pierce threshold and penalty with multiple attack types.
+The source initializes shell using `60 * global.bpower`. When shell falls below 1, it creates four `Shielded_Bloon_Branch` instances. Each child receives a layer derived from the parent's layer minus 60 and a shield value of `30 * global.bpower`.
 
-## Verification checklist
+The branch's raw movement formula is `1.8 * global.bspeed`. This is a source multiplier, not a fixed percentage of Red speed.
 
-- [ ] Confirm exact hit count and RBE in Android 1.5.2.
-- [ ] Record speed relative to Red Bloon.
-- [ ] Verify child count and child types.
-- [ ] Test status-effect resistance and bonus MOAB damage.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
+## Reported combat behaviour
 
-## Source
+The community reference reports:
+- Attacks with fewer than 10 pierce cannot damage the H.T.A.
+- Attacks that connect suffer a nine-pierce penalty.
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported stats; verify in-game.
+These special pierce rules have not been independently traced in the source files used for this article. They should remain attributed to the community reference until verified.
+
+## Trivia
+
+The H.T.A. is not a normal shielded Bloon: it is a blimp with its own shell pool, and its death routine creates four Shielded-branch children. The child layer is calculated from the parent's layer rather than hard-coded to a visible colour in this Step event.
+
+## Evidence
+
+- **Source-confirmed:** [HTA_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/HTA_Branch/Step_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE, pierce rules, child naming, and speed description.
+- **Needs further tracing:** exact child type, pierce threshold/penalty, and mode availability.
