@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Horror Bloon Bounty takes place on **The Depths** and has four reported stages. The encounter begins with stationary enemies in the centre of the map; if they are not dealt with quickly enough, the community reference says they can reduce the player's lives to one.
+The Horror Bloon Bounty takes place on **The Depths** and has four reported stages. The encounter begins with stationary enemies in the centre of the map; if they are not dealt with quickly enough, an unverified report says they can reduce the player's lives to one.
 
 ## Encounter and stage progression
 
@@ -21,11 +21,11 @@ The source contains a `Horror_Bloon_X` object with:
 - `fast = 0.045 * global.bspeed`.
 - A long initial alarm and a separate short alarm.
 
-Its Step event clamps one alarm when the Bloon falls below half health. Another alarm starts `Prison_Break_Path`, positions the Bloon based on its remaining health, marks it as unchained, and schedules another delayed event. This supports a stationary-to-moving encounter phase, but it does not by itself confirm the community's permanent one-life effect.
+Its Step event clamps one alarm when the Bloon falls below half health. Another alarm starts `Prison_Break_Path`, positions the Bloon based on its remaining health, marks it as unchained, and schedules another delayed event. This supports a stationary-to-moving encounter phase, but it does not by itself confirm the reported permanent one-life effect.
 
-## Community-suggested counters
+## Unverified suggested counters
 
-TreeM, DartlingM, DartlingS, HeliM, and WizardS are community suggestions, not guaranteed solutions.
+TreeM, DartlingM, DartlingS, HeliM, and WizardS are unverified suggestions, not guaranteed solutions.
 
 ## Trivia
 
