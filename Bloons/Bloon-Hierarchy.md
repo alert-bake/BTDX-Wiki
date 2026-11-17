@@ -2,7 +2,7 @@
 
 This page separates three ideas that are easy to accidentally collapse into one:
 
-1. **Ordinary pop relationships** reported by an unverified report.
+1. **Ordinary pop relationships** currently recorded as unverified.
 2. **Fractional type values** used by BTDX's ordinary Bloon branch.
 3. **Special attack routines** that create multiple copies of a lower type.
 
@@ -20,7 +20,7 @@ an unverified report describes this basic sequence:
 | Pink | Yellow |
 | Black | Two Pink Bloons |
 
-The Red Bloon is the base unit and has no smaller child. These relationships are unverified report; the source code inspected for the ordinary movement branch establishes type identities and speed selection, but does not by itself establish every ordinary pop result.
+The Red Bloon is the base unit and has no smaller child. These relationships remain unverified; the source code inspected for the ordinary movement branch establishes type identities and speed selection, but does not by itself establish every ordinary pop result.
 
 White is assigned its own ordinary type value (6.1), separate from Black (6). Its reported RBE and tier do not prove that it shares Black's child result.
 
@@ -87,7 +87,7 @@ See [Ceramic Bloon](Standard/Ceramic-Bloon.md), [Brick Bloon](Standard/Brick-Blo
 
 ## MOAB-class children
 
-BTDX's documented blimps have their own child relationships. Examples reported by an unverified report include:
+BTDX's documented blimps have their own child relationships. Examples currently recorded as unverified include:
 
 | Parent | Children when popped |
 |---|---|
