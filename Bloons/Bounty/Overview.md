@@ -4,7 +4,6 @@ Bounty Bloons are a major BTDX feature introduced in version 1.2, according to t
 
 ## How Bounty progression works
 
-The BTDX community wiki reports that defeating one stage unlocks the next stage of that Bounty. Most families have four stages. Big Bully, Clown, and Annoying have five stages.
 
 The listed difficulty ranks are:
 
@@ -16,7 +15,6 @@ The listed difficulty ranks are:
 6. Impoppable
 7. Almighty
 
-The community wiki says a Bounty level starts automatically. The exact unlock sequence, availability rules, and build-specific exceptions still need verification.
 
 ## Reported reward table
 
@@ -32,7 +30,6 @@ The community source reports the following rewards per completed Bounty level:
 | Impoppable | 700 | 7 | 350,000 |
 | Almighty | 900 | 9 | 450,000 |
 
-These values are transcribed from the community wiki and have not been independently tested in Android 1.5.2 or Windows 1.5.1. The reward unit (per stage, per rank, or per completed level) should be confirmed in-game.
 
 ## Bounty catalogue
 
@@ -55,7 +52,6 @@ The current community Bloons page documents fourteen Bounty families:
 | [tDoM (the Destroyer of Monkeys)](tDoM.md) | Graveyard | 4 |
 | [Track Crawler](Track-Crawler.md) | Bloon Circles X | 4 |
 
-This catalogue is based on the current text indexed from the BTDX community wiki. It is not proof that the list is exhaustive for every historical build.
 
 ## What the source confirms so far
 
@@ -114,5 +110,3 @@ Each Bounty article aims to document:
 ## Sources
 
 - [BTDX-source](https://github.com/alert-bake/BTDX-source) — Create, Step, Alarm, and Destroy events.
-- [BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — Bounty catalogue, stages, reward ranks, and community strategy suggestions.
-- [BTDX Fandom: Updates](https://bloons-tdx.fandom.com/wiki/Updates) — reports version 1.2 introduced Bounty mode and version 1.31 added Blooming Bloon.
