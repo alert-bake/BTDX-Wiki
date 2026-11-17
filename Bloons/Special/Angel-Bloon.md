@@ -4,14 +4,14 @@
 
 ## Overview
 
-An airborne ally released by the Flying Bloon. The community source reports 30 RBE and describes it as flying from the Flying Bloon toward the exit.
+An airborne ally released by the Flying Bloon. an unverified report reports 30 RBE and describes it as flying from the Flying Bloon toward the exit.
 
 ## Reported information
 
 - **Category:** Special / Bounty-spawned enemy
 - **HP / RBE:** 30 RBE (reported)
 - **Children:** TBD
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 
 ## Mechanics and interactions
 
