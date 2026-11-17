@@ -4,7 +4,6 @@ This page separates the original game's keyboard shortcuts from the touch interf
 
 ## Original game: keyboard shortcuts
 
-The community wiki's [Hotkeys page](https://bloons-tdx.fandom.com/wiki/Hotkeys) lists the following shortcuts. The list is community-maintained and should be checked against the exact build being documented.
 
 | Input | Action |
 |---|---|
@@ -47,7 +46,7 @@ The community hotkey list also documents keyboard shortcuts for selecting towers
 | `N` | Exploding Pineapple |
 | `H` | Road Spikes |
 
-**Caution:** This is a transcription of a community-maintained reference, not yet independently verified against every release. The hotkey page itself notes uncertainty around agent hotkeys.
+**Caution:** This is a transcription of a maintained by contributors reference, not yet independently verified against every release. The hotkey page itself notes uncertainty around agent hotkeys.
 
 ## Unofficial Android port
 
@@ -87,7 +86,6 @@ Do not list a behavior as a confirmed bug until it has been reproduced or clearl
 
 ## Sources
 
-1. [Bloons TDX Wiki — Hotkeys](https://bloons-tdx.fandom.com/wiki/Hotkeys) — community-maintained keyboard shortcut list.
 2. [APKPure — BTD X 1.5.2](https://apkpure.net/btd-x/btdrrx.RamafpartyxAlbiot1) — third-party listing identifying the Android adaptation and version.
 
 ---
