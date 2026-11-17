@@ -4,7 +4,6 @@ This page separates the original game's keyboard shortcuts from the touch interf
 
 ## Original game: keyboard shortcuts
 
-
 | Input | Action |
 |---|---|
 | `Z` | Select the left upgrade path |
@@ -16,7 +15,7 @@ This page separates the original game's keyboard shortcuts from the touch interf
 
 ### Tower-selection shortcuts
 
-The community hotkey list also documents keyboard shortcuts for selecting towers:
+The following keyboard-to-tower assignments are an unverified transcription and should be checked against the target Windows build before being treated as definitive.
 
 | Key | Tower |
 |---|---|
@@ -46,7 +45,7 @@ The community hotkey list also documents keyboard shortcuts for selecting towers
 | `N` | Exploding Pineapple |
 | `H` | Road Spikes |
 
-**Caution:** This is a transcription of a maintained by contributors reference, not yet independently verified against every release. The hotkey page itself notes uncertainty around agent hotkeys.
+**Verification status:** The mapping above has not been independently checked against every release. Some agent hotkeys may differ.
 
 ## Unofficial Android port
 
@@ -74,7 +73,6 @@ The unofficial Android port can apparently allow the player to place an **Explod
 
 **Verification notes:** This report is based on a player's observation. The exact reproduction steps, device details, and whether the behavior occurs consistently still need to be recorded.
 
-
 Use this section for port-specific quirks such as:
 - Touches registering on the wrong UI element
 - Gestures behaving differently depending on where they begin
@@ -86,7 +84,7 @@ Do not list a behavior as a confirmed bug until it has been reproduced or clearl
 
 ## Sources
 
-2. [APKPure — BTD X 1.5.2](https://apkpure.net/btd-x/btdrrx.RamafpartyxAlbiot1) — third-party listing identifying the Android adaptation and version.
+1. [APKPure — BTD X 1.5.2](https://apkpure.net/btd-x/btdrrx.RamafpartyxAlbiot1) — third-party listing identifying the Android adaptation and version.
 
 ---
 
