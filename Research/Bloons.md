@@ -10,7 +10,7 @@ Working research register for the BTDX Bloons section. This is a research index,
 
 - Main reference builds: Windows 1.5.1 and unofficial Android 1.5.2.
 - Never merge observations from different platforms/builds without labels.
-- Community-wiki values remain unverified report until independently tested.
+- Unverified reported values remain unverified until independently tested.
 - A source object proves that code exists in the inspected source tree; it does not prove the object appears in every mode or platform.
 - Do not fill BTDX gaps with BTD5/BTD6 stats.
 
@@ -35,15 +35,15 @@ Working research register for the BTDX Bloons section. This is a research index,
 - [x] MOAB-class overview expanded with a reported-stat table and source formula comparison.
 - [x] All 14 individual MOAB-class articles expanded.
 - [x] Source-backed child relationships documented for Mini M.O.A.B., M.O.A.B., B.F.B., Z.O.M.G., H.T.A., B.R.C., D.D.T., L.P.Z., Rocket Blimp, and Party Blimp.
-- [x] Community-only or not-yet-located implementations explicitly labelled for P.H.T.A., M.B.R.C., D.D.D.T., and S.L.P.Z.
-- [x] Mini M.O.A.B. and M.O.A.B. community/source speed discrepancies recorded rather than silently reconciled.
+- [x] Entries without a located implementation explicitly labelled as not yet located for P.H.T.A., M.B.R.C., D.D.D.T., and S.L.P.Z.
+- [x] Mini M.O.A.B. and M.O.A.B. speed discrepancies recorded as unresolved pending build-specific testing.
 
 ### Bounty Bloons
 
 - [x] Bounty overview expanded with all 14 families, reported stage counts, reward ranks, and source cross-checks.
 - [x] All 14 individual Bounty articles expanded.
 - [x] Source-backed behaviour added where matching objects/events were found.
-- [x] Community/source discrepancies recorded for Mighty MOAB, Flying Bloon, The Mother, Knight Bloon, and Annoying Bloon.
+- [x] Differences between observed reports and source defaults recorded for Mighty MOAB, Flying Bloon, The Mother, Knight Bloon, and Annoying Bloon.
 - [x] The Mother's early `exit;` in Alarm 2 documented as making later tower-rearrangement code unreachable in the inspected source.
 
 ## Source-backed findings worth preserving
@@ -66,7 +66,7 @@ The source uses `shell` and `maxshell` for several blimps, with shell coefficien
 
 ### Bounty bosses
 
-Bounty objects use independent `hitpoints`, `maxpoints`, and custom movement/attack logic rather than the ordinary Bloon layer system. Some community stage values differ from base Create-event values; stage-specific setup must be traced before deciding which value is correct.
+Bounty objects use independent `hitpoints`, `maxpoints`, and custom movement/attack logic rather than the ordinary Bloon layer system. Some reported stage values differ from base Create-event values; stage-specific setup must be traced before deciding which value is correct.
 
 ## Remaining verification priorities
 
@@ -74,7 +74,7 @@ Bounty objects use independent `hitpoints`, `maxpoints`, and custom movement/att
 2. Verify every property interaction and combination, especially shield damage and Super Shield.
 3. Trace unlocated MOAB-class entries and their mission spawn paths.
 4. Verify every Bounty family and stage on Windows 1.5.1 and Android 1.5.2.
-5. Resolve the source/community discrepancies recorded in the individual articles.
+5. Resolve the source-versus-observation discrepancies recorded in the individual articles.
 6. Verify reward tiers and whether rewards apply per stage, rank, or completed Bounty level.
 7. Add screenshots or exact player observations with platform/version labels.
 8. Continue special-form research for Ninja, Robo, Rag, Reincarnated Rag, Undying Rag, and other mission-only Bloons.
