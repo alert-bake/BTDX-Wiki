@@ -24,8 +24,8 @@ The script also contains a special clamp for values between 5 and 5.5, assigning
 
 ## Reported pop information
 
-- **RBE:** 5 (community-reported).
-- **Pop result:** One Yellow Bloon (community-reported).
+- **RBE:** 5 (unverified report).
+- **Pop result:** One Yellow Bloon (unverified report).
 - **HP / hits:** Not established by RBE alone.
 - **Leak damage:** Not independently established here.
 
@@ -40,4 +40,3 @@ Pink's normal-branch speed multiplier is 4.8×, but the intermediate Purple at 5
 ## Evidence and sources
 
 - **Source-confirmed:** [Normal_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE and basic child result.
