@@ -17,9 +17,9 @@ The available source inspection confirms the ordinary Shielded branch's shield c
 | Question | Status |
 |---|---|
 | Dedicated Super Shield branch/object | Not established |
-| Exact multiplier in the target build | Community-reported 2× |
+| Exact multiplier in the target build | unverified report 2× |
 | Whether it shares Static's implementation | Unconfirmed |
-| Mode availability | Community-reported Nightmare Mode |
+| Mode availability | unverified report Nightmare Mode |
 
 Do not identify Super Shield and Static as the same property without locating the relevant Nightmare Mode spawn and damage paths.
 
@@ -29,6 +29,5 @@ The source has a doubled shield formula for Static Bloons, but that is not enoug
 
 ## Evidence
 
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons).
 - **Related source:** [Static_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Static_Bloon_Branch/Step_0.gml).
 - **Needs source tracing and in-game verification:** Nightmare Mode spawn setup, exact shield multiplier, and whether a dedicated Super Shield state exists.
