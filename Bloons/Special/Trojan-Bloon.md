@@ -4,13 +4,13 @@
 
 ## Overview
 
-Trojan Bloons appear only in the Non-Stop Assault mission according to the community page. They are described as invincible, moving slowly, blocking most projectiles, and removing 25 lives if they leak. The stated removal condition is to pop every non-Trojan Bloon currently on-screen.
+Trojan Bloons appear only in the Non-Stop Assault mission according to An unverified report. They are described as invincible, moving slowly, blocking most projectiles, and removing 25 lives if they leak. The stated removal condition is to pop every non-Trojan Bloon currently on-screen.
 
 ## Classification
 
 - **Category:** Mission-only enemy
 - **Game:** Bloons Tower Defense X
-- **Platform/version checked:** None yet; this entry is based on community documentation.
+- **Platform/version checked:** None yet; this entry contains unverified reported details.
 
 ## Stats
 
