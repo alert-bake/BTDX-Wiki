@@ -9,7 +9,7 @@ Ninja Bloons have Camo and fire homing ninja stars that stun towers every 1.5–
 ## Classification
 
 - **Category:** Special Bloon / special form
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 - **HP / hits:** Red 9 HP; Blue 18; Green 27; Yellow 36; Pink 45; Rainbow 90 (reported)
 - **Children / result:** Splitting Camo Bloon of matching colour
 
