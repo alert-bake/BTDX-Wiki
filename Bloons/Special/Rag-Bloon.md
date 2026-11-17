@@ -9,7 +9,7 @@ Appears in Necropolis. Rag Bloons retain their original layers; after being popp
 ## Classification
 
 - **Category:** Special Bloon / special form
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 - **HP / hits:** Varies by original layer
 - **Children / result:** Reincarnated Bloon
 
