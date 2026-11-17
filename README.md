@@ -1,8 +1,8 @@
 # BTDX-Wiki
 
-**An unofficial, community-maintained reference for Bloons TD X (BTDX).**
+**An unofficial reference for Bloons TD X (BTDX).**
 
-This wiki documents the game's Bloons, towers, goodies, controls, mechanics, and research findings. It is built around BTDX itself: source-code inspection, in-game observations, and community reports are kept distinct instead of silently treating them as interchangeable.
+This wiki documents the game's Bloons, towers, goodies, controls, mechanics, and research findings. Its documentation is grounded in BTDX source inspection, direct gameplay observations, and clearly labelled unresolved reports.
 
 > **Unofficial project.** This is not an official Ninja Kiwi wiki or an official game resource.
 
@@ -191,21 +191,21 @@ Accuracy matters more than filling every blank. The wiki uses the following evid
 |---|---|
 | **Source-confirmed** | The behaviour or value is present in the inspected BTDX source. This proves the inspected code contains it, not necessarily that every build or mode uses it. |
 | **Gameplay-observed** | Reproduced or directly observed in-game. The platform, version, and relevant setup should be recorded. |
-| **Community-reported** | Reported by players or community references, but not independently verified yet. |
+| **Unverified report** | A claim recorded for investigation but not independently reproduced or confirmed in the inspected source. |
 | **Unresolved** | Evidence is incomplete, contradictory, or does not identify the exact implementation. |
 
 ### Version and platform policy
 
 - The primary comparison targets are Windows 1.5.1 and unofficial Android 1.5.2.
 - Do not merge platform-specific behaviour without identifying the platform and version.
-- Do not silently resolve source/community disagreements. Record both and investigate.
+- Do not silently resolve disagreements between source findings and observed behaviour. Record both and investigate.
 - Do not import BTD5 or BTD6 statistics to fill BTDX gaps.
 - A source object or event is not proof that an enemy or mechanic is active in every game mode.
 - Player observations are valuable evidence. Record exactly what happened and avoid turning one test into a universal rule without further checks.
 
 ## Contributing and corrections
 
-Corrections, missing information, screenshots, and reproducible gameplay observations are welcome. When reporting a mechanic, include the game version/platform and enough detail for someone else to reproduce it. If a value comes from a community page, identify it as reported rather than confirmed.
+Corrections, missing information, screenshots, and reproducible gameplay observations are welcome. When reporting a mechanic, include the game version/platform and enough detail for someone else to reproduce it. Mark unverified claims clearly rather than presenting them as confirmed.
 
 ---
 
