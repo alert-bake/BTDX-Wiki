@@ -10,7 +10,7 @@ Planetarium Bloons release orbiting Satelite Bloons that distract towers and blo
 
 - **Category:** Special enemy
 - **Game:** Bloons Tower Defense X
-- **Platform/version checked:** None yet; this entry is based on community documentation.
+- **Platform/version checked:** None yet; this entry contains unverified reported details.
 
 ## Stats
 
