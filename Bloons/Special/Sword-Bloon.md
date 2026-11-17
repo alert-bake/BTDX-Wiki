@@ -27,4 +27,3 @@ Record HP, movement, and how the Knight's shield system interacts with them.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; details remain TBD.
