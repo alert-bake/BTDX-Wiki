@@ -2,7 +2,7 @@
 
 ## Overview
 
-The M.B.R.C. is a Nightmare-only carrier described by the community reference as both a blimp and a recurring Bloon spawner. It reportedly releases Bloons during its journey, then produces a large group of Brick children and one B.R.C. when popped.
+The M.B.R.C. is a Nightmare-only carrier described by the unverified report as both a blimp and a recurring Bloon spawner. It reportedly releases Bloons during its journey, then produces a large group of Brick children and one B.R.C. when popped.
 
 ## unverified report statistics
 
@@ -16,7 +16,7 @@ The M.B.R.C. is a Nightmare-only carrier described by the community reference as
 
 ## Reported recurring spawns
 
-The community reference reports that the M.B.R.C. launches 15 Purple Bloons and 3 Prismatic Bloons off-track every two seconds, summons 3 Bricks on-track every ten seconds, and releases 32 Bricks plus 1 B.R.C. when popped.
+The unverified report reports that the M.B.R.C. launches 15 Purple Bloons and 3 Prismatic Bloons off-track every two seconds, summons 3 Bricks on-track every ten seconds, and releases 32 Bricks plus 1 B.R.C. when popped.
 
 These timings and counts are unverified report. The exact spawn scheduling, whether the counts are per interval or cumulative under every mode, and the source object implementing the M.B.R.C. have not been independently confirmed.
 
