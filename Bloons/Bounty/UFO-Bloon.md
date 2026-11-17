@@ -2,7 +2,7 @@
 
 ## Overview
 
-The UFO Bounty takes place on **Bloon Oasis** and has four reported stages. UFOs move erratically and drain the player's money while active. The community reference says that once money reaches zero, the drain switches to lives.
+The UFO Bounty takes place on **Bloon Oasis** and has four reported stages. UFOs move erratically and drain the player's money while active. an unverified report says that once money reaches zero, the drain switches to lives.
 
 ## Encounter and stage progression
 
@@ -23,11 +23,11 @@ The Step event applies the following per-step drain:
 
 The drain alarm increases `drain` by `1/12` every 150 steps. Another alarm changes direction, selects a random vertical position, and sets movement speed to `2 * global.bspeed + random(6 * global.bspeed)`.
 
-The source therefore confirms a gradually increasing drain and the money-to-lives transition. It does not establish the community page's ambiguous wording about a percentage-based life-drain rate.
+The source therefore confirms a gradually increasing drain and the money-to-lives transition. It does not establish the unverified report's ambiguous wording about a percentage-based life-drain rate.
 
-## Community-suggested counters
+## unverified suggested counters
 
-TreeM, TackR, HeliM, and WizardS are community suggestions, not guaranteed solutions.
+TreeM, TackR, HeliM, and WizardS are unverified suggestions, not guaranteed solutions.
 
 ## Trivia
 
