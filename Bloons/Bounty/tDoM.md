@@ -1,48 +1,39 @@
 # tDoM (the Destroyer of Monkeys)
 
-<badge>Research draft · Bounty Bloon</badge>
-
 ## Overview
 
-A M.O.A.B.-like enemy that travels along the longer route on Graveyard. It can destroy towers with a devil blade, but the source says it does not target Trees, Villages, or right-side Alchemist upgrades.
+The tDoM Bounty takes place on **Graveyard**. It is described by the community reference as a M.O.A.B.-like enemy that uses the longer route and can destroy towers with a devil blade. The community page lists exclusions for Trees, Villages, and right-side Alchemist upgrades.
 
-- **Associated map:** Graveyard
-- **Stage count:** 4
-- **Bounty mode introduced:** Version 1.2, according to the community update history.
-- **Platform/version checked:** None; community documentation only.
+## Encounter and stage progression
 
-## Stage progression
+1. **tDoM:** one tDoM.
+2. **tDoM Second Form:** after the normal form, a turbo-boosted second tDoM arrives and reportedly removes 200 lives if it leaks.
+3. **tDoM Zero Form:** gains a shield layer with approximately as much HP as the tDoM itself. The second-form enemy also has more HP.
+4. **tDoM Full Power:** all forms gain more HP and use monkey-nuke projectiles that destroy groups of towers.
 
-### Stage 1 — tDoM: a single tDoM.
+The stage descriptions and leak penalty are community-reported.
 
-### Stage 2 — tDoM Second Form: after the normal form, a turbo-boosted second tDoM arrives and reportedly removes 200 lives if it leaks.
+## Source cross-check
 
-### Stage 3 — tDoM Zero Form: gains a shield layer with approximately as much HP as the tDoM itself. The second-form enemy also has more HP.
+The base `tDoM` Create event selects a path based on the current map/track and sets a base HP value of 40,000 before applying several `global.destroyerenable` variants:
+- Variant 1 or 2: 51,000 × `global.bpower`.
+- Variant 3: 46,000 × `global.bpower`.
+- Variant 4: 60,000 × `global.bpower`.
 
-### Stage 4 — tDoM Full Power: all forms gain more HP and use monkey-nuke projectiles that destroy groups of towers.
+The base movement value is `0.0775 * global.bspeed`. When the tDoM is destroyed, the source checks `global.destroyerenable`: the first variant grants the Bounty reward, while higher variants create a `tDoM_Phase_Two` instance.
+
+This confirms a multi-phase source implementation, but the community's tower-destruction attacks and exact stage labels need separate event inspection.
 
 ## Community-suggested counters
 
-Suggested towers: EngineerS, Dart0 (sacrifice/blocking), TreeM, VillageM, BombL (MA).
+EngineerS, Dart0 (blocking), TreeM, VillageM, and BombL (MA) are community suggestions, not guaranteed solutions.
 
-These are community strategy suggestions, not guaranteed solutions or the only viable towers.
+## Trivia
 
-## Rewards
+The tDoM's path setup contains explicit handling for many different maps. It is not hard-coded to the Graveyard route alone; the active track determines which path logic is selected.
 
-See [Bounty Overview](Overview.md) for the community-reported reward ranks. No separate reward breakdown is documented here unless stated above.
+## Evidence and open questions
 
-## Unresolved mechanics
-
-Exact tower-targeting exclusions, shield values, and projectile damage are not documented.
-
-## Research checklist
-
-- [ ] Confirm this Bounty exists in Android 1.5.2.
-- [ ] Record exact HP, speed, attacks, and leak penalties for every stage.
-- [ ] Capture the complete spawn sequence and timing.
-- [ ] Verify counter suggestions and record alternatives.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
-
-## Source
-
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — Bounty section. Community-maintained and potentially incomplete or outdated.
+- **Source-confirmed:** [tDoM/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/tDoM/Create_0.gml) and [Destroy_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/tDoM/Destroy_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stage descriptions, leak penalty, and counters.
+- **Needs verification:** devil-blade targeting exclusions, shield values, monkey-nuke behaviour, and the exact relationship between source variants and four Bounty stages.
