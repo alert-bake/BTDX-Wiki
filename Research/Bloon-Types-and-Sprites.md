@@ -264,3 +264,68 @@ Source: [Normal_Bloon_Branch/Create_0.gml](https://github.com/alert-bake/BTDX-so
 
 ---
 *Draft prepared from the source and sprite findings available on 2026-11-14. Update this page when new code paths or in-game evidence are verified.*
+
+---
+
+## 6. Ordinary-branch type and movement map
+
+This section records the **Normal_Bloon_Branch** mapping separately from the Solar branch mapping in section 2. They are different code paths and their values must not be merged into one table.
+
+**Source-confirmed:** `objects/Normal_Bloon_Branch/Step_0.gml` selects the following sprites and calculates the corresponding base movement multipliers:
+
+| Bloon type | `bloonlayer` | Base speed multiplier |
+|---|---:|---:|
+| Red | 1 | 1.6× |
+| Orange | 1.5 | 2.2× |
+| Blue | 2 | 2.0× |
+| Cyan | 2.5 | 2.6× |
+| Green | 3 | 2.4× |
+| Lime | 3.5 | 3.0× |
+| Yellow | 4 | 4.4× |
+| Amber | 4.5 | 5.0× |
+| Pink | 5 | 4.8× |
+| Purple | 5.5 | 5.4× |
+| Black | 6 | 2.4× |
+| White | 6.1 | 2.8× |
+| Zebra | 7 | 2.8× |
+| Rainbow | 8 | 3.8× |
+| Prismatic | 8.5 | 4.4× |
+
+The formula is:
+
+```
+fast = global.bspeed * type_multiplier * (tattered + 1)
+path_speed = fast
+```
+
+Glue, freeze, stun, and distraction are then applied in the same Step event. The multiplier is relative to `global.bspeed`; it is not a fixed absolute speed. The table is specific to the normal branch and should not be copied to Ceramic, Brick, Shielded, MOAB, or special Bloon branches.
+
+### Fractional-layer handling in Chipper
+
+The source in `objects/Chipper_Bloon_Branch/Step_0.gml` calculates the fractional part of `bloonlayer`. For a half-step value, it reduces the layer by `0.5 + pophit` and creates two additional Chipper branch instances while retaining the original. With `pophit = 0`, this produces three instances at the lower layer:
+
+| Input type | Input value | Lower type | Resulting instances |
+|---|---:|---|---:|
+| Orange | 1.5 | Red (1) | 3 |
+| Cyan | 2.5 | Blue (2) | 3 |
+| Lime | 3.5 | Green (3) | 3 |
+| Amber | 4.5 | Yellow (4) | 3 |
+| Purple | 5.5 | Pink (5) | 3 |
+| Prismatic | 8.5 | Rainbow (8) | 3 |
+
+This is a Chipper-specific attack interaction. It is not the universal pop behaviour for these types. A non-zero `pophit` changes the amount subtracted and must be traced separately.
+
+### Ceramic and Brick are not fractional colour types
+
+The Ceramic and Brick branches use separate armour systems:
+- Ceramic: `maxarmour = ceil(10 * global.bpower)`.
+- Brick: `maxarmour = ceil(30 * global.bpower)`.
+
+The Shielded branch assigns layer 18 to Ceramic-tier forms and layer 48 to Brick-tier forms, with separate shield values before transforming into the corresponding armour branch. Do not treat those values as entries in the ordinary colour ladder.
+
+Sources:
+- [Normal_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Step_0.gml)
+- [Chipper_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Chipper_Bloon_Branch/Step_0.gml)
+- [Ceramic_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Ceramic_Bloon_Branch/Step_0.gml)
+- [Brick_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Brick_Bloon_Branch/Step_0.gml)
+- [Shielded_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Shielded_Bloon_Branch/Step_0.gml)
