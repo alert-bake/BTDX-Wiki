@@ -26,4 +26,3 @@ Exact shield HP and eligible base Bloons are not listed.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; verify in-game.
