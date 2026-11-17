@@ -12,7 +12,7 @@ The Clown Bloon Bounty takes place on **Omega River** and has five reported stag
 4. **Rubber Terror:** a faster, bulkier Demon Clown with 15,300 HP. Star Balls become 80-HP Demon Balls that stun nearby towers; bombs have 90 HP. Initial cooldown is about 10.62 seconds.
 5. **Trickster God:** follows two normal 3,000-HP Clowns. It has 27,300 HP and adds Hungry Hungry Bloons (999 HP) and Monkey Terrors (400 HP), both of which stun towers and block most projectiles. Demon Balls reach 150 HP; bombs reach 200 HP and stun on contact. Initial cooldown is about 17.14 seconds.
 
-The stage details are community-reported.
+The stage details are unverified report.
 
 ## Source cross-check
 
@@ -31,5 +31,4 @@ The source's base Clown has a `fast` multiplier of 3.8× global speed. Its movem
 ## Evidence and open questions
 
 - **Source-confirmed:** [Clown_Bloon/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Clown_Bloon/Create_0.gml), [Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Clown_Bloon/Alarm_0.gml), [Alarm_1.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Clown_Bloon/Alarm_1.gml), and [Alarm_2.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Clown_Bloon/Alarm_2.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for all five stages and counter suggestions.
 - **Needs verification:** later-stage HP, bombs' exact leak conditions, and all ability cooldowns.
