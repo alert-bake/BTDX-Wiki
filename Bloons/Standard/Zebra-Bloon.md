@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Zebra Bloon is an ordinary-branch type with its own sprite and movement multiplier. The source assigns it `bloonlayer = 7`. The community RBE breakdown reports an RBE of 23, but that value has not been independently confirmed here.
+The Zebra Bloon is an ordinary-branch type with its own sprite and movement multiplier. The source assigns it `bloonlayer = 7`. an unverified RBE breakdown reports an RBE of 23, but that value has not been independently confirmed here.
 
 ## Classification
 
