@@ -12,7 +12,7 @@ The Annoying Bloon Bounty takes place on **Shade Woods** and has five reported s
 4. **4 Letter Word Bloon:** repeats the earlier pattern but ends with a giant 3,000-HP Annoying Bloon that drains lives much faster.
 5. **Giga Emoji:** gives Bloons crying-face emojis and makes them faster. The community source reports a drain of 0.55 lives per second when more than ten are on-screen. An Annoying H.T.A. Bloon also appears. The page lists 1,100 Monkey Money, 11 Bloon Points, and 550,000 XP for completing this challenge.
 
-These stage details and rewards are community-reported.
+These stage details and rewards are unverified report.
 
 ## Source cross-check
 
@@ -34,5 +34,4 @@ The source's `Emoji_God` object has 15,000 HP before the global power multiplier
 ## Evidence and open questions
 
 - **Source-confirmed candidate objects:** [Emoji_God/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Emoji_God/Create_0.gml), [Terrible_1/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Terrible_1/Create_0.gml), and [DDT_Terrible/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/DDT_Terrible/Create_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stage names, leak drain, and rewards.
 - **Needs verification:** exact mapping between stage names and source objects, the 200-vs-300 HP discrepancy, and the 0.55-lives-per-second condition.
