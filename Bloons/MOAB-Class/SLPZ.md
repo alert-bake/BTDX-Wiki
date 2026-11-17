@@ -1,31 +1,37 @@
 # S.L.P.Z. (Storm Lightning Powered Zeppelin)
 
-<badge>Research draft · MOAB-class</badge>
-
 ## Overview
 
-Nightmare-only. Has a reported 3,500-HP shield and 1,000 hits to pop; moves at about 65.63% Red speed. Fires piercing stun projectiles. After shield loss, stuns nearby towers and reportedly accelerates to 109.38% Red speed; drops ten Static Mini M.O.A.B.s.
+The S.L.P.Z. is described by the community reference as a Nightmare-only, shielded evolution of the L.P.Z. It reportedly has a large shield, a separate shell, piercing stun projectiles, and a speed increase after its shield is removed.
 
-## Reported statistics
+## Community-reported statistics
 
-- **Class:** MOAB-class
-- **Hits / HP:** See overview.
-- **RBE:** 5,910 + 3,500 shield
-- **Children:** 10 Static Mini M.O.A.B.s
-- **Platform/version checked:** None; community source only.
+| Field | Reported value |
+|---|---|
+| Shell hits / HP | 1,000 |
+| Shield | 3,500 |
+| RBE | 5,910 + 3,500 shield |
+| Shielded speed | About 65.63% of Red |
+| Post-shield speed | About 109.38% of Red |
+| Children | 10 Static Mini M.O.A.B.s |
+| Availability | Nightmare-only |
 
-## Mechanics and interactions
+## Reported mechanics
 
-Verify shield value, cadence, and post-shield speed.
+The community reference reports that the S.L.P.Z. fires piercing stun projectiles, stuns nearby towers after its shield is depleted, accelerates after losing its shield, and releases ten Static Mini M.O.A.B.s when popped.
 
-## Verification checklist
+These details remain community-reported. The exact shield/shell formulas, projectile cadence, post-shield behaviour, and child creation have not been matched to a source object in this pass.
 
-- [ ] Confirm hit count and RBE in Android 1.5.2.
-- [ ] Record speed relative to Red Bloon.
-- [ ] Verify child types, counts, and spawn cadence.
-- [ ] Test shield and status-effect interactions.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
+## Implementation status
 
-## Source
+An exact `SLPZ_Branch` source path was not found in the inspected source tree. Do not assume it shares every implementation detail with the regular L.P.Z. merely because the names are related.
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported stats; verify in-game.
+## Trivia
+
+The reported speed changes after shield loss, but the page keeps shield and shell separate. Losing the shield is not the same event as popping the whole blimp.
+
+## Evidence and open questions
+
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons).
+- **Not yet source-confirmed:** shield and shell values, speed states, attack cadence, stun radius, children, and Nightmare restriction.
+- **Next research targets:** identify the source object and spawn path, trace its attack projectile, and verify the shield-break event separately from shell depletion.
