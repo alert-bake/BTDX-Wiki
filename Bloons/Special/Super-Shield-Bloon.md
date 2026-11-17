@@ -9,7 +9,7 @@ Appears in Nightmare mode. Its shield reportedly absorbs twice as much damage as
 ## Classification
 
 - **Category:** Special Bloon / special form
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 - **HP / hits:** Varies by base Bloon
 - **Children / result:** Varies
 
