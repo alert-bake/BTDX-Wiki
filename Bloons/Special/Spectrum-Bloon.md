@@ -10,7 +10,7 @@ Spectrum Bloons are described as having 200 HP and moving at 206.25% of Red-Bloo
 
 - **Category:** Special high-health Bloon
 - **Game:** Bloons Tower Defense X
-- **Platform/version checked:** None yet; this entry is based on community documentation.
+- **Platform/version checked:** None yet; this entry contains unverified reported details.
 
 ## Stats
 
