@@ -28,5 +28,4 @@ The Super Bloon family has a chained destruction event: popping one variant can 
 ## Evidence and open questions
 
 - **Source-confirmed:** [Super_Bloon/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Super_Bloon/Create_0.gml), [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Super_Bloon/Step_0.gml), and [Super_Bloon_2/Destroy_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Super_Bloon_2/Destroy_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stage names, later HP, and counter suggestions.
 - **Needs verification:** later variants' HP, projectile stun values, and leak penalties.
