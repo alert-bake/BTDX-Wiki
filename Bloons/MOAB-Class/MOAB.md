@@ -1,31 +1,40 @@
 # M.O.A.B. (Massive Ornery Air Blimp)
 
-<badge>Research draft · MOAB-class</badge>
-
 ## Overview
 
-300 hits to pop; moves at 75% of Red-Bloon speed; drops four Bricks when popped.
+The M.O.A.B. is a major blimp enemy with its own shell durability and Brick child-spawn routine. The inspected source branch uses a base shell coefficient of 300 and creates four Brick Bloons when the shell is depleted.
 
-## Classification and reported stats
+## Classification and reported statistics
 
-- **Class:** MOAB-class
-- **Hits / HP:** See overview above.
-- **RBE:** 1,252
-- **Children:** 4 Bricks
-- **Platform/version checked:** None; community source only.
+| Field | Value |
+|---|---|
+| Class | MOAB-class |
+| Community-reported hits | 300 |
+| Community-reported RBE | 1,252 |
+| Community-reported children | 4 Bricks |
+| Community-reported speed | 75% of Red |
+| Source branch | `Moab_Branch` |
+| Shell formula | `ceil(300 * global.bpower)` |
+| Source speed formula | `1.5 * global.bspeed` |
 
-## Mechanics and interactions
+The reported hit count and RBE are not guaranteed fixed values: the source scales shell with `global.bpower`.
 
-These are BTDX community-wiki values, not stats imported from another Bloons game.
+## Source-confirmed behaviour
 
-## Verification checklist
+The branch initializes `shell` once, clamps it to `maxshell`, and calculates movement from `1.5 * global.bspeed`. Freeze and glue have high thresholds in this branch; distraction and stun also use MOAB-specific handling.
 
-- [ ] Confirm exact hit count and RBE in Android 1.5.2.
-- [ ] Record speed relative to Red Bloon.
-- [ ] Verify child count and child types.
-- [ ] Test status-effect resistance and bonus MOAB damage.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
+When shell falls below 1, the source creates four Brick-branch children. Above wave 75, it selects `Brick_Lag_Branch`. The usual path initializes each child with layer 48 and armour `30 * global.bpower`. If the current Brick-branch instance count is already 16 or greater, a fallback path creates four children with armour `50 * global.bpower` and derives their layer from the parent's layer minus 300.
 
-## Source
+## Speed discrepancy to investigate
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported stats; verify in-game.
+The community reference says 75% of Red speed. The inspected source uses 1.5× global speed for MOAB and 1.6× for ordinary Red, which is 93.75% when comparing those two raw branch multipliers. The source and community values therefore do not currently agree under that comparison.
+
+## Trivia
+
+The MOAB's child logic has a population-dependent branch: when enough Brick Bloons already exist, the children are initialized differently. The source is accounting for the current battlefield, not just blindly cloning four identical bricks.
+
+## Evidence
+
+- **Source-confirmed:** [Moab_Branch/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Moab_Branch/Create_0.gml), [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Moab_Branch/Step_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for hits, RBE, and reported speed.
+- **Needs in-game verification:** hit count, RBE, and the speed discrepancy.
