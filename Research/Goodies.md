@@ -6,7 +6,6 @@ Working notes for documenting the BTDX Goodie Store. This file is a research scr
 
 ### Currency loop
 
-The BTDX Fandom [Currencies page](https://bloons-tdx.fandom.com/wiki/Currencies) reports:
 
 - Trophies are earned from achievements, at one Trophy per achievement.
 - 10 Trophies are exchanged for one Goodie Token.
@@ -17,7 +16,6 @@ The BTDX Fandom [Currencies page](https://bloons-tdx.fandom.com/wiki/Currencies)
 
 ### Named unlockable: B.A.D.
 
-The BTDX Fandom [Bloons page](https://bloons-tdx.fandom.com/wiki/Bloons) reports that the B.A.D. is a joke Bloon inspired by BTD6 and can be unlocked in the Goodies shop. It reportedly spawns every 666,000 score during non-Freeplay rounds.
 
 Treat the spawn details as community-wiki claims until tested in the target build.
 
