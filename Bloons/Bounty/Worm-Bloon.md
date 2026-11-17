@@ -34,5 +34,4 @@ The Worm's base movement value is 12× `global.bspeed`, which is unusually high 
 ## Evidence and open questions
 
 - **Source-confirmed:** [Worm_Bloon/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Worm_Bloon/Create_0.gml), [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Worm_Bloon/Step_0.gml), and [Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Worm_Bloon/Alarm_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stage progression and counters.
 - **Needs verification:** path geometry, contact-stun logic, Lead/Titanium forms, and stage-specific health.
