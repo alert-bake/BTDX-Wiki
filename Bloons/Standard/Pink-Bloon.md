@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Pink Bloon is the fifth basic colour in the community-documented ordinary sequence. Its normal-branch type value is 5. The community source reports that it reveals a Yellow Bloon when popped.
+The Pink Bloon is the fifth basic colour in the ordinary reported ordinary sequence. Its normal-branch type value is 5. an unverified report reports that it reveals a Yellow Bloon when popped.
 
 ## Classification
 
