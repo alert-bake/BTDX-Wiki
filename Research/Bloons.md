@@ -1,18 +1,16 @@
 # Bloons research log
 
-Working research register for the BTDX Bloons section. This is a research index, not a claim that every community-reported value has been independently reproduced in-game.
+Working research register for the BTDX Bloons section. This is a research index, not a claim that every unverified report value has been independently reproduced in-game.
 
 ## Primary references
 
-- [BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-maintained descriptions for ordinary, special, MOAB-class, and Bounty Bloons.
-- [BTDX Fandom: Updates](https://bloons-tdx.fandom.com/wiki/Updates) — version history; reports Bounty mode added in 1.2 and Blooming Bloon added in 1.31.
 - [BTDX-source](https://github.com/alert-bake/BTDX-source) — primary implementation reference for source-backed mechanics.
 
 ## Version policy
 
 - Main reference builds: Windows 1.5.1 and unofficial Android 1.5.2.
 - Never merge observations from different platforms/builds without labels.
-- Community-wiki values remain community-reported until independently tested.
+- Community-wiki values remain unverified report until independently tested.
 - A source object proves that code exists in the inspected source tree; it does not prove the object appears in every mode or platform.
 - Do not fill BTDX gaps with BTD5/BTD6 stats.
 
