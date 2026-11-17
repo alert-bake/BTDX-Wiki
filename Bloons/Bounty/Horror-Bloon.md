@@ -1,48 +1,38 @@
 # Horror Bloon
 
-<badge>Research draft · Bounty Bloon</badge>
-
 ## Overview
 
-Stands in the centre of the map. If not dealt with quickly enough, it triggers escalating effects that can reduce the player's lives to one.
+The Horror Bloon Bounty takes place on **The Depths** and has four reported stages. The encounter begins with stationary enemies in the centre of the map; if they are not dealt with quickly enough, the community reference says they can reduce the player's lives to one.
 
-- **Associated map:** The Depths
-- **Stage count:** 4
-- **Bounty mode introduced:** Version 1.2, according to the community update history.
-- **Platform/version checked:** None; community documentation only.
+## Encounter and stage progression
 
-## Stage progression
+1. **Horror Bloon:** two Horror Bloons stand in the centre from round 1. After a time threshold, the player's lives reportedly fall to a permanent one.
+2. **Darkness Bloon:** four Horror Bloons occupy the middle. After a certain round, the two outer Bloons spawn onto the tracks with their remaining HP. A spotlight effect similar to Necropolis also activates after a time threshold.
+3. **Demonic Bloon:** the two inner Horror Bloons gain a single-target projectile that stuns a tower.
+4. **True Horror:** adds another Horror Bloon that blocks the central rock and has substantially more HP than the others.
 
-### Stage 1 — Horror Bloon: two stand idle in the centre from round 1. After enough time, the player's lives fall to a permanent one.
+The stage effects and one-life penalty are community-reported.
 
-### Stage 2 — Darkness Bloon: four Horror Bloons occupy the middle. After a certain round, the two outer Bloons spawn onto the tracks with the HP already dealt to them. A spotlight effect similar to Necropolis also activates after a time threshold.
+## Source cross-check
 
-### Stage 3 — Demonic Bloon: the two inner Horror Bloons gain a single-target projectile that stuns a tower.
+The source contains a `Horror_Bloon_X` object with:
+- 12,666 HP and 12,666 maximum HP.
+- `dmgpower = 6666`.
+- `fast = 0.045 * global.bspeed`.
+- A long initial alarm and a separate short alarm.
 
-### Stage 4 — True Horror: adds another Horror Bloon that blocks the central rock and has substantially more HP than the others.
+Its Step event clamps one alarm when the Bloon falls below half health. Another alarm starts `Prison_Break_Path`, positions the Bloon based on its remaining health, marks it as unchained, and schedules another delayed event. This supports a stationary-to-moving encounter phase, but it does not by itself confirm the community's permanent one-life effect.
 
 ## Community-suggested counters
 
-Suggested towers: TreeM, DartlingM, DartlingS, HeliM, WizardS.
+TreeM, DartlingM, DartlingS, HeliM, and WizardS are community suggestions, not guaranteed solutions.
 
-These are community strategy suggestions, not guaranteed solutions or the only viable towers.
+## Trivia
 
-## Rewards
+The Horror object uses its remaining-health ratio to calculate its new path position when it becomes unchained. Its transition is tied to its health state, not just a fixed "walk after timer" instruction.
 
-See [Bounty Overview](Overview.md) for the community-reported reward ranks. No separate reward breakdown is documented here unless stated above.
+## Evidence and open questions
 
-## Unresolved mechanics
-
-Timing thresholds, health pools, and whether the one-life effect can be prevented or reversed are not documented.
-
-## Research checklist
-
-- [ ] Confirm this Bounty exists in Android 1.5.2.
-- [ ] Record exact HP, speed, attacks, and leak penalties for every stage.
-- [ ] Capture the complete spawn sequence and timing.
-- [ ] Verify counter suggestions and record alternatives.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
-
-## Source
-
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — Bounty section. Community-maintained and potentially incomplete or outdated.
+- **Source-confirmed:** [Horror_Bloon_X/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Horror_Bloon_X/Create_0.gml), [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Horror_Bloon_X/Step_0.gml), and [Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Horror_Bloon_X/Alarm_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stage progression, life penalty, and counters.
+- **Needs verification:** exact stage-to-object mapping, timer thresholds, spotlight effect, and whether the one-life effect is reversible.
