@@ -32,7 +32,7 @@ The branch also has explicit coefficients for fractional types such as Orange, C
 
 When shield reaches zero, the branch creates the corresponding underlying Bloon branch for the recognised type. For example, layer 18 becomes Ceramic, layer 48 becomes Brick, and the larger values transform into their corresponding blimp branches.
 
-## Community-reported interactions
+## unverified report interactions
 
 The BTDX community reference reports that Shielded Bloons:
 - Resist low-damage explosions.
@@ -40,7 +40,7 @@ The BTDX community reference reports that Shielded Bloons:
 - Are not bypassed by M.I.B. immunities.
 - Take an additional 0.25 damage from all sources against the shield.
 
-These are community-reported combat rules; the shield calculation and transformation paths above are directly visible in source.
+These are unverified report combat rules; the shield calculation and transformation paths above are directly visible in source.
 
 ## Stacking
 
@@ -57,5 +57,4 @@ The Shielded branch has explicit values for fractional types too. Amber's shield
 ## Evidence
 
 - **Source-confirmed:** [Shielded_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Shielded_Bloon_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for combat interactions and stacking.
 - **Needs in-game verification:** exact shield damage rules, status immunity, and behaviour across all game modes.
