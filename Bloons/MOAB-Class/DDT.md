@@ -9,10 +9,10 @@ The D.D.T. is a fast blimp with Camo and Lead properties. Its source branch uses
 | Field | Value |
 |---|---|
 | Class | MOAB-class |
-| Community-reported hits | 303 |
-| Community-reported RBE | 1,731 |
-| Community-reported children | 6 Tattered Camo Lead Bricks |
-| Community-reported speed | 250% of Red |
+| unverified report hits | 303 |
+| unverified report RBE | 1,731 |
+| unverified report children | 6 Tattered Camo Lead Bricks |
+| unverified report speed | 250% of Red |
 | Source branch | `DDT_Branch` |
 | Shell formula | `ceil(303 * global.bpower)` |
 | Source speed formula | `4.0 * global.bspeed` |
@@ -36,5 +36,4 @@ The DDT's six children are not generic Bricks with a label slapped on. The sourc
 ## Evidence
 
 - **Source-confirmed:** [DDT_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/DDT_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE and the descriptive speed.
 - **Needs in-game verification:** exact RBE and platform/mode availability.
