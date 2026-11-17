@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Yellow Bloon is the fourth basic colour in the community-documented ordinary sequence. Its normal-branch type value is 4. The community source reports that it reveals a Green Bloon when popped.
+The Yellow Bloon is the fourth basic colour in the reported ordinary sequence. Its normal-branch type value is 4. an unverified report reports that it reveals a Green Bloon when popped.
 
 ## Classification
 
