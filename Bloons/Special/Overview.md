@@ -42,5 +42,3 @@ The community reference associates several special Bloons with specific missions
 
 ## Sources
 
-- [BTDX Fandom: Bloons](${sources.bloons})
-- [BTDX Fandom: Updates](${sources.updates})
