@@ -1,31 +1,33 @@
 # P.H.T.A. (Prismatic Hard Titanium Aircraft)
 
-<badge>Research draft · MOAB-class</badge>
-
 ## Overview
 
-Nightmare-only. 10,000 hits to pop; approximately 65.63% Red-Bloon speed. Like Spectrum Bloons, attack pierce reportedly multiplies damage. Drops nine Spectrum Bloons and one H.T.A.
+The P.H.T.A. is a Nightmare-only MOAB-class entry described by the community reference as a stronger Prismatic counterpart to the H.T.A. Its reported damage behaviour scales with attack pierce, similar to the reported Spectrum Bloon mechanic.
 
-## Classification and reported stats
+## Community-reported statistics
 
-- **Class:** MOAB-class
-- **Hits / HP:** See overview above.
-- **RBE:** 13,326
-- **Children:** 9 Spectrum Bloons and 1 H.T.A.
-- **Platform/version checked:** None; community source only.
+| Field | Reported value |
+|---|---|
+| Hits / HP | 10,000 |
+| RBE | 13,326 |
+| Speed | About 65.63% of Red |
+| Children | 9 Spectrum Bloons and 1 H.T.A. |
+| Availability | Nightmare-only |
 
-## Mechanics and interactions
+These values have not been independently verified in the game.
 
-Verify the damage multiplier and Nightmare restriction.
+## Reported mechanics
 
-## Verification checklist
+The community reference reports that attack pierce multiplies damage against the P.H.T.A., that it releases nine Spectrum Bloons and one H.T.A. when popped, and that it is restricted to Nightmare content.
 
-- [ ] Confirm exact hit count and RBE in Android 1.5.2.
-- [ ] Record speed relative to Red Bloon.
-- [ ] Verify child count and child types.
-- [ ] Test status-effect resistance and bonus MOAB damage.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
+The exact damage formula, shell implementation, and child-spawn sequence remain unconfirmed. An exact `PHTA_Branch` source path was not found during this pass, so this page does not claim source confirmation.
 
-## Source
+## Trivia
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported stats; verify in-game.
+Its reported child list is deliberately mixed: nine Spectrum Bloons plus one H.T.A., rather than ten identical copies. That is a very specific family reunion.
+
+## Evidence and open questions
+
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons).
+- **Not yet source-confirmed:** 10,000-hit value, pierce scaling, speed, children, and Nightmare restriction.
+- **Next research targets:** identify its actual source object/spawn path, inspect damage handling, and verify the child sequence in-game.
