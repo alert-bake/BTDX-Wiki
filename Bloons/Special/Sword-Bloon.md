@@ -11,7 +11,7 @@ Spawned by the Knight Bloon. The source says Sword Bloons fly toward the exit an
 - **Category:** Special / Bounty-spawned enemy
 - **HP / RBE:** TBD; 30 RBE reported
 - **Children:** TBD
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 
 ## Mechanics and interactions
 
