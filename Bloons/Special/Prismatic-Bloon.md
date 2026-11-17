@@ -26,4 +26,3 @@ Do not assume it is identical to a Spectrum Bloon.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; verify in-game.
