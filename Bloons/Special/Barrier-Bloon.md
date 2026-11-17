@@ -21,7 +21,7 @@ Barrier Bloons periodically release Block Bloons that float outward and interfer
 
 ## Behaviour and interactions
 
-The exact timing range and tier-specific child health are community-reported.
+The exact timing range and tier-specific child health are unverified report.
 
 ## Version differences
 
@@ -37,4 +37,3 @@ Not yet checked between Windows 1.5.1 and the unofficial Android 1.5.2 build.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information. Values and mechanics need in-game verification.
