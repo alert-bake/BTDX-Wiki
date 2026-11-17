@@ -26,4 +26,3 @@ Record actual pathing, acceleration, and leak behaviour.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; verify in-game.
