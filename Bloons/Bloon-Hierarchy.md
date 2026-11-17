@@ -20,7 +20,7 @@ The BTDX community reference describes this basic sequence:
 | Pink | Yellow |
 | Black | Two Pink Bloons |
 
-The Red Bloon is the base unit and has no smaller child. These relationships are community-reported; the source code inspected for the ordinary movement branch establishes type identities and speed selection, but does not by itself establish every ordinary pop result.
+The Red Bloon is the base unit and has no smaller child. These relationships are unverified report; the source code inspected for the ordinary movement branch establishes type identities and speed selection, but does not by itself establish every ordinary pop result.
 
 White is assigned its own ordinary type value (6.1), separate from Black (6). Its reported RBE and tier do not prove that it shares Black's child result.
 
