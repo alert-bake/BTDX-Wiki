@@ -11,7 +11,7 @@ A Trickster God summon. The source reports several Monkey Terrors with 400 HP th
 - **Category:** Bounty-spawned hazard / enemy (classification provisional)
 - **HP:** 400 HP (reported)
 - **Children:** None documented
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 
 ## Mechanics and interactions
 
