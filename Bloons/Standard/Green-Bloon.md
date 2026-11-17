@@ -24,8 +24,8 @@ Status effects can alter the calculated movement value later in the same Step ev
 
 ## Reported pop information
 
-- **RBE:** 3 (community-reported).
-- **Pop result:** One Blue Bloon (community-reported).
+- **RBE:** 3 (unverified report).
+- **Pop result:** One Blue Bloon (unverified report).
 - **HP / hits:** Not established by RBE alone.
 - **Leak damage:** Not independently established here.
 
@@ -40,5 +40,4 @@ Green's source speed multiplier is 2.4×, while the intermediate Lime layer betw
 ## Evidence and sources
 
 - **Source-confirmed:** [Normal_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE and child result.
 - **Not independently verified here:** exact hit count, leak damage, and platform-specific differences.
