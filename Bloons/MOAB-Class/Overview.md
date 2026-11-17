@@ -1,6 +1,6 @@
 # MOAB-class Bloons
 
-MOAB-class Bloons are large blimp enemies with their own movement, durability, and child-spawn logic. The BTDX community reference defines the class as Bloons that require more than 74 hits to pop their outer layer. That is a community definition, not a universal source-code threshold.
+MOAB-class Bloons are large blimp enemies with their own movement, durability, and child-spawn logic. An unverified report defines the class as Bloons that require more than 74 hits to pop their outer layer. That is an unverified classification, not a universal source-code threshold.
 
 ## How their durability works
 
@@ -32,7 +32,7 @@ The table below preserves unverified report values. Source-confirmed shell coeff
 | [Rocket Blimp](Rocket-Blimp.md) | 300 | 1,252 | 4 Tattered Bricks |
 | [Party Blimp](Party-Blimp.md) | 15,000 | 55,504 | 18 Rocket Blimps + 1 Z.O.M.G. |
 
-These numbers are not a substitute for the source formulas. In particular, `global.bpower` can scale shell and shield values, and some community speed descriptions do not match the raw movement multipliers in the inspected branches.
+These numbers are not a substitute for the source formulas. In particular, `global.bpower` can scale shell and shield values, and some reported speed descriptions do not match the raw movement multipliers in the inspected branches.
 
 ## Source-confirmed shell and movement examples
 
@@ -49,7 +49,7 @@ These numbers are not a substitute for the source formulas. In particular, `glob
 | Rocket Blimp | 300 | `6.5 × global.bspeed` | 4 Tattered Brick |
 | Party Blimp | 15,000 | `0.9 × global.bspeed` | 18 Rocket Blimps + 1 Z.O.M.G. |
 
-The source formulas above are from the respective branch Step events. They are not absolute speeds. The Mini M.O.A.B. and M.O.A.B. pages explicitly note discrepancies between community speed descriptions and the source multipliers when compared with the ordinary Red branch.
+The source formulas above are from the respective branch Step events. They are not absolute speeds. The Mini M.O.A.B. and M.O.A.B. pages explicitly note discrepancies between reported speed descriptions and the source multipliers when compared with the ordinary Red branch.
 
 ## Status effects
 
@@ -74,7 +74,7 @@ MOAB-class branches do not all share the ordinary Bloon status formulas. The ins
 
 ## Important caveat
 
-BTDX's roster is not identical to other Bloons games. Some entries are unique to BTDX or appear only in higher-difficulty content. The existence of a source object does not prove that it appears in normal rounds, and a community-only entry should not be promoted to source-confirmed without locating its spawn and behaviour code.
+BTDX's roster is not identical to other Bloons games. Some entries are unique to BTDX or appear only in higher-difficulty content. The existence of a source object does not prove that it appears in normal rounds, and an unverified entry should not be promoted to source-confirmed without locating its spawn and behaviour code.
 
 ## Sources
 
