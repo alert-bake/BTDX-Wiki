@@ -28,5 +28,4 @@ The Knight's source creates two orbiting Light Balls every Step event, with thei
 ## Evidence and open questions
 
 - **Source-confirmed:** [Knight_Bloon/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Knight_Bloon/Create_0.gml) and [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Knight_Bloon/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stages, Sword Bloons, and counters.
 - **Needs verification:** 13,500-vs-100,000 HP discrepancy, Light Ball collision rules, shield count, and Stage 4 mechanics.
