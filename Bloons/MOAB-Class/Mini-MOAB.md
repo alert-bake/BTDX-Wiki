@@ -27,7 +27,7 @@ When shell reaches zero, the branch creates four Ceramic Bloons. Their armour is
 
 ## Speed discrepancy to investigate
 
-The community page calls the Mini M.O.A.B. Red-Bloon speed. In the inspected source, the Mini M.O.A.B. multiplier is 2.1 while the ordinary Red multiplier is 1.6. Those raw multipliers do not match. The wiki preserves both claims rather than pretending the discrepancy is resolved.
+An unverified report calls the Mini M.O.A.B. Red-Bloon speed. In the inspected source, the Mini M.O.A.B. multiplier is 2.1 while the ordinary Red multiplier is 1.6. Those raw multipliers do not match. The wiki preserves both claims rather than pretending the discrepancy is resolved.
 
 ## Trivia
 
