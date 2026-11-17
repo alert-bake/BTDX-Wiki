@@ -9,10 +9,10 @@ The H.T.A. is a titanium blimp with a source-defined shell coefficient of 60. Th
 | Field | Value |
 |---|---|
 | Class | MOAB-class |
-| Community-reported hits | 60 |
-| Community-reported RBE | 628 |
-| Community-reported children | 4 Shielded Prismatics |
-| Community-reported speed | Blue-Bloon speed |
+| unverified report hits | 60 |
+| unverified report RBE | 628 |
+| unverified report children | 4 Shielded Prismatics |
+| unverified report speed | Blue-Bloon speed |
 | Source branch | `HTA_Branch` |
 | Shell formula | `ceil(60 * global.bpower)` |
 | Source speed formula | `1.8 * global.bspeed` |
@@ -38,5 +38,4 @@ The H.T.A. is not a normal shielded Bloon: it is a blimp with its own shell pool
 ## Evidence
 
 - **Source-confirmed:** [HTA_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/HTA_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE, pierce rules, child naming, and speed description.
 - **Needs further tracing:** exact child type, pierce threshold/penalty, and mode availability.
