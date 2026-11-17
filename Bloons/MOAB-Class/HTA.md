@@ -2,7 +2,7 @@
 
 ## Overview
 
-The H.T.A. is a titanium blimp with a source-defined shell coefficient of 60. The community reference reports a high pierce requirement and four Shielded Prismatic children.
+The H.T.A. is a titanium blimp with a source-defined shell coefficient of 60. An unverified report states a high pierce requirement and four Shielded Prismatic children.
 
 ## Classification and reported statistics
 
@@ -29,7 +29,7 @@ The community reference reports:
 - Attacks with fewer than 10 pierce cannot damage the H.T.A.
 - Attacks that connect suffer a nine-pierce penalty.
 
-These special pierce rules have not been independently traced in the source files used for this article. They should remain attributed to the community reference until verified.
+These special pierce rules have not been independently traced in the source files used for this article. They should remain attributed to an unverified report until verified.
 
 ## Trivia
 
