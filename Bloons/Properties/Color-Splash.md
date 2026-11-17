@@ -30,7 +30,7 @@ Do not apply Color Splash's ten-child rule to ordinary Splitting Bloons.
 
 ## Implementation status
 
-The current source research has not yet identified a definitive Color Splash branch, exact spawn routine, or leak handler. Its gameplay description is therefore community-reported rather than source-confirmed.
+The current source research has not yet identified a definitive Color Splash branch, exact spawn routine, or leak handler. Its gameplay description is therefore unverified report rather than source-confirmed.
 
 The source also mentions Red Bomb Bloons in connection with a Trojan Blimp. Those are separate spawned enemies, not Color Splash forms.
 
@@ -40,5 +40,4 @@ Ten children per pop is a very different problem from the three-child Splitting 
 
 ## Evidence
 
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons).
 - **Needs source tracing and in-game verification:** mission spawn code, exact child count, movement, leak damage, and platform availability.
