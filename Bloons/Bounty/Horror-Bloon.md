@@ -11,7 +11,7 @@ The Horror Bloon Bounty takes place on **The Depths** and has four reported stag
 3. **Demonic Bloon:** the two inner Horror Bloons gain a single-target projectile that stuns a tower.
 4. **True Horror:** adds another Horror Bloon that blocks the central rock and has substantially more HP than the others.
 
-The stage effects and one-life penalty are community-reported.
+The stage effects and one-life penalty are unverified report.
 
 ## Source cross-check
 
@@ -34,5 +34,4 @@ The Horror object uses its remaining-health ratio to calculate its new path posi
 ## Evidence and open questions
 
 - **Source-confirmed:** [Horror_Bloon_X/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Horror_Bloon_X/Create_0.gml), [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Horror_Bloon_X/Step_0.gml), and [Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Horror_Bloon_X/Alarm_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stage progression, life penalty, and counters.
 - **Needs verification:** exact stage-to-object mapping, timer thresholds, spotlight effect, and whether the one-life effect is reversible.
