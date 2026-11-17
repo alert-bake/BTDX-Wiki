@@ -21,13 +21,13 @@ The base `The_Mother` Create event initializes 18,000 HP multiplied by `global.b
 - Increases `strength` by 1.5.
 - Repeats after 900 steps.
 
-The inspected third alarm begins with an immediate `exit;`, so the tower-rearrangement code beneath that statement is unreachable in the current file. The community claim about tower rearrangement is therefore not confirmed by this event and may describe an older build or another implementation.
+The inspected third alarm begins with an immediate `exit;`, so the tower-rearrangement code beneath that statement is unreachable in the current file. the reported claim about tower rearrangement is therefore not confirmed by this event and may describe an older build or another implementation.
 
-The source's base HP of 18,000 × `global.bpower` also differs from the community's approximate 12,000 HP.
+The source's base HP of 18,000 × `global.bpower` also differs from the reported approximate 12,000 HP.
 
-## Community-suggested counters
+## Unverified suggested counters
 
-TreeM, HeliM, and DartlingS are community suggestions, not guaranteed solutions.
+TreeM, HeliM, and DartlingS are unverified suggestions, not guaranteed solutions.
 
 ## Trivia
 
