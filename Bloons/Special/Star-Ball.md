@@ -11,7 +11,7 @@ A projectile-blocking object summoned by the Clown Bloon. The source describes s
 - **Category:** Bounty-spawned hazard / enemy (classification provisional)
 - **HP:** 40 HP in Stage 1; later values vary
 - **Children:** None documented
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 
 ## Mechanics and interactions
 
