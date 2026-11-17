@@ -2,7 +2,7 @@
 
 This page separates three ideas that are easy to accidentally collapse into one:
 
-1. **Ordinary pop relationships** reported by the community reference.
+1. **Ordinary pop relationships** reported by an unverified report.
 2. **Fractional type values** used by BTDX's ordinary Bloon branch.
 3. **Special attack routines** that create multiple copies of a lower type.
 
@@ -10,7 +10,7 @@ A source type value is not automatically a child count or an RBE value.
 
 ## Basic colour chain
 
-The BTDX community reference describes this basic sequence:
+an unverified report describes this basic sequence:
 
 | Outer Bloon | Reported child |
 |---|---|
@@ -87,7 +87,7 @@ See [Ceramic Bloon](Standard/Ceramic-Bloon.md), [Brick Bloon](Standard/Brick-Blo
 
 ## MOAB-class children
 
-BTDX's documented blimps have their own child relationships. Examples reported by the community reference include:
+BTDX's documented blimps have their own child relationships. Examples reported by an unverified report include:
 
 | Parent | Children when popped |
 |---|---|
