@@ -1,50 +1,35 @@
 # Big Bully Bloon
 
-<badge>Research draft · Bounty Bloon</badge>
-
 ## Overview
 
-Five colour-coded Bully Bloons exist. Each removes lives according to its colour (Red 1, Blue 2, Green 3, Yellow 4, Pink 5), and the leak penalty increases by one each time that Bloon leaks. The family accelerates when attacked: more hits mean more speed.
+The Big Bully family is a five-stage Bounty encounter on **Monkey Meadows**. The community reference describes five colour-coded Bully Bloons, with leak penalties based on colour and an increasing penalty after repeated leaks. It also reports that taking hits accelerates the family.
 
-- **Associated map:** Monkey Meadows
-- **Stage count:** 5
-- **Bounty mode introduced:** Version 1.2, according to the community update history.
-- **Platform/version checked:** None; this entry is based on community documentation.
+## Encounter and stage progression
 
-## Stage progression
+1. **Big Bully Bloon:** one Pink BBB, reported at 3,000 HP.
+2. **Big Bully Family:** one of each colour: Red 500 HP, Blue 1,000, Green 1,500, Yellow 2,000, Pink 2,500.
+3. **Big Rage Bloon:** one of each colour. The Pink form glows red, has 5,000 HP, and fires a rapid stunning projectile.
+4. **Big Bully Rage:** one of each colour plus a second Pink. Both Pinks fire rapid stun projectiles. One has a devil aura, 8,000 HP, an area stun triggered by each hit, and an initial 10-life leak penalty.
+5. **Rage God:** the aura Bloon grows to a reported 20,000 HP and fires stunning fingers that pierce towers. Its speed boost reportedly accelerates other Bloons, up to 3×. It initially removes 20 lives and gains another 10-life penalty on each later leak.
 
-### Stage 1 — Big Bully Bloon: one Pink BBB with 3,000 HP.
+All stage values and mechanics above are community-reported.
 
-### Stage 2 — Big Bully Family: one of each colour: Red 500 HP, Blue 1,000, Green 1,500, Yellow 2,000, Pink 2,500.
+## Source cross-check
 
-### Stage 3 — Big Rage Bloon: one of each colour. The Pink glows red, has 5,000 HP, and fires a rapid stunning projectile.
+The base `Big_Bully_Bloon` Create event initializes `hitpoints` and `maxpoints` to `3000 * global.bpower`, sets `dmgpower = 4`, and starts with `fast = 1 * global.bspeed`. Its Step event assigns `path_speed = fast` and includes a gradual speed adjustment.
 
-### Stage 4 — Big Bully Rage: one of each colour plus a second Pink. Both Pinks fire rapid stun projectiles. One has a devil aura, 8,000 HP, an area stun triggered by each hit, and an initial 10-life leak penalty.
-
-### Stage 5 — Rage God: the aura Bloon grows, reaches 20,000 HP, and fires stunning fingers that pierce towers. Its speed boost also accelerates other Bloons, reportedly up to 3×. It initially removes 20 lives and gains a further 10-life penalty on each subsequent leak.
+This supports the 3,000 base HP figure when `global.bpower = 1`, but the colour variants and later Rage forms require their own source paths. Do not assume the base object's values apply to every stage.
 
 ## Community-suggested counters
 
-Suggested towers: VillageM, EngineerS, AceM, MortarL, TreeM, TreeR, ChipperL.
+TreeM, EngineerS, AceM, MortarL, TreeM/TreeR, and ChipperL are listed by the community as suggestions. These are not guaranteed solutions or the only viable towers.
 
-These are community strategy suggestions, not guaranteed solutions or a claim that these are the only viable towers.
+## Trivia
 
-## Rewards
+The base object has a type identifier `bigbloon = 10001`, not an ordinary Bloon layer value. This is a Bounty boss object, not a Pink Bloon with a comically large health bar.
 
-See [Bounty Overview](Overview.md) for the community-reported reward ranks. No separate reward breakdown is documented here unless noted above.
+## Evidence and open questions
 
-## Unresolved mechanics
-
-Confirm exact leak penalties, acceleration formula, and whether the area stun triggers on every projectile hit.
-
-## Research checklist
-
-- [ ] Confirm this Bounty exists in Android 1.5.2.
-- [ ] Record exact HP, speed, attacks, and leak penalties for every stage.
-- [ ] Capture the complete spawn sequence and timing.
-- [ ] Verify community counter suggestions and record alternatives.
-- [ ] Compare Windows 1.5.1 and Android 1.5.2.
-
-## Source
-
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — Bounty section. Community-maintained and potentially incomplete or outdated.
+- **Source-confirmed:** [Big_Bully_Bloon/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Big_Bully_Bloon/Create_0.gml) and [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Big_Bully_Bloon/Step_0.gml).
+- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for all five stages, colour penalties, and counter suggestions.
+- **Needs verification:** every colour variant's HP, Rage God attack behaviour, acceleration formula, and repeat-leak penalties.
