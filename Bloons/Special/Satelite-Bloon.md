@@ -9,7 +9,7 @@ Rock-like children released by Planetarium Bloons. They orbit a point, distract 
 ## Classification
 
 - **Category:** Special Bloon / special form
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 - **HP / hits:** 21 HP (initial variant)
 - **Children / result:** None documented
 
