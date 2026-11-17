@@ -26,4 +26,3 @@ The source says Static cannot be stacked with other properties. Verify shield va
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; verify in-game.
