@@ -4,7 +4,7 @@
 
 The D.D.D.T. is described by the community reference as a Nightmare-only blimp combining Z.O.M.G.-like durability with D.D.T.-like Camo and Lead properties. It reportedly releases six D.D.T.s when popped.
 
-## Community-reported statistics
+## unverified report statistics
 
 | Field | Reported value |
 |---|---|
@@ -18,7 +18,7 @@ The D.D.D.T. is described by the community reference as a Nightmare-only blimp c
 
 The community reference describes the D.D.D.T. as having Z.O.M.G.-like bulk, Camo and Lead properties associated with D.D.T.s, six D.D.T. children on pop, and Nightmare-only availability.
 
-These are community-reported details. The exact property flags, shell formula, and child-spawn implementation have not been confirmed from a matching source object in this pass.
+These are unverified report details. The exact property flags, shell formula, and child-spawn implementation have not been confirmed from a matching source object in this pass.
 
 ## Implementation status
 
@@ -30,6 +30,5 @@ The name reads like someone stacked another D onto a D.D.T. and called it a day.
 
 ## Evidence and open questions
 
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons).
 - **Not yet source-confirmed:** all statistics, properties, children, and mode restriction.
 - **Next research targets:** locate the real object/spawn identifier, inspect damage and child creation, and test the Camo/Lead interaction.
