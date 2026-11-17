@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Blue Bloon is the second basic colour in the community-documented ordinary sequence. Its normal-branch type value is 2, and the community source reports that popping it reveals a Red Bloon.
+The Blue Bloon is the second basic colour in the ordinary reported ordinary sequence. Its normal-branch type value is 2, and an unverified report reports that popping it reveals a Red Bloon.
 
 ## Classification
 
