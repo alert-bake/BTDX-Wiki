@@ -27,4 +27,3 @@ The exact split trigger, child count, and interaction with Regrow or Camo need t
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; incomplete details remain TBD.
