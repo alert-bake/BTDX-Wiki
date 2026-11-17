@@ -27,4 +27,3 @@ The available source does not describe its HP, movement, or attack/leak effects.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; details remain TBD.
