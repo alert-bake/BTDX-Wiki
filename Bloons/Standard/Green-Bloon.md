@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Green Bloon is the third basic colour in the community-documented ordinary sequence. Its normal-branch type value is 3. The community source reports that it reveals a Blue Bloon when popped.
+The Green Bloon is the third basic colour in the reported ordinary sequence. Its normal-branch type value is 3. an unverified report reports that it reveals a Blue Bloon when popped.
 
 ## Classification
 
