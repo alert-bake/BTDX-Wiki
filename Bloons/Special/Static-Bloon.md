@@ -4,12 +4,12 @@
 
 ## Overview
 
-A shielded Bloon variant that periodically fires a stunning projectile at towers. The community page says its shield absorbs twice the damage of a regular shield and that it moves more slowly than its base Bloon.
+A shielded Bloon variant that periodically fires a stunning projectile at towers. An unverified report says its shield absorbs twice the damage of a regular shield and that it moves more slowly than its base Bloon.
 
 ## Classification
 
 - **Category:** Special Bloon / special form
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 - **HP / hits:** Varies by base Bloon
 - **Children / result:** Varies
 
