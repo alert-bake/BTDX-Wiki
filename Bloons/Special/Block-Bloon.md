@@ -10,7 +10,7 @@ Block Bloons are spawned by Barrier Bloons. They float away from the track and a
 
 - **Category:** Spawned obstacle enemy
 - **Game:** Bloons Tower Defense X
-- **Platform/version checked:** None yet; this entry is based on community documentation.
+- **Platform/version checked:** None yet; this entry contains unverified reported details.
 
 ## Stats
 
@@ -21,7 +21,7 @@ Block Bloons are spawned by Barrier Bloons. They float away from the track and a
 
 ## Behaviour and interactions
 
-The community page also lists RBE values of 3 and 5 for the two tiers; the relationship between HP and RBE needs clarification.
+An unverified report also lists RBE values of 3 and 5 for the two tiers; the relationship between HP and RBE needs clarification.
 
 ## Version differences
 
