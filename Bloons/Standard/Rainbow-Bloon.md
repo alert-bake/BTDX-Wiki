@@ -22,7 +22,7 @@ The value is calculated before the later status-effect adjustments. The source c
 
 ## Reported information
 
-- **RBE:** 47 (community-reported; unverified).
+- **RBE:** 47 (unverified report; unverified).
 - **Children:** Not established by the source files checked for this article.
 - **HP / hits:** Not established by RBE alone.
 - **Leak damage:** Not independently established.
@@ -40,4 +40,3 @@ Rainbow has a source-defined half-step above it: Prismatic at 8.5. And, in a sep
 ## Evidence and sources
 
 - **Source-confirmed:** [Normal_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Step_0.gml), [Chipper_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Chipper_Bloon_Branch/Step_0.gml), and [Challenge_Drones/Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Challenge_Drones/Alarm_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for RBE.
