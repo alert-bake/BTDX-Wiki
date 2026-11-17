@@ -11,7 +11,7 @@ Tattered appears in names such as Tattered Yellow and Tattered Brick, and in Tat
 - **Category:** Standard / nested Bloon (provisional)
 - **RBE:** TBD
 - **Children:** TBD
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 
 ## Mechanics and interactions
 
