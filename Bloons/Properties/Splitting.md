@@ -2,7 +2,7 @@
 
 ## Overview
 
-Splitting is a property described by the BTDX community reference as causing a Bloon to produce three Bloons of its counterpart type when popped. The reference also reports that Splitting forms move faster than their ordinary counterparts.
+Splitting is a property described by an unverified report as causing a Bloon to produce three Bloons of its counterpart type when popped. The reference also reports that Splitting forms move faster than their ordinary counterparts.
 
 The term needs careful handling because the source contains more than one three-child routine. A Chipper interaction, a Challenge Drones attack, and a Splitting property are not automatically the same mechanic.
 
@@ -23,7 +23,7 @@ This is source-confirmed Chipper behaviour. A non-zero `pophit` changes the amou
 
 ## unverified report speed and RBE
 
-The community page reports the following values:
+An unverified report reports the following values:
 
 | Form | Speed relative to Red | Children | Reported RBE |
 |---|---:|---|---:|
@@ -38,7 +38,7 @@ These figures are unverified report, not derived from the normal-branch speed mu
 
 ## Stacking
 
-The community reference lists Splitting as compatible with:
+an unverified report lists Splitting as compatible with:
 - Camo
 - Lead
 - Regrow
