@@ -11,7 +11,7 @@ The Track Crawler Bounty takes place on **Bloon Circles X** and has four reporte
 3. **Track Spire:** increases the number of Spider Bloons to five. After them, two corner Track Crawlers appear, followed by a Track Spire with more HP and longer-lasting webs.
 4. **Track Swarm:** adds four Spider Bloons. These are initially invulnerable and lose that protection one at a time later. The three earlier Track Crawlers are upgraded to Track Spires.
 
-The stage composition is community-reported.
+The stage composition is unverified report.
 
 ## Source cross-check
 
@@ -32,5 +32,4 @@ The Track Crawler calculates progress from its distance to the End object: `(200
 ## Evidence and open questions
 
 - **Source-confirmed:** [Track_Crawler/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Track_Crawler/Create_0.gml), [Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Track_Crawler/Step_0.gml), and [Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Track_Crawler/Alarm_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for the four stages, Spider Bloons, and counters.
 - **Needs verification:** web persistence, stun duration, Spider Bloon spawn timing, and Track Spire differences.
