@@ -9,7 +9,7 @@ Robo Bloons have the Lead property and fire piercing lasers that stun towers. Wh
 ## Classification
 
 - **Category:** Special Bloon / special form
-- **Platform/version checked:** None; community source only.
+- **Platform/version checked:** None; not yet independently verified in a named platform/build.
 - **HP / hits:** Red 12 HP; Blue 24; Green 36; Yellow 48; Pink 60; Rainbow 120 (reported)
 - **Children / result:** Splitting Lead Bloon of matching colour
 
