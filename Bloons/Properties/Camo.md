@@ -17,7 +17,7 @@ The BTDX community reference lists three ways to handle Camo:
 - Use a 3L Monkey Village.
 - Remove the Camo property with 3M Monkey Submarines or 3R Monkey Engineers.
 
-These upgrade identifiers and effects are community-reported and should be checked against the intended build.
+These upgrade identifiers and effects are unverified report and should be checked against the intended build.
 
 ## Stacking
 
@@ -34,5 +34,4 @@ Camo is not a different colour ladder. The source gives it a dedicated branch, b
 ## Evidence
 
 - **Source-confirmed:** [Normal_Bloon_Branch/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Normal_Bloon_Branch/Create_0.gml), [Camo_Bloon_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Camo_Bloon_Branch/Step_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for targeting and counterplay.
 - **Needs in-game verification:** exact detection rules, tower exceptions, upgrade identifiers, and platform differences.
