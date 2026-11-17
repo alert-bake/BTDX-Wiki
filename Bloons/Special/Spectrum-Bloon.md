@@ -14,7 +14,7 @@ Spectrum Bloons are described as having 200 HP and moving at 206.25% of Red-Bloo
 
 ## Stats
 
-- **HP / hits:** 200 HP; RBE 342 (community-reported)
+- **HP / hits:** 200 HP; RBE 342 (unverified report)
 - **Children / pop result:** 1 Prismatic Bloon
 - **RBE:** TBD unless explicitly stated above.
 - **Speed:** TBD unless explicitly stated above.
@@ -37,4 +37,3 @@ Not yet checked between Windows 1.5.1 and the unofficial Android 1.5.2 build.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information. Values and mechanics need in-game verification.
