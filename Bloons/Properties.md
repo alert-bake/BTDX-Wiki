@@ -31,7 +31,7 @@ Modifiers are special layers or effects that can be applied to many Bloons. Some
 
 Camo Bloons cannot be targeted or damaged by towers without Camo detection.
 
-The community page lists three ways to handle Camo:
+An unverified report lists three ways to handle Camo:
 - Use a tower or upgrade with Camo detection.
 - Use a 3L Monkey Village.
 - Remove the Camo modifier with 3M Monkey Submarines or 3R Monkey Engineers.
@@ -81,7 +81,7 @@ Splitting Bloons pop into three Bloons of their counterpart type and move faster
 
 Shields absorb damage before the underlying Bloon can be damaged and protect the Bloon from status effects until the shield is removed.
 
-The community source reports that Shielded Bloons:
+An unverified report states that Shielded Bloons:
 - Resist low-damage explosions.
 - Cannot be frozen or glued while shielded.
 - Are not bypassed by M.I.B. immunities.
@@ -126,7 +126,7 @@ Super Shields appear in Nightmare Mode and absorb twice as much damage as a regu
 
 Static Bloons are Shielded Bloons that periodically fire a projectile at towers. A tower hit by the projectile is stunned/disabled. The source says Static shields absorb twice as much damage as regular shields and that Static Bloons move more slowly than their unmodified forms.
 
-The visual appearance is electrical and glowing. **Energized** is a descriptive name used in this wiki for this electrical form; **Static** is the name used by the community reference.
+The visual appearance is electrical and glowing. **Energized** is a descriptive name used in this wiki for this electrical form; **Static** is the name used by the unverified report.
 
 **Stacking:** None reported.
 
@@ -203,10 +203,10 @@ The source also describes an **Undying Rag Bloon**, which behaves like a Rag Blo
 ## Ordinary Bloon resistances are not universal modifiers
 
 Black and White are ordinary colour types, not the same thing as the BTDX modifier system:
-- The community source explicitly says BTDX Black Bloons are **not immune to explosives**.
+- An unverified report states BTDX Black Bloons are **not immune to explosives**.
 - It explicitly says BTDX White Bloons are **not immune to freezing**.
 
-This differs from mechanics in other Bloons games. If hands-on testing in a particular BTDX build contradicts the community page, record the platform, version, attack used, and result rather than silently merging the claims.
+This differs from mechanics in other Bloons games. If hands-on testing in a particular BTDX build contradicts the unverified report, record the platform, version, attack used, and result rather than silently merging the claims.
 
 ## Related pages
 
