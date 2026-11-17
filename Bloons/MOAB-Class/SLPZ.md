@@ -4,7 +4,7 @@
 
 The S.L.P.Z. is described by the unverified report as a Nightmare-only, shielded evolution of the L.P.Z. It reportedly has a large shield, a separate shell, piercing stun projectiles, and a speed increase after its shield is removed.
 
-## unverified report statistics
+## Unverified reported statistics
 
 | Field | Reported value |
 |---|---|
@@ -18,9 +18,9 @@ The S.L.P.Z. is described by the unverified report as a Nightmare-only, shielded
 
 ## Reported mechanics
 
-The unverified report reports that the S.L.P.Z. fires piercing stun projectiles, stuns nearby towers after its shield is depleted, accelerates after losing its shield, and releases ten Static Mini M.O.A.B.s when popped.
+An unverified report states that the S.L.P.Z. fires piercing stun projectiles, stuns nearby towers after its shield is depleted, accelerates after losing its shield, and releases ten Static Mini M.O.A.B.s when popped.
 
-These details remain unverified report. The exact shield/shell formulas, projectile cadence, post-shield behaviour, and child creation have not been matched to a source object in this pass.
+These details remain unverified. The exact shield/shell formulas, projectile cadence, post-shield behaviour, and child creation have not been matched to a source object in this pass.
 
 ## Implementation status
 
