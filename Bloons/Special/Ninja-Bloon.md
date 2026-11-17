@@ -26,4 +26,3 @@ Exact stats and attack cadence per colour need testing.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information; verify in-game.
