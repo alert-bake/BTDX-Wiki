@@ -170,6 +170,7 @@ Tower pages will be expanded as their upgrade paths, targeting rules, costs, and
 
 These pages preserve the underlying investigation work, including source references and findings that have not yet been promoted into polished reference articles.
 
+- [Research overview](Research/Overview.md)
 - [Bloon research log](Research/Bloons.md)
 - [Bloon types and sprites](Research/Bloon-Types-and-Sprites.md)
 - [Every Bloon — research inventory](Research/Every%20Bloon.md)
@@ -201,13 +202,6 @@ Accuracy matters more than filling every blank. The wiki uses the following evid
 - Do not import BTD5 or BTD6 statistics to fill BTDX gaps.
 - A source object or event is not proof that an enemy or mechanic is active in every game mode.
 - Player observations are valuable evidence. Record exactly what happened and avoid turning one test into a universal rule without further checks.
-
-### Source repositories
-
-- [BTDX-Wiki](https://github.com/alert-bake/BTDX-Wiki) — this documentation project.
-- [BTDX-source](https://github.com/alert-bake/BTDX-source) — the separate game-source repository used for implementation research.
-
-These repositories serve different purposes: the wiki documents findings; the source repository contains the game code being investigated.
 
 ## Contributing and corrections
 
