@@ -27,7 +27,7 @@ When shell falls below 1, the source creates four Brick-branch children. Above w
 
 ## Speed discrepancy to investigate
 
-The community reference says 75% of Red speed. The inspected source uses 1.5× global speed for MOAB and 1.6× for ordinary Red, which is 93.75% when comparing those two raw branch multipliers. The source and community values therefore do not currently agree under that comparison.
+An unverified report says 75% of Red speed. The inspected source uses 1.5× global speed for MOAB and 1.6× for ordinary Red, which is 93.75% when comparing those two raw branch multipliers. The source and community values therefore do not currently agree under that comparison.
 
 ## Trivia
 
