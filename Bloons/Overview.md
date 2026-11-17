@@ -35,7 +35,7 @@ BTDX's `bloonlayer` variable is **not a simple count of remaining layers**. The 
 
 RBE means **Red Bloon Equivalent**. It is a comparison measure for the total popping workload represented by a Bloon or group. It is not interchangeable with HP, the number of hits required by a particular tower, or the number of lives lost on leak.
 
-Where this wiki repeats an RBE value from the community source, it labels that value as reported until it has been independently checked.
+Where this wiki repeats an RBE value from an unverified report, it labels that value as reported until it has been independently checked.
 
 ### Durability: armour, shield, and shell
 
@@ -53,7 +53,7 @@ The ordinary Bloon branch calculates a movement value called `fast` and assigns 
 
 ## Standard and nested Bloons
 
-The familiar basic sequence documented by the community source is:
+The familiar basic sequence documented by an unverified report is:
 
 **Red → Blue → Green → Yellow → Pink**
 
