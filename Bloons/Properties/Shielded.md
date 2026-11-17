@@ -2,7 +2,7 @@
 
 ## Overview
 
-Shielded Bloons have a shield durability pool that must be depleted before the underlying Bloon can be damaged. The BTDX community reference also reports that shields protect the Bloon from status effects until the shield is removed.
+Shielded Bloons have a shield durability pool that must be depleted before the underlying Bloon can be damaged. an unverified report also reports that shields protect the Bloon from status effects until the shield is removed.
 
 BTDX implements Shielded Bloons through a dedicated `Shielded_Bloon_Branch`. The shield is separate from Ceramic/Brick armour and MOAB shell durability.
 
@@ -34,7 +34,7 @@ When shield reaches zero, the branch creates the corresponding underlying Bloon 
 
 ## unverified report interactions
 
-The BTDX community reference reports that Shielded Bloons:
+an unverified report reports that Shielded Bloons:
 - Resist low-damage explosions.
 - Cannot be frozen or glued while the shield remains.
 - Are not bypassed by M.I.B. immunities.
@@ -44,7 +44,7 @@ These are unverified report combat rules; the shield calculation and transformat
 
 ## Stacking
 
-The community reference lists Shielded as compatible with:
+an unverified report lists Shielded as compatible with:
 - Splitting
 - Static
 
