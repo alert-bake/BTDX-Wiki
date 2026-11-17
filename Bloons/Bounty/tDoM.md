@@ -11,7 +11,7 @@ The tDoM Bounty takes place on **Graveyard**. It is described by the community r
 3. **tDoM Zero Form:** gains a shield layer with approximately as much HP as the tDoM itself. The second-form enemy also has more HP.
 4. **tDoM Full Power:** all forms gain more HP and use monkey-nuke projectiles that destroy groups of towers.
 
-The stage descriptions and leak penalty are community-reported.
+The stage descriptions and leak penalty are unverified report.
 
 ## Source cross-check
 
@@ -35,5 +35,4 @@ The tDoM's path setup contains explicit handling for many different maps. It is 
 ## Evidence and open questions
 
 - **Source-confirmed:** [tDoM/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/tDoM/Create_0.gml) and [Destroy_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/tDoM/Destroy_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stage descriptions, leak penalty, and counters.
 - **Needs verification:** devil-blade targeting exclusions, shield values, monkey-nuke behaviour, and the exact relationship between source variants and four Bounty stages.
