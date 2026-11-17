@@ -1,45 +1,86 @@
 # Bloons research log
 
-Working research register for the BTDX Bloons section. This is not a definitive source of game data.
+Working research register for the BTDX Bloons section. This is a research index, not a claim that every community-reported value has been independently reproduced in-game.
 
-## Primary source
+## Primary references
 
-- [BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — contains regular, special, MOAB-class, and Bounty Bloon descriptions.
+- [BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-maintained descriptions for ordinary, special, MOAB-class, and Bounty Bloons.
 - [BTDX Fandom: Updates](https://bloons-tdx.fandom.com/wiki/Updates) — version history; reports Bounty mode added in 1.2 and Blooming Bloon added in 1.31.
+- [BTDX-source](https://github.com/alert-bake/BTDX-source) — primary implementation reference for source-backed mechanics.
 
-## Scope
+## Version policy
 
-The Bloons section currently contains overview pages, property/hierarchy references, individual regular Bloons, individual special Bloons, individual MOAB-class enemies, and individual Bounty families.
+- Main reference builds: Windows 1.5.1 and unofficial Android 1.5.2.
+- Never merge observations from different platforms/builds without labels.
+- Community-wiki values remain community-reported until independently tested.
+- A source object proves that code exists in the inspected source tree; it does not prove the object appears in every mode or platform.
+- Do not fill BTDX gaps with BTD5/BTD6 stats.
 
-## Important source caveats
+## Current documentation coverage
 
-- Community-wiki values are not independently verified.
-- Some entries contain question marks, approximate values, or contradictions.
-- The source may describe older builds; verify against Windows 1.5.1 and Android 1.5.2 separately.
-- Do not use BTD5/BTD6 stats to fill BTDX gaps.
+### Standard and nested Bloons
 
-## Priority verification
+- [x] Main Bloon overview expanded.
+- [x] Standard Bloon index expanded with normal-branch `bloonlayer` values and speed multipliers.
+- [x] Hierarchy article distinguishes ordinary pop reports from Chipper fractional-layer splitting.
+- [x] 17 individual entries expanded: Red, Orange, Blue, Cyan, Green, Lime, Yellow, Amber, Pink, Purple, Black, White, Zebra, Rainbow, Prismatic, Ceramic, and Brick.
+- [x] Corrupted Red, Blue, Green, Yellow, and Pink articles replaced.
 
-- [ ] Capture all ordinary Bloon stats in-game.
-- [ ] Confirm the RBE values, especially unusual values for Black and mission-specific enemies.
-- [ ] Verify every MOAB-class child relationship.
-- [ ] Verify all 14 Bounty families and their stage counts.
-- [ ] Confirm Bounty reward tiers.
-- [ ] Verify whether any Bounty families or special Bloons are absent from Android 1.5.2.
-- [ ] Add screenshots or exact player observations with platform/version labels.
+### Properties and modifiers
 
-## Page status
+- [x] Consolidated properties reference linked to individual pages.
+- [x] 10 individual property pages expanded: Camo, Regrow, Lead, Tattered, Splitting, Shielded, Super Shield, Static/Energized, Sun-Blessed/Solar, and Color Splash.
+- [ ] Ninja, Robo, Rag, Reincarnated Rag, and Undying Rag remain special-form research rather than ordinary property pages.
 
-Every article created in this initial batch is a research draft. Pages with partial source coverage intentionally contain TBD markers rather than invented stats.
+### MOAB-class Bloons
 
-## Initial documentation batch
+- [x] MOAB-class overview expanded with a reported-stat table and source formula comparison.
+- [x] All 14 individual MOAB-class articles expanded.
+- [x] Source-backed child relationships documented for Mini M.O.A.B., M.O.A.B., B.F.B., Z.O.M.G., H.T.A., B.R.C., D.D.T., L.P.Z., Rocket Blimp, and Party Blimp.
+- [x] Community-only or not-yet-located implementations explicitly labelled for P.H.T.A., M.B.R.C., D.D.D.T., and S.L.P.Z.
+- [x] Mini M.O.A.B. and M.O.A.B. community/source speed discrepancies recorded rather than silently reconciled.
 
-The first article batch created the following inventory:
+### Bounty Bloons
 
-- 13 standard/nested Bloon articles.
-- 29 special, mission-specific, or Bounty-spawned enemy/hazard articles.
-- 14 MOAB-class articles.
-- 14 individual Bounty family articles.
-- 4 high-level category indexes (Standard, Special, MOAB-class, Bounty), alongside the main overview, hierarchy, and properties references.
+- [x] Bounty overview expanded with all 14 families, reported stage counts, reward ranks, and source cross-checks.
+- [x] All 14 individual Bounty articles expanded.
+- [x] Source-backed behaviour added where matching objects/events were found.
+- [x] Community/source discrepancies recorded for Mighty MOAB, Flying Bloon, The Mother, Knight Bloon, and Annoying Bloon.
+- [x] The Mother's early `exit;` in Alarm 2 documented as making later tower-rearrangement code unreachable in the inspected source.
 
-This is a count of pages created from the currently indexed community source, not a claim that the game contains exactly 70 distinct Bloon entities. Some entries are modifiers, spawned hazards, or provisional classifications rather than independent Bloon classes. Several entries intentionally retain TBD fields.
+## Source-backed findings worth preserving
+
+### Ordinary Bloon type map
+
+The normal branch uses integer and fractional type values from Red (1) through Prismatic (8.5). Its movement formula uses `global.bspeed × type_multiplier × (tattered + 1)`, followed by status-effect adjustments. These values are not simple remaining-hit counts.
+
+### Chipper fractional handling
+
+The Chipper branch handles half-step Bloon layers by reducing the type by 0.5 in the base `pophit = 0` case and creating two additional instances alongside the original. This is a Chipper-specific three-instance result, not a universal pop rule for every fractional Bloon.
+
+### Durable and shielded types
+
+Ceramic and Brick use separate armour branches. Shielded forms use a distinct shield pool and map large `bloonlayer` values to underlying branches. Static forms have their own doubled shield coefficients and projectile-creation logic.
+
+### MOAB-class
+
+The source uses `shell` and `maxshell` for several blimps, with shell coefficients multiplied by `global.bpower`. The L.P.Z. separately tracks shield and shell, changes speed after shield loss, and creates Static Bloon children when shell is depleted.
+
+### Bounty bosses
+
+Bounty objects use independent `hitpoints`, `maxpoints`, and custom movement/attack logic rather than the ordinary Bloon layer system. Some community stage values differ from base Create-event values; stage-specific setup must be traced before deciding which value is correct.
+
+## Remaining verification priorities
+
+1. Verify all standard Bloon RBE, hit, leak, and child values in-game.
+2. Verify every property interaction and combination, especially shield damage and Super Shield.
+3. Trace unlocated MOAB-class entries and their mission spawn paths.
+4. Verify every Bounty family and stage on Windows 1.5.1 and Android 1.5.2.
+5. Resolve the source/community discrepancies recorded in the individual articles.
+6. Verify reward tiers and whether rewards apply per stage, rank, or completed Bounty level.
+7. Add screenshots or exact player observations with platform/version labels.
+8. Continue special-form research for Ninja, Robo, Rag, Reincarnated Rag, Undying Rag, and other mission-only Bloons.
+
+## Scope note
+
+This register tracks documentation pages and source-research coverage. It is not a count of unique enemy entities in the game: some pages describe properties, alternate forms, hazards, mission variants, or Bounty stages rather than standalone Bloon classes.
