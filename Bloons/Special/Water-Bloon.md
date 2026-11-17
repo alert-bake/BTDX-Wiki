@@ -37,4 +37,3 @@ Not yet checked between Windows 1.5.1 and the unofficial Android 1.5.2 build.
 
 ## Source
 
-[BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-reported information. Values and mechanics need in-game verification.
