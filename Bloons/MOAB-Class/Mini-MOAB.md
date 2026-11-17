@@ -9,15 +9,15 @@ The Mini M.O.A.B. is the smallest documented member of BTDX's blimp family. Its 
 | Field | Value |
 |---|---|
 | Class | MOAB-class |
-| Community-reported hits | 75 |
-| Community-reported RBE | 491 |
-| Community-reported children | 4 Ceramics |
-| Community-reported speed | Red-Bloon speed |
+| unverified report hits | 75 |
+| unverified report RBE | 491 |
+| unverified report children | 4 Ceramics |
+| unverified report speed | Red-Bloon speed |
 | Source branch | `Mini_Moab_Branch` |
 | Shell formula | `ceil(75 * global.bpower)` |
 | Source speed formula | `2.1 * global.bspeed` |
 
-The hit count and RBE are community-reported. The source formula scales with `global.bpower`, so the shell value can change with game modifiers.
+The hit count and RBE are unverified report. The source formula scales with `global.bpower`, so the shell value can change with game modifiers.
 
 ## Source-confirmed behaviour
 
@@ -36,5 +36,4 @@ The Mini M.O.A.B. is not just a bigger Bloon with a health bar: its source uses 
 ## Evidence
 
 - **Source-confirmed:** [Mini_Moab_Branch/Step_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Mini_Moab_Branch/Step_0.gml), [Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/Mini_Moab_Branch/Create_0.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for 75 hits, RBE, and reported speed.
 - **Needs in-game verification:** platform-specific hit count, RBE, and the speed discrepancy.
