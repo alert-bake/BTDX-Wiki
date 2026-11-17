@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Clown Bloon Bounty takes place on **Omega River** and has five reported stages. The boss moves across the screen and uses random abilities to disrupt towers and Bloon movement. The community reference says each ability makes it faster and increases ability frequency.
+The Clown Bloon Bounty takes place on **Omega River** and has five reported stages. The boss moves across the screen and uses random abilities to disrupt towers and Bloon movement. an unverified report says each ability makes it faster and increases ability frequency.
 
 ## Encounter and stage progression
 
@@ -20,9 +20,9 @@ The base `Clown_Bloon` Create event sets HP according to `global.clownenable`: 5
 
 The movement alarm changes direction, chooses a random vertical position, sets movement speed from `fast`, and increases `fast` by 0.06. The ability alarm can create six `Star_Ball` objects with 40 shield, or create `Joker_Effect` projectiles and redirect the global track selection. The source confirms the random ability structure, but later-stage variants have their own implementation and must be checked separately.
 
-## Community-suggested counters
+## Unverified suggested counters
 
-TreeM, WizardS, HeliM, BuccM, SubS, and AceL are community suggestions, not guaranteed solutions.
+TreeM, WizardS, HeliM, BuccM, SubS, and AceL are unverified suggestions, not guaranteed solutions.
 
 ## Trivia
 
