@@ -11,7 +11,7 @@ The Mother Bounty takes place on **Minecarts** and has four reported stages. The
 3. **Monster Mom:** returns to its original size, becomes darker, and reportedly rearranges the player's towers about every two minutes. It also creates a Giant Baby Bloon with infinite HP that follows the mouse and blocks projectiles until Monster Mom is popped.
 4. **Monster Queen:** combines Stage 3 behaviour with the Queen form.
 
-The stage names and most values are community-reported.
+The stage names and most values are unverified report.
 
 ## Source cross-check
 
@@ -36,5 +36,4 @@ The tower-rearrangement code exists textually in the third alarm, but the event 
 ## Evidence and open questions
 
 - **Source-confirmed:** [The_Mother/Create_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/The_Mother/Create_0.gml), [Alarm_0.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/The_Mother/Alarm_0.gml), [Alarm_1.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/The_Mother/Alarm_1.gml), and [Alarm_2.gml](https://github.com/alert-bake/BTDX-source/blob/main/objects/The_Mother/Alarm_2.gml).
-- **Community-reported:** [BTDX Fandom — Bloons](https://bloons-tdx.fandom.com/wiki/Bloons), for stage progression, Cyclops Bloons, and counter suggestions.
 - **Needs verification:** 12,000-vs-18,000 HP discrepancy, Giant Baby behaviour, and whether tower rearrangement is active in another build.
