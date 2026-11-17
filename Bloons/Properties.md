@@ -2,7 +2,6 @@
 
 BTDX has several kinds of Bloon variation. This page separates **properties/modifiers** that can be applied to an existing Bloon from **special forms** that have their own attacks or behaviour.
 
-The descriptions below are transcribed and reorganized from the [BTDX community Bloons page](https://bloons-tdx.fandom.com/wiki/Bloons). That page may be incomplete or version-dependent. Treat its details as source-reported until tested in the target build.
 
 ## Individual property articles
 
@@ -219,5 +218,4 @@ This differs from mechanics in other Bloons games. If hands-on testing in a part
 
 ## Source
 
-- [BTDX Fandom: Bloons](https://bloons-tdx.fandom.com/wiki/Bloons) — community-maintained reference for the forms, properties, stacking notes, and values summarized here.
 
