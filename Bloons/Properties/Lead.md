@@ -2,7 +2,7 @@
 
 ## Overview
 
-Lead is a Bloon property that makes the Bloon resistant to many sharp attacks. The BTDX community reference lists darts, tacks, blades, shurikens, barbed darts, nails, grapes, road spikes, lower-tier Charge projectiles, and boomerangs as examples of attacks that cannot normally pop Lead.
+Lead is a Bloon property that makes the Bloon resistant to many sharp attacks. An unverified report lists darts, tacks, blades, shurikens, barbed darts, nails, grapes, road spikes, lower-tier Charge projectiles, and boomerangs as examples of attacks that cannot normally pop Lead.
 
 ## Implementation notes
 
@@ -12,13 +12,13 @@ This confirms that Lead is tracked separately from the Bloon's colour/type. The 
 
 ## Reported counterplay
 
-The community reference reports that a 4L Monkey Village can grant Lead-popping capability to towers that otherwise lack it.
+An unverified report states that a 4L Monkey Village can grant Lead-popping capability to towers that otherwise lack it.
 
 The upgrade identifier and exact tower interactions are unverified report and should be checked in the target game build.
 
 ## Stacking
 
-The community reference lists Lead as compatible with:
+An unverified report lists Lead as compatible with:
 - Camo
 - Splitting
 
