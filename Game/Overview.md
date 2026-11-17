@@ -19,25 +19,24 @@ Towers are the player's main defense. Most can attack Bloons, while support-focu
 
 ## Towers and upgrades
 
-
+Tower-specific upgrade paths, costs, and interactions are documented in the [tower reference](../Towers/Overview.md). Exact values should be checked against the named platform and game version.
 
 ## Bloons
 
-BTDX includes the familiar colored Bloons as well as many additional enemy types with special properties. Community documentation describes examples such as Barrier Bloons, Block Bloons, Planetarium Bloons, Trojan Bloons, Water Bloons, Spectrum Bloons, Ninja Bloons, and Robo Bloons.
+BTDX includes familiar colored Bloons as well as additional enemy types with special properties. This wiki has individual references for examples such as Barrier Bloons, Block Bloons, Planetarium Bloons, Trojan Bloons, Water Bloons, Spectrum Bloons, Ninja Bloons, and Robo Bloons.
 
 Some Bloons have properties that affect which towers can damage or target them. For example, Camo Bloons require camo detection, while Lead Bloons resist many sharp attacks. Special Bloon types may spawn other Bloons, block projectiles, stun towers, or interact with the map in unusual ways.
 
 ## Modes and content
-
 
 - **Normal:** A standard 90-round game.
 - **Impoppable:** A shorter, harder 75-round game.
 - **Nightmare:** A highly difficult 60-round game with exclusive Bloons.
 - **Time Trial:** A race to complete the 90 rounds as quickly as possible, with the ability to send rounds early.
 
-It also documents Mission, Challenge, Bounty, and Sandbox modes. Missions use special rules and altered round structures; Challenges add restrictions or unusual objectives; Bounty mode features boss-like Bounty Bloons; and Sandbox provides a testing environment with effectively unlimited cash and lives.
+The game also includes Mission, Challenge, Bounty, and Sandbox modes. Missions use special rules and altered round structures; Challenges add restrictions or unusual objectives; Bounty mode features boss-like Bounty Bloons; and Sandbox provides a testing environment with effectively unlimited cash and lives.
 
-The developer advertises **30+ tracks**, multiple play modes, **13 unique special missions**, and **200+ achievements**. However, the community Missions page says there were 12 challenges as of version 1.5.1. These counts may reflect different definitions or wiki completeness; this wiki does not silently reconcile them. Verify the in-game menus before treating a count as definitive.
+The developer advertises **30+ tracks**, multiple play modes, **13 unique special missions**, and **200+ achievements**. These are developer-published feature counts; verify the current in-game menus before treating them as a count of currently available content in a particular build.
 
 ## Versions and platforms
 
@@ -64,8 +63,8 @@ The Android port's controls and port-specific quirks are documented separately i
 ## Sources
 
 1. [Ramaf Party — Bloons TDX](https://www.ramafparty.com/btdx.html) — developer-published description, engine, Windows version, and advertised feature counts.
-8. [APKPure — BTD X 1.5.2](https://apkpure.net/btd-x/btdrrx.RamafpartyxAlbiot1) — third-party Android listing; not an official developer source.
+2. [APKPure — BTD X 1.5.2](https://apkpure.net/btd-x/btdrrx.RamafpartyxAlbiot1) — third-party Android listing; not an official developer source.
 
 ---
 
-*This is a high-level overview, not a definitive mechanics reference. Community-wiki details may be incomplete or outdated; version-specific pages should record their sources and distinguish verified testing from inherited claims.*
+*This is a high-level overview, not a definitive mechanics reference. Version-specific pages should record their sources and distinguish verified testing from unverified reports.*
