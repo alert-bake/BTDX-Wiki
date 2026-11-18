@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Yellow Bloon is the fourth basic colour in the reported ordinary sequence. Its normal-branch type value is 4. an unverified report reports that it reveals a Green Bloon when popped.
+The Yellow Bloon is the fourth basic colour in the reported ordinary sequence. Its normal-branch type value is 4. An unverified description says that it reveals a Green Bloon when popped.
 
 ## Classification
 
@@ -22,10 +22,10 @@ path_speed = fast
 
 The intermediate Amber layer uses `bloonlayer = 4.5` and has a separate multiplier of 5.0×. Both values are relative to `global.bspeed`, before status-effect adjustments.
 
-## Reported pop information
+## Unverified pop information
 
-- **RBE:** 4 (unverified report).
-- **Pop result:** One Green Bloon (unverified report).
+- **RBE:** 4.
+- **Pop result:** One Green Bloon.
 - **HP / hits:** Not established by RBE alone.
 - **Leak damage:** Not independently established here.
 
@@ -35,7 +35,7 @@ Yellow uses the normal branch's shared status-effect handling. The presence of a
 
 ## Trivia
 
-Yellow has an intermediate Amber type at layer 4.5. The Chipper's fractional-layer handler can turn an Amber into **three Yellow-layer Bloons** in its base case. That's a special Chipper interaction, not Yellow's normal pop result. The wiki is not allowed to let one attack rewrite the entire family tree.
+Yellow has an intermediate Amber type at layer 4.5. The Chipper's fractional-layer handler can turn an Amber into **three Yellow-layer Bloons** in its base case. That's a special Chipper interaction, not Yellow's normal pop result.
 
 ## Evidence and sources
 
