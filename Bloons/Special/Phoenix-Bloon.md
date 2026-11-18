@@ -4,12 +4,12 @@
 
 ## Overview
 
-A flying ally released by the Flying Bloon when it is popped. an unverified report reports 30 RBE for the Stage 1 Phoenix Bloon. It describes later stages as spawning stronger Phoenix Bloons.
+A flying ally released by the Flying Bloon when it is popped. An unverified value lists 30 RBE for the Stage 1 Phoenix Bloon. Later stages are described as spawning stronger Phoenix Bloons.
 
-## Reported information
+## Unverified information
 
 - **Category:** Special / Bounty-spawned enemy
-- **HP / RBE:** 30 RBE (base report)
+- **HP / RBE:** 30 RBE (unverified)
 - **Children:** TBD
 - **Platform/version checked:** None; not yet independently verified in a named platform/build.
 
@@ -26,4 +26,3 @@ The source mentions an ash-and-rise cycle; record the full lifecycle, speed, and
 - [ ] Compare Windows 1.5.1 and Android 1.5.2.
 
 ## Source
-
