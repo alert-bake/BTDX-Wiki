@@ -10,7 +10,7 @@ A source type value is not automatically a child count or an RBE value.
 
 ## Basic colour chain
 
-an unverified report describes this basic sequence:
+An unverified description gives this basic sequence:
 
 | Outer Bloon | Reported child |
 |---|---|
@@ -99,7 +99,7 @@ BTDX's documented blimps have their own child relationships. Examples currently 
 | B.R.C. | 8 Mini M.O.A.B.s |
 | D.D.D.T. | 6 D.D.T.s |
 
-These are source-reported relationships; verify them against the intended game build before using them for exact calculations. MOAB-class source branches have their own shell and child-spawn logic, so do not extrapolate from the ordinary Bloon hierarchy.
+These relationships need verification against the intended game build before being used for exact calculations. MOAB-class source branches have their own shell and child-spawn logic, so do not extrapolate from the ordinary Bloon hierarchy.
 
 ## Special spawning and splitting
 
