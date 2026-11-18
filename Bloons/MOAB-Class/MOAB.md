@@ -9,10 +9,10 @@ The M.O.A.B. is a major blimp enemy with its own shell durability and Brick chil
 | Field | Value |
 |---|---|
 | Class | MOAB-class |
-| unverified report hits | 300 |
-| unverified report RBE | 1,252 |
-| unverified report children | 4 Bricks |
-| unverified report speed | 75% of Red |
+| Unverified hits | 300 |
+| Unverified RBE | 1,252 |
+| Unverified children | 4 Bricks |
+| Unverified speed | 75% of Red |
 | Source branch | `Moab_Branch` |
 | Shell formula | `ceil(300 * global.bpower)` |
 | Source speed formula | `1.5 * global.bspeed` |
@@ -27,11 +27,11 @@ When shell falls below 1, the source creates four Brick-branch children. Above w
 
 ## Speed discrepancy to investigate
 
-An unverified report says 75% of Red speed. The inspected source uses 1.5× global speed for MOAB and 1.6× for ordinary Red, which is 93.75% when comparing those two raw branch multipliers. The source and community values therefore do not currently agree under that comparison.
+An unverified value lists the M.O.A.B. at 75% of Red speed. The inspected source uses 1.5× global speed for M.O.A.B. and 1.6× for ordinary Red, which is 93.75% when comparing those two raw branch multipliers. This discrepancy remains unresolved and needs in-game verification.
 
 ## Trivia
 
-The MOAB's child logic has a population-dependent branch: when enough Brick Bloons already exist, the children are initialized differently. The source is accounting for the current battlefield, not just blindly cloning four identical bricks.
+The M.O.A.B.'s child logic has a population-dependent branch: when enough Brick Bloons already exist, the children are initialized differently. The source is accounting for the current battlefield, not just blindly cloning four identical bricks.
 
 ## Evidence
 
