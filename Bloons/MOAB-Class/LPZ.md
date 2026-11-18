@@ -9,11 +9,11 @@ The L.P.Z. is a shielded lightning blimp. Its source branch tracks both shell an
 | Field | Value |
 |---|---|
 | Class | MOAB-class |
-| unverified report shell/RBE | 1,340 |
-| unverified report shield | 500 |
-| unverified report children | 10 Static Ceramics |
-| unverified report shielded speed | About 93.88% of Red |
-| unverified report unshielded speed | About 187.5% of Red |
+| Unverified shell/RBE | 1,340 |
+| Unverified shield | 500 |
+| Unverified children | 10 Static Ceramics |
+| Unverified shielded speed | About 93.88% of Red |
+| Unverified unshielded speed | About 187.5% of Red |
 | Source branch | `LPZ_Branch` |
 | Shell formula | `ceil(300 * global.bpower)` |
 | Shield formula | `ceil(500 * global.bpower)` |
