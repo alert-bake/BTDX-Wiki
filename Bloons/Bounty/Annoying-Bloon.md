@@ -10,9 +10,9 @@ The Annoying Bloon Bounty takes place on **Shade Woods** and has five reported s
 2. **Irritating Bloon:** regenerates HP very quickly.
 3. **Frustrating Bloon:** three reported 200-HP Bloons with D.D.T. properties appear first; each removes 15 lives if it leaks. An Irritating Bloon follows.
 4. **4 Letter Word Bloon:** repeats the earlier pattern but ends with a giant 3,000-HP Annoying Bloon that drains lives much faster.
-5. **Giga Emoji:** gives Bloons crying-face emojis and makes them faster. an unverified report reports a drain of 0.55 lives per second when more than ten are on-screen. An Annoying H.T.A. Bloon also appears. The page lists 1,100 Monkey Money, 11 Bloon Points, and 550,000 XP for completing this challenge.
+5. **Giga Emoji:** gives Bloons crying-face emojis and makes them faster. An unverified value lists a drain of 0.55 lives per second when more than ten are on-screen. An Annoying H.T.A. Bloon also appears. The listed completion rewards are 1,100 Monkey Money, 11 Bloon Points, and 550,000 XP.
 
-These stage details and rewards are unverified report.
+These stage details and rewards have not been independently verified.
 
 ## Source cross-check
 
@@ -21,7 +21,7 @@ The source contains several candidate objects associated with this family:
 - `Terrible_1` initializes 600 HP multiplied by `global.bpower`.
 - `DDT_Terrible` initializes 300 HP and a base speed of `1.8 * global.bspeed`.
 
-The source identifiers are not enough to prove which exact object corresponds to every unverified report stage. There is also a discrepancy between the reported 200-HP D.D.T.-property enemies and the 300 HP assigned by the inspected `DDT_Terrible` Create event.
+The source identifiers are not enough to prove which exact object corresponds to every reported stage. There is also a discrepancy between the listed 200-HP D.D.T.-property enemies and the 300 HP assigned by the inspected `DDT_Terrible` Create event.
 
 ## Unverified suggested counters
 
