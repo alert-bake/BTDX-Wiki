@@ -2,17 +2,17 @@
 
 ## Overview
 
-The H.T.A. is a titanium blimp with a source-defined shell coefficient of 60. An unverified report states a high pierce requirement and four Shielded Prismatic children.
+The H.T.A. is a titanium blimp with a source-defined shell coefficient of 60. Unverified details include a high pierce requirement and four Shielded Prismatic children.
 
 ## Classification and reported statistics
 
 | Field | Value |
 |---|---|
 | Class | MOAB-class |
-| unverified report hits | 60 |
-| unverified report RBE | 628 |
-| unverified report children | 4 Shielded Prismatics |
-| unverified report speed | Blue-Bloon speed |
+| Unverified hits | 60 |
+| Unverified RBE | 628 |
+| Unverified children | 4 Shielded Prismatics |
+| Unverified speed | Blue-Bloon speed |
 | Source branch | `HTA_Branch` |
 | Shell formula | `ceil(60 * global.bpower)` |
 | Source speed formula | `1.8 * global.bspeed` |
@@ -23,13 +23,13 @@ The source initializes shell using `60 * global.bpower`. When shell falls below 
 
 The branch's raw movement formula is `1.8 * global.bspeed`. This is a source multiplier, not a fixed percentage of Red speed.
 
-## Reported combat behaviour
+## Unverified combat behaviour
 
-The community reference reports:
+The following reported mechanics have not been independently traced in the source files used for this article:
 - Attacks with fewer than 10 pierce cannot damage the H.T.A.
 - Attacks that connect suffer a nine-pierce penalty.
 
-These special pierce rules have not been independently traced in the source files used for this article. They should remain attributed to an unverified report until verified.
+Keep these mechanics unverified until they can be reproduced in-game or located in the implementation.
 
 ## Trivia
 
