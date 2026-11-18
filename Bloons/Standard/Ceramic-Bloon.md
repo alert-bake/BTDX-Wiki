@@ -36,9 +36,9 @@ path_speed = fast
 
 Glue, freeze, stun, and distraction have branch-specific effects after this calculation. Ceramic's stun and distraction handling is not identical to the ordinary branch.
 
-## Reported information
+## Unverified information
 
-- **RBE:** 104 (unverified report; unverified).
+- **RBE:** 104.
 - **Children:** Not established by the source files checked for this article.
 - **Leak damage:** Not independently established.
 - **Armour:** Source formula above; actual value scales with `global.bpower`.
@@ -51,7 +51,7 @@ Camo, Lead, Regrow, and Tattered can affect the sprite frame selected by the bra
 
 ## Trivia
 
-Ceramic does **not** sit in the ordinary branch's fractional colour ladder. It uses its own branch and an armour pool. Yellow has Amber at layer 4.5; Ceramic is layer 18 in shielded handling. No, Ceramic does not secretly owe us three Yellow Bloons. That three-way fractional split belongs to Chipper's handling of intermediate types.
+Ceramic does **not** sit in the ordinary branch's fractional colour ladder. It uses its own branch and an armour pool. Yellow has Amber at layer 4.5; Ceramic is layer 18 in shielded handling. The three-way fractional split belongs to Chipper's handling of intermediate types.
 
 ## Evidence and sources
 
