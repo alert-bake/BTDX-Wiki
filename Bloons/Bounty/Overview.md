@@ -1,9 +1,8 @@
 # Bounty Bloons
 
-Bounty Bloons are a major BTDX feature introduced in version 1.2, according to an unverified update-history report. They are encounter bosses with multiple escalating stages. They are not ordinary round Bloons: their health, movement, attacks, spawned enemies, and life-drain rules can use bespoke object logic.
+Bounty Bloons are a major BTDX feature. An unverified update-history claim places their introduction in version 1.2. They are encounter bosses with multiple escalating stages. They are not ordinary round Bloons: their health, movement, attacks, spawned enemies, and life-drain rules can use bespoke object logic.
 
 ## How Bounty progression works
-
 
 The listed difficulty ranks are:
 
@@ -15,10 +14,9 @@ The listed difficulty ranks are:
 6. Impoppable
 7. Almighty
 
+## Unverified reward table
 
-## Reported reward table
-
-An unverified report lists the following rewards per completed Bounty level:
+The following reward values have not yet been independently confirmed:
 
 | Rank | Monkey Money | Bloon Points | XP |
 |---|---:|---:|---:|
@@ -29,7 +27,6 @@ An unverified report lists the following rewards per completed Bounty level:
 | Very High | 600 | 6 | 300,000 |
 | Impoppable | 700 | 7 | 350,000 |
 | Almighty | 900 | 9 | 450,000 |
-
 
 ## Bounty catalogue
 
@@ -51,7 +48,6 @@ The current Bounty index documents fourteen Bounty families:
 | [The Mother](The-Mother.md) | Minecarts | 4 |
 | [tDoM (the Destroyer of Monkeys)](tDoM.md) | Graveyard | 4 |
 | [Track Crawler](Track-Crawler.md) | Bloon Circles X | 4 |
-
 
 ## What the source confirms so far
 
@@ -76,14 +72,14 @@ The source repository contains dedicated objects and event logic for the followi
 
 ## Discrepancies worth preserving
 
-Several reported values do not match the inspected base objects:
-- Mighty MOAB is reported at 40,000 HP for Stage 1, while its base Create event initializes 27,000 × `global.bpower`.
-- The Mother is reported at approximately 12,000 HP, while its base Create event initializes 18,000 × `global.bpower`.
-- Knight is reported at approximately 100,000 HP, while the inspected base Create event initializes 13,500 × `global.bpower`.
-- The Flying Bloon reported description says later stages gain HP, while the base Create event sets 4,000 × `global.bpower` for `global.flyingenable > 1`.
-- The Annoying family description reports 200-HP D.D.T.-property Bloons, while the inspected `DDT_Terrible` object initializes 300 HP.
+Several unverified values do not match the inspected base objects:
+- Mighty MOAB is listed at 40,000 HP for Stage 1, while its base Create event initializes 27,000 × `global.bpower`.
+- The Mother is listed at approximately 12,000 HP, while its base Create event initializes 18,000 × `global.bpower`.
+- Knight is listed at approximately 100,000 HP, while the inspected base Create event initializes 13,500 × `global.bpower`.
+- The Flying Bloon description says later stages gain HP, while the base Create event sets 4,000 × `global.bpower` for `global.flyingenable > 1`.
+- The Annoying family description lists 200-HP D.D.T.-property Bloons, while the inspected `DDT_Terrible` object initializes 300 HP.
 
-These are not necessarily errors in either source: stage-specific setup, mode multipliers, or different variants may explain them. Until traced, keep both observations and label their provenance.
+These are not necessarily errors in either set of observations: stage-specific setup, mode multipliers, or different variants may explain them. Until traced, keep both observations and label their evidence status.
 
 The Mother source also has an `Alarm_2` event whose first statement is `exit;`. Tower-rearrangement code appears below that exit and is unreachable in the inspected event. The reported claim may describe another build or code path.
 
@@ -96,14 +92,14 @@ Each Bounty article aims to document:
 - Recurring spawns, child enemies, and hazards.
 - Tower interactions and status effects.
 - Unverified suggested counters, clearly labelled as suggestions.
-- Source-confirmed mechanics, unverified reports, version differences, and unresolved questions.
+- Source-confirmed mechanics, unverified details, version differences, and unresolved questions.
 
 ## Research priorities
 
 1. Verify whether all fourteen families are present in the target Android build.
 2. Record exact stage health and leak penalties in-game.
 3. Confirm whether the listed reward table is per stage, per rank, or another progression unit.
-4. Resolve the source/reported HP discrepancies listed above.
+4. Resolve the source/observed HP discrepancies listed above.
 5. Inspect all later-stage variants, not only each family's base object.
 6. Record any changes between Windows 1.5.1 and Android 1.5.2.
 
